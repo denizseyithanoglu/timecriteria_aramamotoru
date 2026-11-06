@@ -82,8 +82,10 @@
       "synonyms": [
         "clopidogrel"
       ],
-      "brands": [],
-      "brandSource": null
+      "brands": [
+        "Plavix"
+      ],
+      "brandSource": "https://www.ilacabak.com/plavix-75-mg-28-film-tablet-7695"
     },
     {
       "ingredient": "digoksin",
@@ -98,8 +100,12 @@
       "synonyms": [
         "warfarin"
       ],
-      "brands": [],
-      "brandSource": null
+      "brands": [
+        "Plasorin",
+        "Warfmadin",
+        "Warsu"
+      ],
+      "brandSource": "https://ilacabak.com/etkengoster.php?Id=1144"
     },
     {
       "ingredient": "glibenklamid",
@@ -113,14 +119,24 @@
     {
       "ingredient": "bisoprolol",
       "synonyms": [],
-      "brands": [],
-      "brandSource": null
+      "brands": [
+        "Concor",
+        "Conbisoprol",
+        "Kardoritm",
+        "Rizoprol"
+      ],
+      "brandSource": "https://www.ilacabak.com/etkengoster.php?Id=C07AB07"
     },
     {
       "ingredient": "metoprolol",
       "synonyms": [],
-      "brands": [],
-      "brandSource": null
+      "brands": [
+        "Beloc",
+        "Beloc Zok",
+        "Beloc Durules",
+        "Betablok SDK"
+      ],
+      "brandSource": "https://www.ilacabak.com/etkengoster.php?Id=C07AB02"
     },
     {
       "ingredient": "karvedilol",
@@ -199,16 +215,24 @@
       "synonyms": [
         "escitalopram"
       ],
-      "brands": [],
-      "brandSource": null
+      "brands": [
+        "Cipralex"
+      ],
+      "brandSource": "https://www.ilacabak.com/cipralex-10-mg-56-tablet-23918"
     },
     {
       "ingredient": "sertralin",
       "synonyms": [
         "sertraline"
       ],
-      "brands": [],
-      "brandSource": null
+      "brands": [
+        "Lustral",
+        "Lustral Special",
+        "Misol",
+        "Selectra",
+        "Seralin"
+      ],
+      "brandSource": "https://www.ilacabak.com/etkengoster.php?Id=N06AB06"
     },
     {
       "ingredient": "fluoksetin",
