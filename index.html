@@ -7,6 +7,7 @@
   <meta name="description" content="2024 TIME-to-START ve TIME-to-STOP kriterlerini ilaç, hastalık ve kriter koduna göre arayın.">
   <title>TIME Kriterleri 2024 | Klinik Arama Motoru</title>
   <link rel="stylesheet" href="./styles.css">
+  <script src="./search-helpers.js" defer></script>
   <script src="./app.js" defer></script>
 </head>
 <body>
@@ -32,6 +33,7 @@
           <kbd class="shortcut">⌘ / Ctrl K</kbd>
           <button id="clear-query" type="button" class="clear-button" hidden aria-label="Aramayı temizle">×</button>
         </form>
+        <div id="suggestions" class="suggestions" role="listbox" aria-label="Arama önerileri" hidden></div>
         <div class="example-line">Örnek aramalar: <button class="query-example" data-example="ortostatik hipotansiyon">ortostatik hipotansiyon</button><button class="query-example" data-example="NSAİİ">NSAİİ</button><button class="query-example" data-example="osteoporoz">osteoporoz</button></div>
       </section>
 
@@ -57,6 +59,7 @@
           </label>
           <p class="result-count" id="result-count" role="status" aria-live="polite">Kriterler yükleniyor...</p>
         </div>
+        <div id="match-note" class="match-note" aria-live="polite" hidden></div>
         <div id="results" class="results" aria-live="polite" aria-busy="true">
           <div class="empty-state"><div class="empty-icon">⋯</div><h3>Kriterler yükleniyor</h3><p>2024 TIME veri dosyası okunuyor.</p></div>
         </div>
