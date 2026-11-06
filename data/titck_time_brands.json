@@ -1,0 +1,2284 @@
+{
+ "version": "2026-11-06",
+ "sourceName": "TİTCK Ruhsatlı Beşeri Tıbbi Ürünler Listesi",
+ "sourceUrl": "https://www.titck.gov.tr/dinamikmodul/85",
+ "sourceFile": "RuhsatlBeeriTbbirnlerListesi06.11.2026_2c095a0d-d5d8-44f9-b6bc-c26e895e1edc.xlsx",
+ "sourceDateNote": "Dosya adı 06.11.2026 olarak alınmıştır; kurum sayfasında görülen en son resmi yayın tarihi 30.10.2026'dır.",
+ "method": "TIME 2024 START/STOP PDF kriter metninde açıkça anılan etken maddelerle TİTCK'nin etkin madde sütununu eşleştir. Askı durumu 0, mono-etken maddeli ürünleri al. Doz/ambalaj tekrarlarını tekilleştir. İnceleme gerektiren sınıf ve kombinasyon genişletmelerini dışarıda tut.",
+ "status": "provisional-machine-extracted-review-required",
+ "matchedIngredients": 148,
+ "tradeNames": 1235,
+ "entries": [
+  {
+   "ingredient": "alendronat",
+   "productCount": 23,
+   "excludedCombinationRows": 13,
+   "brands": [
+    "ADROMAX",
+    "ALEMOL",
+    "ANDANTE",
+    "BONEMAX",
+    "BONEX",
+    "FOSAFIX",
+    "FOSATAB",
+    "LENDO",
+    "VEGABON"
+   ]
+  },
+  {
+   "ingredient": "allopurinol",
+   "productCount": 6,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ALLOGUT",
+    "ALLOPIN",
+    "ÜRİKOLIZ"
+   ]
+  },
+  {
+   "ingredient": "amilorid",
+   "productCount": 5,
+   "excludedCombinationRows": 2,
+   "brands": [
+    "AMILORID",
+    "KALURID"
+   ]
+  },
+  {
+   "ingredient": "amiodaron",
+   "productCount": 6,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "AMIDOVIN",
+    "CORDALIN",
+    "CORDARONE",
+    "SANORONE"
+   ]
+  },
+  {
+   "ingredient": "amitriptilin",
+   "productCount": 2,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "LAROXYL"
+   ]
+  },
+  {
+   "ingredient": "apiksaban",
+   "productCount": 72,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "APACLOT",
+    "Apelto",
+    "Apivora",
+    "Apixelis",
+    "Apixenta",
+    "Atenic",
+    "ELIQUIS",
+    "ELİXABAN",
+    "Equtraban",
+    "Olpixa",
+    "PAXİBAN",
+    "TROMBOXAR",
+    "Vaxivo",
+    "Xaprev",
+    "Zavionyx"
+   ]
+  },
+  {
+   "ingredient": "aspirin",
+   "productCount": 54,
+   "excludedCombinationRows": 19,
+   "brands": [
+    "ANSETIL",
+    "ASEGAN",
+    "ASINPIRINE",
+    "ASPİNAL",
+    "ASPIRIN",
+    "ATASPIN",
+    "CORASPIN",
+    "DISPRIL",
+    "ECOPIRIN",
+    "ECOPIRIN PRO",
+    "ENKAPRİN",
+    "NOTRAS-LIBA",
+    "OPON",
+    "PASO",
+    "PHARMASPIRIN",
+    "SALIPRIN"
+   ]
+  },
+  {
+   "ingredient": "azitromisin",
+   "productCount": 32,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ADAMAKS",
+    "AZAX",
+    "AZELTIN",
+    "AZİTRO",
+    "AZOMAX",
+    "AZRO",
+    "AZYTER",
+    "MAXİTRO",
+    "TIASET",
+    "TREMAC",
+    "ZİTOREL",
+    "ZİTRASİN",
+    "ZITROCID",
+    "ZITROMAX"
+   ]
+  },
+  {
+   "ingredient": "betahistin",
+   "productCount": 16,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "BETARIS",
+    "TINSERC",
+    "TİNSERC BID",
+    "VASOSERC BID",
+    "VASOSERC FORT"
+   ]
+  },
+  {
+   "ingredient": "bisoprolol",
+   "productCount": 11,
+   "excludedCombinationRows": 7,
+   "brands": [
+    "CONCOR",
+    "KARDORİTM",
+    "KENODEN",
+    "RIZOPROL"
+   ]
+  },
+  {
+   "ingredient": "buprenorfin",
+   "productCount": 2,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "TEMGESIC"
+   ]
+  },
+  {
+   "ingredient": "bupropion",
+   "productCount": 9,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "BUPRAPAN",
+    "VELDEPYON",
+    "WELLBUTRIN XL",
+    "ZYBAN"
+   ]
+  },
+  {
+   "ingredient": "buspiron",
+   "productCount": 12,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "BUSPİR",
+    "BUSPON",
+    "NOPIRON"
+   ]
+  },
+  {
+   "ingredient": "dabigatran",
+   "productCount": 5,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "PRADAXA"
+   ]
+  },
+  {
+   "ingredient": "dapagliflozin",
+   "productCount": 36,
+   "excludedCombinationRows": 2,
+   "brands": [
+    "CALİRA",
+    "Danipta",
+    "Dapadap",
+    "Dapgeon",
+    "DAPİTUS",
+    "DAPLİG",
+    "Daprenza",
+    "FORZIGA",
+    "Glazone",
+    "Glyxar",
+    "Jaglif",
+    "Trenicat"
+   ]
+  },
+  {
+   "ingredient": "denosumab",
+   "productCount": 5,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "Dnoclast",
+    "PROLİA",
+    "Resyniv",
+    "XGEVA"
+   ]
+  },
+  {
+   "ingredient": "desmopressin",
+   "productCount": 20,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "MINIRIN",
+    "MINIRIN MELT",
+    "NOCTISSIN",
+    "OCTOSTIM",
+    "OCTOSTIM IV/SC",
+    "PRİDESMO"
+   ]
+  },
+  {
+   "ingredient": "difenhidramin",
+   "productCount": 7,
+   "excludedCombinationRows": 4,
+   "brands": [
+    "ALLENIK",
+    "BENISON",
+    "FENOTRAL",
+    "FENOTRAL JEL",
+    "HYDRYLLIN",
+    "PECTAL PEDİYATRİK"
+   ]
+  },
+  {
+   "ingredient": "digoksin",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "DIGOXINE NATIVELLE"
+   ]
+  },
+  {
+   "ingredient": "diltiazem",
+   "productCount": 31,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ALTIZEM SR",
+    "ALTIZEM-SR",
+    "DILKOR SR",
+    "Diltiarec",
+    "DİLTİZEM",
+    "DİLTİZEM-L",
+    "Durcanem",
+    "Genrecto",
+    "KAFİZEM",
+    "KARTİAZEM",
+    "LOCAFEN",
+    "PECTAZEM",
+    "PROGOR",
+    "TİACARD"
+   ]
+  },
+  {
+   "ingredient": "dimenhidrinat",
+   "productCount": 3,
+   "excludedCombinationRows": 1,
+   "brands": [
+    "DRAMAMINE"
+   ]
+  },
+  {
+   "ingredient": "dipiridamol",
+   "productCount": 5,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "DRİSENTİN",
+    "TROMBOLIZ"
+   ]
+  },
+  {
+   "ingredient": "doksazosin",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "KARDOZIN",
+    "TENDURA"
+   ]
+  },
+  {
+   "ingredient": "donepezil",
+   "productCount": 78,
+   "excludedCombinationRows": 64,
+   "brands": [
+    "ALZAMED",
+    "ALZANCER",
+    "ALZANCER EASYTAB",
+    "ALZEPİL",
+    "ALZIL",
+    "ANDEM",
+    "ARICEPT",
+    "ARICEPT EVESS",
+    "ARYPEZ",
+    "DEMENT",
+    "DEZIRA",
+    "DOENZA",
+    "DOENZA ODT",
+    "DONCEP",
+    "DONEFIX",
+    "DOZYL",
+    "DOZYL EASY",
+    "MEMKAR",
+    "NEUREM",
+    "REMELEF",
+    "REWIND",
+    "ZHEDON"
+   ]
+  },
+  {
+   "ingredient": "duloksetin",
+   "productCount": 31,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "CYMBALTA",
+    "DOLETIN",
+    "DOSETIA",
+    "DULATEC",
+    "DULAXAT",
+    "DULESTER",
+    "DULOXAT",
+    "DULOXX",
+    "DUXALTA",
+    "DUXET",
+    "DYLOXIA",
+    "KOMOX",
+    "LODUX",
+    "NEXETIN"
+   ]
+  },
+  {
+   "ingredient": "edoksaban",
+   "productCount": 6,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "Edoxtra",
+    "LIXIANA"
+   ]
+  },
+  {
+   "ingredient": "empagliflozin",
+   "productCount": 29,
+   "excludedCombinationRows": 2,
+   "brands": [
+    "Emjardi",
+    "Emladip",
+    "Empacros",
+    "Empafel",
+    "Empalfo",
+    "EMPANCE",
+    "Empator",
+    "Empazi",
+    "Epiclo",
+    "Gliflomed",
+    "Glyzarda",
+    "JARDIANCE",
+    "Jardifloz",
+    "Jardolix",
+    "Ubıka"
+   ]
+  },
+  {
+   "ingredient": "eplerenon",
+   "productCount": 8,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "EPLEDAY",
+    "INSPRA"
+   ]
+  },
+  {
+   "ingredient": "eritropoietin",
+   "productCount": 7,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "EPOPLUS"
+   ]
+  },
+  {
+   "ingredient": "essitalopram",
+   "productCount": 127,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ANZYL",
+    "CELIANTE",
+    "CIPRALEX",
+    "CITOLES",
+    "EGISIT",
+    "ESLONG",
+    "ESMAX",
+    "ESPLUS",
+    "ESRAM",
+    "ESTALORA",
+    "ESTILOM",
+    "ESTORAM",
+    "EXERAM",
+    "LOSIRAM",
+    "LOURES",
+    "MEDOLAPRAM",
+    "SECITA",
+    "SEVPRAM",
+    "TIOPRAM",
+    "ZENDOR"
+   ]
+  },
+  {
+   "ingredient": "febuksostat",
+   "productCount": 5,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ADENURIC",
+    "FEBUGUT",
+    "GUSTAT"
+   ]
+  },
+  {
+   "ingredient": "feniramin",
+   "productCount": 12,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "AVIJECT",
+    "AVIL",
+    "CAUPHE",
+    "FENİRAMİN-PF",
+    "LAMELAT",
+    "TÜRKTIPSAN FENİRAMİN MALEAT"
+   ]
+  },
+  {
+   "ingredient": "fenitoin",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "EPDANTOIN",
+    "EPITOIN",
+    "Fenitosel",
+    "TOİNEX"
+   ]
+  },
+  {
+   "ingredient": "fenobarbital",
+   "productCount": 2,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "LUMINAL",
+    "LUMINALETTEN"
+   ]
+  },
+  {
+   "ingredient": "fentanil",
+   "productCount": 14,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "DUROGESIC",
+    "EFFENTORA",
+    "FENTANYL-PF",
+    "FENTAVER",
+    "TALINAT"
+   ]
+  },
+  {
+   "ingredient": "fesoterodin",
+   "productCount": 12,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "FOSETAZ",
+    "TOVIAZ"
+   ]
+  },
+  {
+   "ingredient": "finerenon",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "KERENDİA"
+   ]
+  },
+  {
+   "ingredient": "fludrokortizon",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ASTONIN-H"
+   ]
+  },
+  {
+   "ingredient": "flufenazin",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "PROLİXİN DECANOATE"
+   ]
+  },
+  {
+   "ingredient": "fluoksetin",
+   "productCount": 13,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "DEPREKS",
+    "FULSAC",
+    "LOKSETIN",
+    "PROZAC",
+    "PSENAC",
+    "SOULZAC",
+    "ZEDPREX"
+   ]
+  },
+  {
+   "ingredient": "folik",
+   "productCount": 13,
+   "excludedCombinationRows": 1,
+   "brands": [
+    "Femifol",
+    "FOLAS",
+    "FOLASID",
+    "FOLBETAKE",
+    "FOLFULL",
+    "Foligance",
+    "Folinexa",
+    "Folivef",
+    "FOLSET",
+    "Fomibe",
+    "TİNFOL"
+   ]
+  },
+  {
+   "ingredient": "gabapentin",
+   "productCount": 49,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "AS-GABAPEN",
+    "EVEPTIN",
+    "GABASET",
+    "GABATEVA",
+    "GABENYL",
+    "GEMUDA",
+    "NEPITIN",
+    "NERUDA",
+    "NEURONTIN",
+    "NEUROPENT",
+    "PATYCA",
+    "ROTALEPTIN"
+   ]
+  },
+  {
+   "ingredient": "galantamin",
+   "productCount": 11,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "BEKLAMEN",
+    "REMINYL"
+   ]
+  },
+  {
+   "ingredient": "gingko",
+   "productCount": 3,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "BILOKAN SUPRA"
+   ]
+  },
+  {
+   "ingredient": "glibenklamid",
+   "productCount": 11,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "DIANORM",
+    "DIYABEN",
+    "GENTISOD",
+    "GLIBEN",
+    "ORABETIK"
+   ]
+  },
+  {
+   "ingredient": "haloperidol",
+   "productCount": 27,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "LEPTOL",
+    "NORODOL",
+    "NORODOL DEKANOAT",
+    "SEDAPERIDOL"
+   ]
+  },
+  {
+   "ingredient": "hidroksizin",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ATARAX"
+   ]
+  },
+  {
+   "ingredient": "hiyosin",
+   "productCount": 12,
+   "excludedCombinationRows": 3,
+   "brands": [
+    "BUSCODYN",
+    "BUSCOPAN",
+    "RELAKSIN",
+    "SPAZMOSEL",
+    "SPAZMOTEK"
+   ]
+  },
+  {
+   "ingredient": "ibuprofen",
+   "productCount": 132,
+   "excludedCombinationRows": 30,
+   "brands": [
+    "ADVIL LIQUI-GELS",
+    "ALGIFEN",
+    "APIREKS",
+    "ARTROFEN",
+    "BEFRON",
+    "BERKOFEN",
+    "Bravex Liqui-Gels",
+    "BRUFEN",
+    "BRUFEN RETARD",
+    "BRUJIN",
+    "BRUPREX",
+    "BRUS",
+    "CALDOLON",
+    "CALROFEN",
+    "CİCİFEN",
+    "CORELAR",
+    "DOLGIT",
+    "DOLGIT AKUT",
+    "DOLORIN",
+    "DOLVEN",
+    "DORİFEN",
+    "DUFEN",
+    "DUFEN FORT",
+    "DUKTAFEN",
+    "FENDOL SUPPOZİTUAR",
+    "GEROFEN",
+    "IBU PHARMA BIOS",
+    "İBU-BABY",
+    "IBU-FORT",
+    "IBUACTIVE",
+    "IBUFEN",
+    "İBUJEZİK",
+    "İBUJEZİK BABY",
+    "İBUPREST",
+    "İBUPROFEN-PF",
+    "IBUTEK",
+    "IBUTRIT",
+    "INTRAFEN",
+    "KIDYFEN",
+    "Neoprofen",
+    "NUROFEN",
+    "OROFEN",
+    "PADUCAS",
+    "PATENTOFEN",
+    "PEDIAVER",
+    "PEDIFEN",
+    "PROFEN",
+    "PROFEN FORT",
+    "REPOZAL",
+    "SELOFEN",
+    "SIYAFEN",
+    "SONFEX",
+    "SONFEX FORT",
+    "SPORTIFF",
+    "SUPRAFEN",
+    "TEMSOFEN",
+    "ULTRAFEN",
+    "UPREN"
+   ]
+  },
+  {
+   "ingredient": "insülin",
+   "productCount": 55,
+   "excludedCombinationRows": 10,
+   "brands": [
+    "APIDRA",
+    "BASAGLAR KWIKPEN",
+    "BASALOG ONE",
+    "FİASP® FLEXTOUCH®",
+    "FİASP® PENFİLL®",
+    "GLARIN",
+    "GLARİTUS",
+    "HUMALOG",
+    "HUMALOG KWIKPEN",
+    "HUMULIN N (NPH)",
+    "HUMULIN R",
+    "HUMULIN-M",
+    "LANTUS",
+    "LANTUS SOLOSTAR",
+    "LEVEMIR FLEXPEN",
+    "LEVEMIR PENFİLL",
+    "NOVOMİX",
+    "NOVORAPİD",
+    "NOVORAPİD FLEXPEN",
+    "NOVORAPİD PENFİLL",
+    "TOUJEO",
+    "TRESIBA FLEXTOUCH",
+    "TRESIBA PENFİLL"
+   ]
+  },
+  {
+   "ingredient": "ipratropium",
+   "productCount": 10,
+   "excludedCombinationRows": 8,
+   "brands": [
+    "ATRIVO STERI-NEB",
+    "IPRABÜL",
+    "IPRACORT",
+    "İPRATOM",
+    "VENTOPIUM"
+   ]
+  },
+  {
+   "ingredient": "itrakonazol",
+   "productCount": 12,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "CANDİSTAT",
+    "FUNİT",
+    "ITRAXYL",
+    "SPORANOX",
+    "SPOREX"
+   ]
+  },
+  {
+   "ingredient": "kalsitriol",
+   "productCount": 14,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "CAJEX",
+    "CALCITRON",
+    "CALDEROL",
+    "OSTRIOL",
+    "QALYVİZ",
+    "TEORY"
+   ]
+  },
+  {
+   "ingredient": "karbamazepin",
+   "productCount": 12,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "KARAZEPIN",
+    "KARBALEX",
+    "KARBEPEN",
+    "KAZEPIN",
+    "TEMPOROL"
+   ]
+  },
+  {
+   "ingredient": "karvedilol",
+   "productCount": 20,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ARLEC",
+    "CALBICOR",
+    "CARVEXAL",
+    "DELOTRAN",
+    "DILATREND",
+    "KINETRA",
+    "VELZAPIN"
+   ]
+  },
+  {
+   "ingredient": "ketiapin",
+   "productCount": 216,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ANKEP",
+    "AS-KALMEKS",
+    "CEDRİNA",
+    "CEDRINA XR",
+    "ETIPIN",
+    "GYREX",
+    "KEDAY XR",
+    "KETAP",
+    "KETIDOSE",
+    "KETILEPT",
+    "KETINEL",
+    "KETYA",
+    "KETYA XR",
+    "MADRINA",
+    "QUELEPT",
+    "Quelept XR",
+    "QUET",
+    "QUET XR",
+    "QUETAMIN",
+    "SEQUA",
+    "SEREX",
+    "SEROQUEL"
+   ]
+  },
+  {
+   "ingredient": "ketokonazol",
+   "productCount": 6,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "FUNGORAL",
+    "KETODERM",
+    "KONAZOL",
+    "TEKNAZOL"
+   ]
+  },
+  {
+   "ingredient": "klonazepam",
+   "productCount": 6,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "MALONTIL",
+    "RİVOCLON",
+    "RIVOTRIL"
+   ]
+  },
+  {
+   "ingredient": "klopidogrel",
+   "productCount": 33,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "AS-CLODIP",
+    "ATERVIX",
+    "CARDOGREL",
+    "CLOGAN",
+    "CLOPEROL",
+    "CLOPITRO",
+    "CLOPRA",
+    "DILOXOL",
+    "DIPOREL",
+    "KARUM",
+    "KLOGEL",
+    "LOPİGROL",
+    "OPIREL",
+    "PINGEL",
+    "PLANOR",
+    "PLAVIDOL",
+    "PLAVIX",
+    "PLOVEKS"
+   ]
+  },
+  {
+   "ingredient": "klorfeniramin",
+   "productCount": 1,
+   "excludedCombinationRows": 1,
+   "brands": [
+    "ALERFIN"
+   ]
+  },
+  {
+   "ingredient": "klorpromazin",
+   "productCount": 3,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "LARGACTİL",
+    "Largasel"
+   ]
+  },
+  {
+   "ingredient": "klorpropamid",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ORBIN"
+   ]
+  },
+  {
+   "ingredient": "klorzoksazon",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "PARAFLEX",
+    "PARAFLEX FORTE"
+   ]
+  },
+  {
+   "ingredient": "klozapin",
+   "productCount": 2,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "LEPONEX"
+   ]
+  },
+  {
+   "ingredient": "kolekalsiferol",
+   "productCount": 74,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "COLEDAN-D",
+    "Colewinde",
+    "D-COLEFOR",
+    "D-RİSE",
+    "DEVİDOL",
+    "DEVİT",
+    "DOREVIT-D",
+    "HAY-D",
+    "HYAVİT-D",
+    "MONOVIT D",
+    "ONZELA",
+    "Samirton D",
+    "SOLARVİT",
+    "SOLARVİT FORT",
+    "VİN-D"
+   ]
+  },
+  {
+   "ingredient": "kolşisin",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "COLCHICUM DISPERT",
+    "Colxeris",
+    "KOLSIN",
+    "Kolsitek"
+   ]
+  },
+  {
+   "ingredient": "laktuloz",
+   "productCount": 23,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "DUPHALAC",
+    "HEPALAC",
+    "Lacselac",
+    "Lactozen",
+    "LAEVOLAC",
+    "LAKTİLİT",
+    "LAXAMOT",
+    "MEDULAC WM",
+    "ORALAC",
+    "Rexlac",
+    "TULOZ",
+    "Zubeyra"
+   ]
+  },
+  {
+   "ingredient": "lamotrijin",
+   "productCount": 14,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "LAMICTAL DC",
+    "LATRIGAL",
+    "PINRAL"
+   ]
+  },
+  {
+   "ingredient": "lidokain",
+   "productCount": 31,
+   "excludedCombinationRows": 19,
+   "brands": [
+    "ANESTOL",
+    "DOLOCAINE",
+    "JETOKAİN",
+    "JOYMAX",
+    "LİDESTOL",
+    "LİDOCAİNE HYDROCHLORİDE",
+    "LIDOKES",
+    "LİDON",
+    "LINCAINE",
+    "LMX",
+    "LOCANEST",
+    "LOKALEN",
+    "LPKAIN",
+    "LYDOCON",
+    "NOBEKAIN",
+    "OTİKAİN",
+    "OTIPAX",
+    "PAFESAN",
+    "PRECOXIN",
+    "REDEKAIN",
+    "Septix",
+    "STAG"
+   ]
+  },
+  {
+   "ingredient": "lityum",
+   "productCount": 3,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "KILONUM RETARD",
+    "LITHURIL",
+    "LİTOMAKS"
+   ]
+  },
+  {
+   "ingredient": "lorazepam",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ATIVAN EXPIDET"
+   ]
+  },
+  {
+   "ingredient": "maprotilin",
+   "productCount": 8,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "LUDIOMIL",
+    "MAPROTIL"
+   ]
+  },
+  {
+   "ingredient": "megestrol",
+   "productCount": 2,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "BOREA",
+    "MEGACE"
+   ]
+  },
+  {
+   "ingredient": "melatonin",
+   "productCount": 21,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "Abdi İbrahim Melatonin",
+    "Baymela",
+    "Circaday",
+    "COZYMEL",
+    "İlko Melatonin",
+    "Insovef",
+    "Melabiem",
+    "Melafor",
+    "Mellarest",
+    "Melogen",
+    "Melonisenk",
+    "Mihada",
+    "Tab Melatonin",
+    "Vefarma Melatonin"
+   ]
+  },
+  {
+   "ingredient": "memantin",
+   "productCount": 151,
+   "excludedCombinationRows": 6,
+   "brands": [
+    "ALCEBA",
+    "ALIOS",
+    "ALMENTA",
+    "ALZANT",
+    "ALZER",
+    "ALZIA",
+    "ALZMEX",
+    "ANGETİN",
+    "CERAMIN",
+    "COGITO",
+    "DEMAX",
+    "DEMAX EASYTAB",
+    "EBITEX",
+    "EBİXA",
+    "EMAXIN",
+    "EMAXIN BASLANGIC SETI",
+    "FEMTA",
+    "FIXREM",
+    "KORINT",
+    "KORINT BAŞLANGIÇ PAKETI,TABLET",
+    "MAXIRAM",
+    "MELANDA",
+    "MELANDA RAPİD",
+    "MEMANZAKS",
+    "MEMOTEC",
+    "MENTAX",
+    "MEXIA",
+    "MEXIA XR",
+    "SAYCON",
+    "VIXIMEM"
+   ]
+  },
+  {
+   "ingredient": "metamizol",
+   "productCount": 52,
+   "excludedCombinationRows": 1,
+   "brands": [
+    "ADEPIRON",
+    "ALGOPAN",
+    "ANDOLOR",
+    "BEBİGUT",
+    "DEVALJİN",
+    "FARMİZOL",
+    "GERALGINE-M",
+    "KAFALGİN",
+    "KARMIZOL",
+    "METAMIZOL",
+    "NOVAKOM",
+    "NOVAKOM FORT",
+    "NOVAKOM S",
+    "NOVALGIN",
+    "NOVAMIZOL",
+    "NOVAPLEKS",
+    "NOVAPLEX",
+    "ONPYRON",
+    "SEDORAL",
+    "TÜRKTIPSAN METAMİZOL SODYUM"
+   ]
+  },
+  {
+   "ingredient": "metformin",
+   "productCount": 96,
+   "excludedCombinationRows": 56,
+   "brands": [
+    "ATAMET",
+    "DIABEST",
+    "DİAFORMIN",
+    "DIAFORMIN XR",
+    "DİAMET",
+    "Diormin",
+    "GLIFOR",
+    "GLIFOR SR",
+    "GLIMETON",
+    "GLINEXT",
+    "GLISUS",
+    "GLUCOTARD",
+    "GLUFORCE",
+    "GLUFORMİN",
+    "GLUKOFEN",
+    "INSUFOR",
+    "MATOFIN",
+    "MEFODAY MR",
+    "MERNEPTA",
+    "METAFORMAL",
+    "METFORIX",
+    "METFULL",
+    "METODEL",
+    "METODEL SR",
+    "METVEL",
+    "METVEL SR"
+   ]
+  },
+  {
+   "ingredient": "metoklopramid",
+   "productCount": 11,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ANTI-NAUSEA",
+    "METOKLAMİDE",
+    "NASTIFRAN",
+    "PRAMED",
+    "TURKTIPSAN METOKLOPRAMID HIDROKLORÜR",
+    "VOMEPRAM"
+   ]
+  },
+  {
+   "ingredient": "metoprolol",
+   "productCount": 39,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "Altobio Metoprolol",
+    "BELOC",
+    "BELOC DURULES",
+    "Beloc Zok",
+    "BETABLOK SR",
+    "CARDOVOL",
+    "CORCURATİO",
+    "MECORLONG",
+    "MEPOLEX",
+    "METLOC",
+    "MEVOPAL",
+    "NORMOLOL",
+    "PROBLOK",
+    "SANELOC"
+   ]
+  },
+  {
+   "ingredient": "metotreksat",
+   "productCount": 65,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "Artjet",
+    "ARTROJECT",
+    "MEKSRATU",
+    "METHOTREXAT 'EBEWE' PFS",
+    "METHOTREXAT EBEWE",
+    "METHOTREXAT EBEWE PFS",
+    "METHOTREXATE KOÇAK",
+    "METOART",
+    "METOART CON",
+    "MEXTU",
+    "Rheumetex",
+    "SUBMEX"
+   ]
+  },
+  {
+   "ingredient": "mirabegron",
+   "productCount": 42,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "Begamir",
+    "BETMIGA",
+    "Urotrexin"
+   ]
+  },
+  {
+   "ingredient": "mirtazapin",
+   "productCount": 26,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "MIRES",
+    "MİTAZEN",
+    "REDEPRA",
+    "REMERON",
+    "ULKAPIN",
+    "ZESTAT"
+   ]
+  },
+  {
+   "ingredient": "misoprostol",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "CYTOTEC"
+   ]
+  },
+  {
+   "ingredient": "modafinil",
+   "productCount": 12,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "CRALİUM",
+    "MODIODAL",
+    "MODIOGEN",
+    "MODİVİGİL",
+    "MODIWAKE",
+    "SLEEPEX"
+   ]
+  },
+  {
+   "ingredient": "morfin",
+   "productCount": 11,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "MORFIA",
+    "MORFIA CR",
+    "MORFİN HİDROKLORÜR OSEL",
+    "MORPHINE HCl"
+   ]
+  },
+  {
+   "ingredient": "naproksen",
+   "productCount": 106,
+   "excludedCombinationRows": 4,
+   "brands": [
+    "A-NOX FORT",
+    "ALEVE",
+    "APRALJIN FORTE",
+    "APRANAX",
+    "APRANAX FORT",
+    "APRODENT FORT",
+    "APROFLEX",
+    "APROL",
+    "APROL FORT",
+    "APROMED",
+    "APROMED FORT",
+    "APROWELL",
+    "APROWELL FORT",
+    "ARMANAKS",
+    "ATREN",
+    "ATREN FORT",
+    "BONMIN",
+    "EXVILE",
+    "FEMİNİN",
+    "FLAMAKS",
+    "FLAMAKS FORT",
+    "INAPROL",
+    "İNAPROL FORT",
+    "INAPROL JEL",
+    "KAROKSEN",
+    "KAROKSEN FORT",
+    "MEDNAP",
+    "MOTRİNAX",
+    "MOTRİNAX FORT",
+    "NAPONAL",
+    "NAPONAL FORT",
+    "NAPRADOL FORTE",
+    "NAPRAX JEL",
+    "NAPREN S",
+    "NAPROFF",
+    "NAPROFF FORTE",
+    "NAPROL",
+    "NAPROSYN",
+    "NAPROSYN CR",
+    "NAPROSYN EC",
+    "NAXERİ JEL",
+    "NEXPRO",
+    "NEXPRO FORTE",
+    "OPRAKS",
+    "OPRAKS FORT",
+    "RANDOL",
+    "RANDOL FORT",
+    "RANDOL JEL",
+    "RELOKAP",
+    "RUMAZOLIDIN",
+    "RUMAZOLIDIN FORT",
+    "SODINAX",
+    "SODINAX FORT",
+    "SYNAX",
+    "SYNAX FORTE"
+   ]
+  },
+  {
+   "ingredient": "nebivolol",
+   "productCount": 37,
+   "excludedCombinationRows": 26,
+   "brands": [
+    "BLOXER",
+    "CROMTOL",
+    "NEBIWORLD",
+    "NEVIMOL",
+    "NEVOL",
+    "NEXIVOL",
+    "VALENDE",
+    "VASCURA",
+    "VASOXEN"
+   ]
+  },
+  {
+   "ingredient": "nitrofurantoin",
+   "productCount": 7,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "FURANTİNE",
+    "PIYELOSEPTYL",
+    "ÜRİNEKS"
+   ]
+  },
+  {
+   "ingredient": "oksibutinin",
+   "productCount": 6,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "FUITAN",
+    "KENTERA",
+    "UROPAN",
+    "VOXET"
+   ]
+  },
+  {
+   "ingredient": "oksikodon",
+   "productCount": 18,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "OXICUT",
+    "OXOPANE"
+   ]
+  },
+  {
+   "ingredient": "olanzapin",
+   "productCount": 138,
+   "excludedCombinationRows": 10,
+   "brands": [
+    "AS-PINEKS",
+    "DEPREXINAT",
+    "ELYNZA",
+    "OFANS ODT",
+    "OFERTA",
+    "OLAFER",
+    "OLAXINN",
+    "OLFREX",
+    "OLFREX EASYTAB",
+    "OLLAFAX",
+    "OLNEGIS",
+    "OLZANID",
+    "OZAPRIN",
+    "OZAPRIN RAPID",
+    "REXAPIN",
+    "REXAPIN EASYTAB",
+    "ZOLAPINE",
+    "ZYPREXA",
+    "ZYPREXA VELOTAB",
+    "ZYZAPIN"
+   ]
+  },
+  {
+   "ingredient": "omeprazol",
+   "productCount": 26,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "DEMEPRAZOL",
+    "ERBINNA",
+    "GASTROMAX EP",
+    "LOSEPROL",
+    "LYOMEPRA",
+    "MEPRAİSOL",
+    "OLETEN",
+    "OLMEZOL",
+    "OMEFIX",
+    "OMEGAST",
+    "OMEPRAZID",
+    "OMEPREFUL",
+    "OMEPROL",
+    "OMEREF",
+    "OMEX",
+    "OMHEAL",
+    "OMİZOL",
+    "POMERON",
+    "ZOLASİT"
+   ]
+  },
+  {
+   "ingredient": "ondansetron",
+   "productCount": 60,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "EMESET",
+    "KEMOSET",
+    "KEMOTRON",
+    "Kyrons",
+    "LAUFRAN",
+    "NAUZEX",
+    "ONASET",
+    "ONDAREN",
+    "ONZYD",
+    "OSETRON",
+    "SANTIS",
+    "VOCHERON",
+    "ZOFER",
+    "ZOFRAN",
+    "ZOFRAN ZYDIS",
+    "ZOLTEM",
+    "ZONTRON",
+    "ZOPHRALEN",
+    "ZOPHRALEN IV"
+   ]
+  },
+  {
+   "ingredient": "parasetamol",
+   "productCount": 185,
+   "excludedCombinationRows": 12,
+   "brands": [
+    "A-FERİN ZERO",
+    "A-PER",
+    "ALGOMOL",
+    "ASENOL",
+    "BABI'KAN",
+    "BABINOKS",
+    "BABYMOL",
+    "CALPOL",
+    "CALPOSET",
+    "DEFLU",
+    "DEFLU FORT",
+    "DOLASET",
+    "DURAPAN",
+    "EFPA EFERVESAN",
+    "EKİPARADOL",
+    "GERALGİNE P SUPPOZİTUAR",
+    "GERALGINE-P",
+    "GRIPIN BEBE",
+    "INFLU",
+    "KALMET",
+    "KATESOL",
+    "KİDMOL",
+    "MEDASED",
+    "MEDASET",
+    "MINAFEN",
+    "MINAMOL",
+    "MİNAMOL FORT",
+    "MİNOPAR",
+    "MİNOPAR PLUS",
+    "MINOSET",
+    "MUTEP",
+    "NORAL",
+    "NORFLAM SUPPOZİTUVAR",
+    "PACİMOL",
+    "PACİMOL PLUS",
+    "PANADOL",
+    "PARA-COLD",
+    "PARACEROL",
+    "PARACET",
+    "PARANOX",
+    "PARANOX S",
+    "PARASEDOL",
+    "PARASEDOL PED",
+    "PARCALM",
+    "PARCALM PLUS",
+    "PARCETOL",
+    "PAROKAN",
+    "PAROL",
+    "PAROL PLUS",
+    "PAROSET UNO PLUS",
+    "PAROVANC",
+    "PARSETAN",
+    "PARTEMOL",
+    "PARTERAL",
+    "PEDIPAR",
+    "PEDIPAR PLUS",
+    "PEDITUS UNO",
+    "PHARMADOL",
+    "PİRETİKOL",
+    "PIROFEN",
+    "POLAMINOFEN",
+    "Prexibay",
+    "Prexibay Plus",
+    "RASTAMOL",
+    "REGAL",
+    "SASEPOL",
+    "SEDALON",
+    "SEPARMOL",
+    "SETAMOL",
+    "SETAPAR",
+    "SETAPAR PLUS",
+    "Syrpil",
+    "TAMOJIL",
+    "TAMOL",
+    "TAMOL PLUS",
+    "TERMACET",
+    "TERMACET PLUS",
+    "TERMALGINE PED",
+    "TYLOL",
+    "TYLOL BABY",
+    "TYLOL FORT",
+    "Tylotus Night",
+    "VERMIDON",
+    "VİATAL",
+    "VOLPAN",
+    "VOLPAN BEBEK SUPPOZİTUVARI",
+    "VOLPAN ÇOCUK SUPPOZİTUVARI",
+    "XFEBRIL",
+    "ZALDAKS"
+   ]
+  },
+  {
+   "ingredient": "paroksetin",
+   "productCount": 28,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "AS-PAROKS",
+    "NOKTURN",
+    "PALUXON",
+    "PAXERA",
+    "PAXIL",
+    "PAXOTIN",
+    "XETANOR"
+   ]
+  },
+  {
+   "ingredient": "petidin",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ALDINE",
+    "CEDEPTİN",
+    "PETHOLAN",
+    "PETİSEL"
+   ]
+  },
+  {
+   "ingredient": "pioglitazon",
+   "productCount": 42,
+   "excludedCombinationRows": 28,
+   "brands": [
+    "ACTOS",
+    "DROPIA",
+    "DYNDION",
+    "GLIFIX",
+    "PIOFORCE",
+    "PIONDIA"
+   ]
+  },
+  {
+   "ingredient": "pirasetam",
+   "productCount": 15,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "NECETAM",
+    "NEUROSETAM",
+    "NOOTROVER",
+    "NORETAM",
+    "NÖRODIN",
+    "NOTROSERB",
+    "OPEMIN",
+    "PİRAMAN",
+    "PİRAPİL",
+    "SETROPİL",
+    "TURKTIPSAN PİRASETAM"
+   ]
+  },
+  {
+   "ingredient": "pirimidon",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "GRANMID"
+   ]
+  },
+  {
+   "ingredient": "polietilen",
+   "productCount": 8,
+   "excludedCombinationRows": 5,
+   "brands": [
+    "BARSOLAX",
+    "GOLYTELY BAGIRSAK TEMIZLEME TOZU",
+    "NEXTOLAC",
+    "PEGDİN",
+    "POLİCOL"
+   ]
+  },
+  {
+   "ingredient": "pramipeksol",
+   "productCount": 66,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "PACTO",
+    "PARKIPEX",
+    "PARKİPEX ER",
+    "PARKYN",
+    "PARKYN ER",
+    "PARSON",
+    "PEXA",
+    "PEXA XR",
+    "PEXOLA ER",
+    "PIDREX",
+    "PIDREX ER",
+    "PRADOSE",
+    "PRAMITU",
+    "PRANOW"
+   ]
+  },
+  {
+   "ingredient": "prasugrel",
+   "productCount": 2,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "EFFIENT",
+    "SUGVİDA"
+   ]
+  },
+  {
+   "ingredient": "prednizolon",
+   "productCount": 3,
+   "excludedCombinationRows": 2,
+   "brands": [
+    "NEOCORTEN",
+    "PREDNOL"
+   ]
+  },
+  {
+   "ingredient": "pregabalin",
+   "productCount": 175,
+   "excludedCombinationRows": 5,
+   "brands": [
+    "AGAPAL",
+    "ALYSE",
+    "GABADAY SR",
+    "GABALENE",
+    "GALARA",
+    "GEBBRA",
+    "GERICA",
+    "GERTORE",
+    "LYPRE",
+    "LYRICA",
+    "MAROPAN",
+    "NEOGABA",
+    "NEURICA",
+    "NORAFIT",
+    "PADEN",
+    "PAGADIN",
+    "PAGAMAX",
+    "PERGE",
+    "PIGUS",
+    "PRECOBAL",
+    "PRELICA",
+    "PRETAW",
+    "REGAPEN",
+    "REGOBOL",
+    "SNAPLINE",
+    "SYMRA",
+    "TORIA",
+    "ZAGERA"
+   ]
+  },
+  {
+   "ingredient": "progesteron",
+   "productCount": 13,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "CRINONE",
+    "Gestinax",
+    "Pregetox",
+    "PROGESTAN",
+    "PROGESTAN DEX",
+    "Prolutex",
+    "PROMESTER"
+   ]
+  },
+  {
+   "ingredient": "propiverin",
+   "productCount": 8,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ECCURY",
+    "Incont",
+    "MİCTONORM",
+    "MICTONORM SR",
+    "PROVEREL"
+   ]
+  },
+  {
+   "ingredient": "propranolol",
+   "productCount": 3,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "DIDERAL",
+    "HEMANGİOL"
+   ]
+  },
+  {
+   "ingredient": "ramelteon",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "RAMELDA",
+    "ROZEREST"
+   ]
+  },
+  {
+   "ingredient": "ranolazin",
+   "productCount": 9,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "Anjilex",
+    "LATIXA",
+    "RAZİNA"
+   ]
+  },
+  {
+   "ingredient": "rivaroksaban",
+   "productCount": 43,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ONAXAN",
+    "Rivelto",
+    "TROMABAN",
+    "VENMİX",
+    "VENOMİA",
+    "Vorelban",
+    "VOXABAN",
+    "XARELTO",
+    "XAROKS"
+   ]
+  },
+  {
+   "ingredient": "rivastigmin",
+   "productCount": 26,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ABEXTIN",
+    "EXELON",
+    "EXELON PATCH",
+    "EXEVIS",
+    "PROMETAX PATCH",
+    "RISTART",
+    "RIVAREM",
+    "RIVASTORON"
+   ]
+  },
+  {
+   "ingredient": "romosozumab",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "EVENİTY"
+   ]
+  },
+  {
+   "ingredient": "ropinirol",
+   "productCount": 6,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "PARGUIP XL",
+    "REQUIP XL"
+   ]
+  },
+  {
+   "ingredient": "saksagliptin",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ONGLYZA"
+   ]
+  },
+  {
+   "ingredient": "sertralin",
+   "productCount": 25,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "AS-SERTRAL",
+    "LUSTEC",
+    "LUSTRAL",
+    "LUSTRAL SPECIAL",
+    "MISOL",
+    "Olinar",
+    "SELECTRA",
+    "SEROTOP"
+   ]
+  },
+  {
+   "ingredient": "siklobenzaprin",
+   "productCount": 8,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "Enzaris",
+    "FLESSİ",
+    "Lospaz",
+    "SPAZBEN"
+   ]
+  },
+  {
+   "ingredient": "siklosporin",
+   "productCount": 34,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "CİCLORES",
+    "CYLORİN",
+    "DEPORES",
+    "DEPORES FREE",
+    "DEPORES X",
+    "DROSPORIN",
+    "EPOSTIN",
+    "LYMUNİR",
+    "OCURİN",
+    "PANOSPORIN",
+    "RESTASİS",
+    "Restasis Multi Doz",
+    "SANDIMMUN",
+    "SANDIMMUN NEORAL",
+    "SANDIMMUN-NEORAL",
+    "SIGMASPORIN MICRORAL",
+    "SİKLOTEAR",
+    "TEARON"
+   ]
+  },
+  {
+   "ingredient": "sildenafil",
+   "productCount": 94,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "COMBO",
+    "Coshra",
+    "DEGRA",
+    "EGIRA",
+    "ERELONG",
+    "HIPOLES",
+    "JELIGRA",
+    "NEWAGRA",
+    "PULARTER",
+    "RETOMİN",
+    "REVATIO",
+    "SILDEGRA",
+    "SILFECT",
+    "SILMED",
+    "SİLPOW",
+    "SINEGRA",
+    "VEGIRO",
+    "VIAGRA",
+    "VİAMED",
+    "VIGAROO",
+    "VİGRAFİL",
+    "VIGRANDE",
+    "VULGAR"
+   ]
+  },
+  {
+   "ingredient": "sinnarizin",
+   "productCount": 2,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ULGERON",
+    "ULGERON FORT"
+   ]
+  },
+  {
+   "ingredient": "siproheptadin",
+   "productCount": 3,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "SIPRAKTIN",
+    "VINA ELIXIR"
+   ]
+  },
+  {
+   "ingredient": "sitalopram",
+   "productCount": 31,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "AS-CILOG",
+    "ATOPRAN",
+    "CIPRAM",
+    "CITARA",
+    "CITEXAM",
+    "CITOL",
+    "CITOLIXIN",
+    "CITREX",
+    "CYTERAS",
+    "LAIRA",
+    "VODELAX"
+   ]
+  },
+  {
+   "ingredient": "solifenasin",
+   "productCount": 30,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "BEVLASIN",
+    "KINZY",
+    "KONTIFEN",
+    "NATYSIN",
+    "OLIFESIN",
+    "SOLIFAS",
+    "SOLIRON",
+    "VESIFIX",
+    "VESISOL"
+   ]
+  },
+  {
+   "ingredient": "spironolakton",
+   "productCount": 11,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ALDACTONE",
+    "ALDACTONE-A",
+    "DALYLACTON",
+    "Ridakton",
+    "SPYLACTON"
+   ]
+  },
+  {
+   "ingredient": "tadalafil",
+   "productCount": 143,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "AFILTA",
+    "CIALIS",
+    "DAFİLA",
+    "DEPARTON",
+    "DICLASIL",
+    "ECONIX",
+    "Erexfil",
+    "ERONİS",
+    "Felitas",
+    "FLYNTA",
+    "HARDCIS",
+    "LEX",
+    "LIFTA",
+    "LONGIS",
+    "LONGIVO",
+    "MYESED",
+    "NOBİCİA",
+    "ORCAFIL",
+    "PAHTAFİL",
+    "PUBİLTOR",
+    "PULDAFİX",
+    "REKFİL",
+    "TADACİA",
+    "TADAMED",
+    "TADARTER",
+    "Tadbee",
+    "TADLIS",
+    "TADON",
+    "TALAFY",
+    "TALAVİST",
+    "TORK",
+    "Vapoxant",
+    "VEGALİS"
+   ]
+  },
+  {
+   "ingredient": "tamoksifen",
+   "productCount": 11,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "TAMOXIFEN-TEVA",
+    "TAMOXIFENCELL",
+    "TAMOXIT"
+   ]
+  },
+  {
+   "ingredient": "teofilin",
+   "productCount": 4,
+   "excludedCombinationRows": 6,
+   "brands": [
+    "BRONKOLIN",
+    "TEOFIL SR"
+   ]
+  },
+  {
+   "ingredient": "terazosin",
+   "productCount": 5,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "HYTRIN",
+    "HYTRIN BP TEDAVIYE BAS.PAKETI",
+    "TERAUMON"
+   ]
+  },
+  {
+   "ingredient": "teriparatid",
+   "productCount": 3,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "FORSTEO",
+    "Tericent"
+   ]
+  },
+  {
+   "ingredient": "testosteron",
+   "productCount": 1,
+   "excludedCombinationRows": 1,
+   "brands": [
+    "NEBIDO"
+   ]
+  },
+  {
+   "ingredient": "tetanoz",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "T-VAC"
+   ]
+  },
+  {
+   "ingredient": "tikagrelor",
+   "productCount": 22,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "AGRİLOR",
+    "Bicaglor",
+    "BRILINTA",
+    "CAMİLLA",
+    "TALDEROL",
+    "TİCASA",
+    "TİGRELO",
+    "TİLANTA",
+    "TİXALOR"
+   ]
+  },
+  {
+   "ingredient": "tiklopidin",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "TICLOCARD"
+   ]
+  },
+  {
+   "ingredient": "tiotropium",
+   "productCount": 24,
+   "excludedCombinationRows": 30,
+   "brands": [
+    "Airfect Neucloud",
+    "AIRTIO",
+    "BRONTİO",
+    "CORİVA",
+    "SPİRACT",
+    "SPIRIVA",
+    "TIODAY CAPSAIR",
+    "TIOFIX",
+    "TIONEX",
+    "TIOTEK DİSCAİR",
+    "TİOUMİT",
+    "TUTAST ARVOHALER"
+   ]
+  },
+  {
+   "ingredient": "tiyokolsikosid",
+   "productCount": 69,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ADELEKS",
+    "COLCIOSPA",
+    "FILEXID",
+    "FIXOLINE",
+    "KENFIX",
+    "KEPLERON",
+    "KEYRELAKS",
+    "MAXTHİO",
+    "MAXTHIO ODT",
+    "MUSCAL",
+    "MUSCOFLEX",
+    "MUSCORIL",
+    "MUSFIXA",
+    "MYAL FORT",
+    "MYODIN",
+    "RECOSIDE",
+    "RECOSIDE MR",
+    "REDEMUS",
+    "TEFEL",
+    "THİOSPA",
+    "TIORELAX",
+    "TİOWELL",
+    "TIYOZID",
+    "TYOFLEX",
+    "TYOFLEX FORT"
+   ]
+  },
+  {
+   "ingredient": "tizanidin",
+   "productCount": 4,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "SANTADİNE",
+    "Simvacor",
+    "SIRDALUD",
+    "SIRDALUD MR"
+   ]
+  },
+  {
+   "ingredient": "tolterodin",
+   "productCount": 16,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "DETREXA SR",
+    "GİNLOBA SR",
+    "Tolteridex SR",
+    "TOLTEX",
+    "Toreda",
+    "TOREDA SR",
+    "URIDYN",
+    "Urıstat"
+   ]
+  },
+  {
+   "ingredient": "tramadol",
+   "productCount": 16,
+   "excludedCombinationRows": 2,
+   "brands": [
+    "CONTRAMAL",
+    "CONTRATEK",
+    "MADOL",
+    "RAMADEX",
+    "TRADOLEX",
+    "TRAMOSEL",
+    "TRAMTURK",
+    "ULTRAMEX"
+   ]
+  },
+  {
+   "ingredient": "trimetazidin",
+   "productCount": 15,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "ANPEKS MR",
+    "CARMETADIN",
+    "PICADIL",
+    "PICADIL MR",
+    "TIRVAS MR",
+    "TRIPLUS MR",
+    "TROTENIL",
+    "TROTENIL MR",
+    "VASOFIX",
+    "VASTAREL MR",
+    "VAZIDIN MR"
+   ]
+  },
+  {
+   "ingredient": "trimetobenzamid",
+   "productCount": 5,
+   "excludedCombinationRows": 1,
+   "brands": [
+    "EMEDUR",
+    "EMETOL"
+   ]
+  },
+  {
+   "ingredient": "trospiyum",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "VOLTERRA"
+   ]
+  },
+  {
+   "ingredient": "valsartan",
+   "productCount": 57,
+   "excludedCombinationRows": 57,
+   "brands": [
+    "CARDOPAN",
+    "CERACARD",
+    "DIOVAN",
+    "HIXAR",
+    "LIMITEN",
+    "PREMIUM",
+    "TAMGARD",
+    "VALCOR",
+    "VALSO",
+    "VALTENSIN",
+    "VİASART",
+    "WANSAAR"
+   ]
+  },
+  {
+   "ingredient": "vardenafil",
+   "productCount": 14,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "Cimlitrol",
+    "LEVITRA",
+    "LOVİTREC",
+    "VAREKSİL",
+    "Varoni"
+   ]
+  },
+  {
+   "ingredient": "varfarin",
+   "productCount": 7,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "PLASORİN",
+    "VARFARİN",
+    "WARFMADİN",
+    "WARSU"
+   ]
+  },
+  {
+   "ingredient": "venlafaksin",
+   "productCount": 26,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "BONILUX",
+    "EFEXOR XR",
+    "FAXIVEN XR",
+    "SULINEX XR",
+    "VENEGIS XR",
+    "VENLADEP XR"
+   ]
+  },
+  {
+   "ingredient": "verapamil",
+   "productCount": 12,
+   "excludedCombinationRows": 4,
+   "brands": [
+    "FIBROCARD L.P",
+    "ISOPAMIL",
+    "ISOPTIN",
+    "ISOPTIN IV",
+    "ISOPTIN KKH",
+    "ISOPTIN SR",
+    "ORMIL"
+   ]
+  },
+  {
+   "ingredient": "vortioksetin",
+   "productCount": 24,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "FONKSERA",
+    "Serenvi",
+    "SORDENA"
+   ]
+  },
+  {
+   "ingredient": "zolpidem",
+   "productCount": 1,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "REMİN"
+   ]
+  },
+  {
+   "ingredient": "zopiklon",
+   "productCount": 2,
+   "excludedCombinationRows": 0,
+   "brands": [
+    "IMOVANE"
+   ]
+  }
+ ]
+}
