@@ -95,5 +95,83 @@ window.TimeSearch = (function () {
     }
     return choices;
   }
-  return { norm, aliasIndex, makeCandidates, resolve, suggest };
+
+  // Clinical vocabulary is independent of trade-name vocabulary.
+  // Only exact synonyms share search membership; a subtype query is
+  // additionally labelled as a BROADER search (e.g. PAF -> AF).
+  function phraseInText(text, phrase) {
+    const word=norm(phrase);
+    if(!word) return false;
+    let pos=0;
+    const value=" "+norm(text)+" ";
+    while((pos=value.indexOf(word,pos))!==-1){
+      const before=value[pos-1]||" ";
+      const after=value[pos+word.length]||" ";
+      if(!/[a-z0-9]/.test(before)&&!/[a-z0-9]/.test(after)) return true;
+      pos++;
+    }
+    return false;
+  }
+  function conditionIndex(groups){
+    const lookup=[];
+    for(const g of groups) {
+      for(const term of g.terms||[]) lookup.push({key:norm(term),label:term,id:g.id,canonical:g.label,kind:"synonym",note:""});
+      for(const term of g.related||[]) lookup.push({key:norm(term.label),label:term.label,id:g.id,canonical:g.label,kind:"related",note:term.note||""});
+    }
+    return lookup.sort((a,b)=>b.key.length-a.key.length);
+  }
+  function resolveConditions(query,clinicalIndex){
+    const tokens=[];
+    let remaining=" "+norm(query)+" ",matched=null;
+    // Longest phrases first ensures "paroksismal atriyal fibrilasyon"
+    // is not partially consumed by the shorter "atriyal fibrilasyon".
+    for(const entry of clinicalIndex){
+      const key=" "+entry.key+" ";
+      const at=remaining.indexOf(key);
+      if(at===-1)continue;
+      remaining=remaining.slice(0,at)+" ~"+entry.id+" "+remaining.slice(at+key.length);
+      if(!matched) matched=entry;
+    }
+    for(const word of remaining.trim().split(/\s+/)){
+      if(word&&!tokens.includes(word))tokens.push(word);
+    }
+    return {text:tokens.join(" "),matched};
+  }
+  function conditionGroupsFor(row,groups){
+    const source=row.text+" "+(row.notes||[]).join(" ");
+    return groups.filter(g=>(g.terms||[]).some(term=>phraseInText(source,term))).map(g=>g.id);
+  }
+  function termMatches(index,term){
+    if(term.length>3) return index.includes(term);
+    return phraseInText(index,term);
+  }
+  function clinicalSuggestions(query,hasResults,clinicalIndex) {
+    const typed=norm(query);
+    if(typed.length<3)return [];
+    const choices=[];
+    for(const entry of clinicalIndex){
+      if(typed===entry.key)continue;
+      if(hasResults&&!entry.key.startsWith(typed))continue;
+      let dist=99;
+      if(!hasResults){
+        const max=typed.length>=11?3:typed.length>=6?2:1;
+        if(Math.abs(typed.length-entry.key.length)>max)continue;
+        dist=distance(typed,entry.key,max);
+        if(dist>max)continue;
+      }
+      choices.push({label:entry.kind==="related"?entry.label:entry.canonical,query:entry.label,
+        explanation:entry.kind==="related"?"Alt tanı · "+entry.canonical:"Tanı / klinik terim",dist,weight:entry.kind==="related"?1:0});
+    }
+    choices.sort((a,b)=>a.dist-b.dist||a.weight-b.weight||a.query.length-b.query.length);
+    const out=[],seen=new Set();
+    for(const v of choices){
+      const key=norm(v.query);
+      if(seen.has(key))continue;
+      seen.add(key);out.push(v);
+      if(out.length>=5)break;
+    }
+    return out;
+  }
+  return { norm, aliasIndex, makeCandidates, resolve, suggest, phraseInText,
+    conditionIndex, resolveConditions, conditionGroupsFor, termMatches, clinicalSuggestions };
 }());
