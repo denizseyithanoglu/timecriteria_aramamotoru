@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164b3d">
+  <meta name="description" content="2024 TIME-to-START ve TIME-to-STOP kriterlerini ilaç, hastalık ve kriter koduna göre arayın.">
+  <title>TIME Kriterleri 2024 | Klinik Arama Motoru</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#results">Sonuçlara atla</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="TIME Kriterleri ana sayfa">
+        <span class="brand-symbol" aria-hidden="true">T<span class="brand-dot">·</span></span>
+        <span class="brand-name"><strong>TIME Kriterleri</strong><small>2024 · Klinik arama motoru</small></span>
+      </a>
+      <span class="header-label"><span class="header-label-dot"></span> Kanıta dayalı kriter dizini</span>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-kicker"><span class="kicker-line"></span> YAŞLI SAĞLIĞINDA İLAÇ YÖNETİMİ</div>
+        <h1 id="page-title">Doğru kritere,<br><em>doğrudan ulaşın.</em></h1>
+        <p class="hero-intro">TIME-to-START ve TIME-to-STOP kriterlerini ilaç adı, klinik durum, sistem veya kriter koduyla arayın. Açıklamaları ve PDF kaynak sayfalarını tek yerde görüntüleyin.</p>
+        <form id="search-form" class="search-wrap" role="search">
+          <svg class="search-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7.2"/><path d="m16.4 16.4 4.5 4.5"/></svg>
+          <label class="sr-only" for="query">Kriterlerde ara</label>
+          <input id="query" type="search" placeholder="Örn. digoksin, düşme, AF, A14..." autocomplete="off" spellcheck="false">
+          <kbd class="shortcut">⌘ / Ctrl K</kbd>
+          <button id="clear-query" type="button" class="clear-button" hidden aria-label="Aramayı temizle">×</button>
+        </form>
+        <div class="example-line">Örnek aramalar: <button class="query-example" data-example="ortostatik hipotansiyon">ortostatik hipotansiyon</button><button class="query-example" data-example="NSAİİ">NSAİİ</button><button class="query-example" data-example="osteoporoz">osteoporoz</button></div>
+      </section>
+
+      <section class="library" aria-labelledby="library-heading">
+        <div class="library-heading">
+          <div>
+            <p class="eyebrow">KRİTER KÜTÜPHANESİ</p>
+            <h2 id="library-heading">Kriterleri keşfedin</h2>
+          </div>
+          <span class="source-label">2024 · Referanslı ve açıklamalı sürüm</span>
+        </div>
+        <div class="segment-bar" role="group" aria-label="Kriter türü">
+          <button type="button" data-type="ALL" class="segment active" aria-pressed="true">Tümü <span id="count-all">190</span></button>
+          <button type="button" data-type="STOP" class="segment" aria-pressed="false"><span class="segment-indicator stop"></span> TIME-to-STOP <span id="count-stop">129</span></button>
+          <button type="button" data-type="START" class="segment" aria-pressed="false"><span class="segment-indicator start"></span> TIME-to-START <span id="count-start">61</span></button>
+        </div>
+        <div class="toolbar">
+          <label class="filter-label">Sistem
+            <select id="category" aria-label="Sistem kategorisi"><option value="ALL">Tüm sistemler</option></select>
+          </label>
+          <label class="filter-label">Sıralama
+            <select id="sort" aria-label="Sonuçları sırala"><option value="source">Kriter sırası</option><option value="relevance">Arama ilgisi</option><option value="az">Kriter kodu (A–Z)</option></select>
+          </label>
+          <p class="result-count" id="result-count" role="status" aria-live="polite">Kriterler yükleniyor...</p>
+        </div>
+        <div id="results" class="results" aria-live="polite" aria-busy="true">
+          <div class="empty-state"><div class="empty-icon">⋯</div><h3>Kriterler yükleniyor</h3><p>2024 TIME veri dosyası okunuyor.</p></div>
+        </div>
+        <button id="show-more" class="show-more" type="button" hidden>Diğer kriterleri göster <span id="remaining"></span></button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <strong>TIME Kriterleri · 2024</strong>
+        <p>TIME-to-START ve TIME-to-STOP referanslı PDF belgelerinden hazırlanmış bağımsız, arama yapılabilir dizin.</p>
+      </div>
+      <p class="disclaimer"><strong>Klinik kullanım uyarısı:</strong> Bu sayfa otomatik metin aktarımıyla hazırlanmış bir başvuru aracıdır; kişiye özel tedavi önerisi değildir. Tıbbi karar öncesi kriterin orijinal yayını, güncel rehberler, hastanın özellikleri ve ilaç prospektüsü kontrol edilmelidir. Kullanıcı tarafından sağlanan PDF'ler telif ve yeniden dağıtım değerlendirmesi gerektirdiğinden depoya eklenmemiştir.</p>
+    </footer>
+  </div>
+</body>
+</html>
