@@ -35,14 +35,14 @@ https://denizseyithanoglu.github.io/timecriteria_aramamotoru/
 
 ## Dosya yapısı
 
-- \`index.html\`: Arama arayüzü
-- \`styles.css\`: Görünüm ve mobil düzen
-- \`app.js\`: İstemci tarafında arama, filtreleme ve etkileşim
-- \`data/criteria.json\`: Ayrıştırılmış kriter metinleri, notlar, referanslar ve kaynak sayfalar
+- `index.html`: Arama arayüzü
+- `styles.css`: Görünüm ve mobil düzen
+- `app.js`: İstemci tarafında arama, filtreleme ve etkileşim
+- `data/criteria.json`: Ayrıştırılmış kriter metinleri, notlar, referanslar ve kaynak sayfalar
 
-\`data/criteria.json\` içinde her kayıt \`id\`, \`type\`, \`code\`, \`category\`, \`page\`, \`text\`, \`notes\` ve \`references\` alanlarına sahiptir.
+`data/criteria.json` içinde her kayıt `id`, `type`, `code`, `category`, `page`, `text`, `notes` ve `references` alanlarına sahiptir.
 
-Örnek kriter tanımlayıcıları: \`STOP-A1\` ve \`START-A1\`. Bu ayrım, iki belgede ortak kullanılan A1, B1 gibi kodların karışmasını önler.
+Örnek kriter tanımlayıcıları: `STOP-A1` ve `START-A1`. Bu ayrım, iki belgede ortak kullanılan A1, B1 gibi kodların karışmasını önler.
 
 ## İçerik doğrulama ve klinik uyarı
 
