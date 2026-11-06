@@ -1,0 +1,225 @@
+{
+  "version": "2026-11-06",
+  "scope": "curated-not-exhaustive",
+  "notes": "Tanılar/kısaltmalar arasında arama amaçlı eşleme; klinik olarak birebir tanı doğrulaması değildir. 'related' alt tip veya ilişkili kavramdır ve kullanıcıya uyarı verilir.",
+  "groups": [
+    {
+      "id": "af",
+      "label": "Atriyal fibrilasyon",
+      "terms": [
+        "atriyal fibrilasyon",
+        "atriyal fibrillasyon",
+        "atrial fibrilasyon",
+        "atrial fibrillation",
+        "AF",
+        "AFib",
+        "a-fib"
+      ],
+      "related": [
+        {
+          "label": "PAF",
+          "note": "Paroksismal atriyal fibrilasyon, AF'nin bir alt tipidir. Sonuçlarda AF genel kriterleri de yer alır."
+        },
+        {
+          "label": "paroksismal atriyal fibrilasyon",
+          "note": "Paroksismal AF, AF'nin alt tipidir; tüm sonuçlar bu alt tipe özgü olmayabilir."
+        },
+        {
+          "label": "paroxysmal atrial fibrillation",
+          "note": "Paroksismal AF, AF'nin alt tipidir; tüm sonuçlar bu alt tipe özgü olmayabilir."
+        }
+      ],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "ht",
+      "label": "Hipertansiyon",
+      "terms": [
+        "hipertansiyon",
+        "hipertansif",
+        "hypertension",
+        "HT",
+        "arteriyel hipertansiyon",
+        "arterial hypertension"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "dm",
+      "label": "Diyabetes mellitus",
+      "terms": [
+        "diyabetes mellitus",
+        "diabetes mellitus",
+        "diyabet",
+        "diabetes",
+        "DM"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "ky",
+      "label": "Kalp yetersizliği",
+      "terms": [
+        "kalp yetersizliği",
+        "kalp yetmezliği",
+        "heart failure",
+        "KY"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "kah",
+      "label": "Koroner arter hastalığı",
+      "terms": [
+        "koroner arter hastalığı",
+        "coronary artery disease",
+        "koroner kalp hastalığı",
+        "KAH",
+        "CAD"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "kbh",
+      "label": "Kronik böbrek hastalığı",
+      "terms": [
+        "kronik böbrek hastalığı",
+        "kronik böbrek yetersizliği",
+        "kronik böbrek yetmezliği",
+        "chronic kidney disease",
+        "KBH",
+        "KBY",
+        "CKD"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "koah",
+      "label": "Kronik obstrüktif akciğer hastalığı",
+      "terms": [
+        "kronik obstrüktif akciğer hastalığı",
+        "KOAH",
+        "COPD",
+        "chronic obstructive pulmonary disease"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "mi",
+      "label": "Miyokard infarktüsü",
+      "terms": [
+        "miyokard infarktüsü",
+        "miyokard infarktüs",
+        "miyokard enfarktüsü",
+        "myocardial infarction",
+        "kalp krizi",
+        "Mİ",
+        "MI"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "gia",
+      "label": "Geçici iskemik atak",
+      "terms": [
+        "geçici iskemik atak",
+        "transient ischemic attack",
+        "TIA",
+        "GİA"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "aks",
+      "label": "Akut koroner sendrom",
+      "terms": [
+        "akut koroner sendrom",
+        "acute coronary syndrome",
+        "AKS",
+        "ACS"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "bph",
+      "label": "Benign prostat hiperplazisi",
+      "terms": [
+        "benign prostat hiperplazisi",
+        "benign prostatic hyperplasia",
+        "BPH",
+        "BPH/LUTS"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "oa",
+      "label": "Osteoartrit",
+      "terms": [
+        "osteoartrit",
+        "osteoartrit hastalığı",
+        "osteoarthritis",
+        "OA"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "ra",
+      "label": "Romatoid artrit",
+      "terms": [
+        "romatoid artrit",
+        "rheumatoid arthritis",
+        "RA"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "dvt",
+      "label": "Derin ven trombozu",
+      "terms": [
+        "derin ven trombozu",
+        "derin ven trombüsü",
+        "deep vein thrombosis",
+        "DVT"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "gord",
+      "label": "Gastroözofageal reflü hastalığı",
+      "terms": [
+        "gastroözofageal reflü hastalığı",
+        "gastroözofageal reflü",
+        "gastroesophageal reflux disease",
+        "GÖRH",
+        "GERD"
+      ],
+      "related": [],
+      "source": "https://www.nhs.uk/nhs-app/help/understanding-abbreviations/"
+    },
+    {
+      "id": "pah",
+      "label": "Periferik arter hastalığı",
+      "terms": [
+        "periferik arter hastalığı",
+        "peripheral arterial disease",
+        "PAH",
+        "PAD"
+      ],
+      "related": [],
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    }
+  ]
+}
