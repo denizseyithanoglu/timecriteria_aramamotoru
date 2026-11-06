@@ -21,6 +21,9 @@ Veriler, proje sahibi tarafından sağlanan, 2024 tarihli **referanslı ve açı
 - Kriter metni ve kriter bağlantısı kopyalama
 - Mobil uyumlu, bağımlılıksız HTML/CSS/JavaScript
 - Aramaların tamamı kullanıcının tarayıcısında çalışır; herhangi bir hasta verisi gönderilmez veya kaydedilmez
+- Yanlış yazımlarda tıklanabilir **“Şunu mu demek istediniz?”** önerileri (Damerau–Levenshtein)
+- Türkçe/İngilizce etken madde adları ve doğrulanmış piyasa adlarıyla arama (ör. abiksaban → apiksaban, Eliquis → apiksaban)
+- [İlaç adları sözlüğü](./ilac-sozlugu.html) sayfası: etken madde, eş anlamlı ve mevcut piyasa adı eşleştirmeleri
 
 ## GitHub Pages ile yayımlama
 
@@ -39,6 +42,9 @@ https://denizseyithanoglu.github.io/timecriteria_aramamotoru/
 - `styles.css`: Görünüm ve mobil düzen
 - `app.js`: İstemci tarafında arama, filtreleme ve etkileşim
 - `data/criteria.json`: Ayrıştırılmış kriter metinleri, notlar, referanslar ve kaynak sayfalar
+- `data/medicine_aliases.json`: **Kapsamlı olmayan başlangıç sözlüğü**; 54 etken madde, 42 alternatif ad ve 40 doğrulanmış piyasa adı (6 Kasım 2026 itibarıyla)
+- `search-helpers.js`: İlaç adı eşleştirme ve yazım önerisi motoru
+- `ilac-sozlugu.html`, `directory.js`: Sözlüğü inceleme sayfas
 
 `data/criteria.json` içinde her kayıt `id`, `type`, `code`, `category`, `page`, `text`, `notes` ve `references` alanlarına sahiptir.
 
@@ -51,3 +57,11 @@ https://denizseyithanoglu.github.io/timecriteria_aramamotoru/
 Kaynak belgelerin kullanım ve yeniden yayımlama hakları ayrıca değerlendirilmelidir. Orijinal PDF dosyaları bu repository'ye eklenmemiştir. Veri dosyasının kamuya açık yayımlanması için de hak sahiplerinin izin/atıf koşullarını kontrol edin.
 
 Hasta verileri, kimlik bilgileri veya hasta kayıtları bu depoya eklenmemelidir.
+
+## İlaç isimleri sözlüğünün kapsamı ve güncellenmesi
+
+Bu aşamada sözlük **bütün etken maddeleri veya bütün Türkiye piyasa isimlerini kapsamaz**. Piyasa isimleri yalnızca doğrulanmış kaynaklar eşliğinde eklenmiştir. İlaçabak ile eşleştirmelerden seçilmiş kayıtlar kontrol edilmiştir, veritabanının tamamı kopyalanmamıştır.
+
+Kapsamı genişletmek için [TİTCK'nin güncel ruhsatlı beşeri tıbbi ürünler listesi](https://www.titck.gov.tr/dinamikmodul/85) temel alınmalı; ürün/etken madde ve kombinasyonlar ayrıştırılmalı, TIME PDF'lerinde açıkça anılan etken maddelerle ve uygunluğuna klinisyen tarafından karar verilen ilaç sınıflarıyla ilişkilendirilmeli; her değişiklik kaynak ve tarih ile kaydedilmelidir. Resmi listeye kayıtlı olmak eczanede bulunabilirlik garantisi vermez. Üçüncü taraf sitelerin toplu verilerini kullanmadan önce yeniden yayımlama haklarını doğrulayın.
+
+**Güvenlik:** Bir piyasa adının aramaya eşlenmesi ilacın uygunluğu hakkında yorum değildir. Yanlış yazım önerileri kullanıcı seçmeden uygulanmaz. İlaç sınıfları, o sınıfta olan bütün etken maddelere klinik doğrulama olmadan otomatik genişletilmez.
