@@ -300,14 +300,37 @@ document.addEventListener("keydown", function(event) {
 });
 window.addEventListener("hashchange", openHash);
 
-Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/clinical_aliases.json"].map(function(url) {
+Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/clinical_aliases.json", "./data/titck_time_brands.json"].map(function(url) {
   return fetch(url, {cache:"no-cache"}).then(function(response) {
     if (!response.ok) throw new Error("HTTP " + response.status);
     return response.json();
   });
 })).then(function(files) {
     const data = files[0];
-    state.aliases = TimeSearch.aliasIndex(files[1].dictionary || []);
+    // TİTCK is authoritative for the public-facing brand list. Existing
+    // manual aliases are retained only for international/generic synonyms.
+    const seed = new Map((files[1].dictionary || []).map(function(entry) {
+      return [TimeSearch.norm(entry.ingredient), entry];
+    }));
+    const scopedDrugs = (files[3].entries || []).map(function(entry) {
+      const earlier = seed.get(TimeSearch.norm(entry.ingredient));
+      return {
+        ingredient: entry.ingredient,
+        synonyms: earlier ? earlier.synonyms || [] : [],
+        brands: entry.brands || [],
+        brandSource: files[3].sourceUrl,
+        productCount: entry.productCount || 0
+      };
+    });
+    // Preserve explicitly named TIME ingredients with no unsuspended
+    // single-ingredient TİTCK product (but do not invent any brand).
+    const covered = new Set(scopedDrugs.map(function(x) { return TimeSearch.norm(x.ingredient); }));
+    for (const entry of files[1].dictionary || []) {
+      if (!covered.has(TimeSearch.norm(entry.ingredient))) {
+        scopedDrugs.push({ ingredient: entry.ingredient, synonyms: entry.synonyms || [], brands: [] });
+      }
+    }
+    state.aliases = TimeSearch.aliasIndex(scopedDrugs);
     state.clinicalGroups = files[2].groups || [];
     state.clinicalIndex = TimeSearch.conditionIndex(state.clinicalGroups);
     if (!Array.isArray(data.criteria)) throw new Error("Invalid criteria file");
