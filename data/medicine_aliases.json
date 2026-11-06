@@ -1,0 +1,436 @@
+{
+  "version": "2026-11-06",
+  "status": "initial-curated-not-exhaustive",
+  "description": "TIME kriterlerinin metninde geçen seçili etken maddeler ve sınırlı sayıda, kaynak üzerinden doğrulanmış Türkiye piyasa adı. Kapsam genişletilmeye uygundur.",
+  "dictionary": [
+    {
+      "ingredient": "apiksaban",
+      "synonyms": [
+        "apixaban"
+      ],
+      "brands": [
+        "Eliquis",
+        "Apaclot",
+        "Apelto",
+        "Apivora",
+        "Apixelis",
+        "Apixenta",
+        "Equtraban"
+      ],
+      "brandSource": "https://ilacabak.com/etkengoster.php?Id=1646"
+    },
+    {
+      "ingredient": "rivaroksaban",
+      "synonyms": [
+        "rivaroxaban"
+      ],
+      "brands": [
+        "Xarelto"
+      ],
+      "brandSource": "https://www.ilacabak.com/etkengoster.php?Id=B01AX06"
+    },
+    {
+      "ingredient": "dabigatran",
+      "synonyms": [],
+      "brands": [
+        "Pradaxa"
+      ],
+      "brandSource": "https://www.ilacabak.com/etkengoster.php?Id=B01AE07"
+    },
+    {
+      "ingredient": "edoksaban",
+      "synonyms": [
+        "edoxaban"
+      ],
+      "brands": [
+        "Lixiana"
+      ],
+      "brandSource": "https://www.ilacabak.com/lixiana-30-mg-28-film-kapli-tablet-18910"
+    },
+    {
+      "ingredient": "metformin",
+      "synonyms": [],
+      "brands": [
+        "Glifor",
+        "Glifor SR",
+        "Diaformin",
+        "Matofin",
+        "Glucotard",
+        "Gluforce",
+        "Glukofen",
+        "Insufor",
+        "Diormin"
+      ],
+      "brandSource": "https://www.ilacabak.com/etkengoster.php?Id=A10BA02"
+    },
+    {
+      "ingredient": "aspirin",
+      "synonyms": [
+        "asetilsalisilik asit",
+        "acetylsalicylic acid",
+        "asa"
+      ],
+      "brands": [
+        "Ecopirin",
+        "Ecopirin Pro",
+        "Coraspin"
+      ],
+      "brandSource": "https://www.ilacabak.com/etkengoster.php?Id=N02BA01"
+    },
+    {
+      "ingredient": "klopidogrel",
+      "synonyms": [
+        "clopidogrel"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "digoksin",
+      "synonyms": [
+        "digoxin"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "varfarin",
+      "synonyms": [
+        "warfarin"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "glibenklamid",
+      "synonyms": [
+        "glibenclamide",
+        "glyburide"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "bisoprolol",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "metoprolol",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "karvedilol",
+      "synonyms": [
+        "carvedilol"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "nebivolol",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "verapamil",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "diltiazem",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "amiodaron",
+      "synonyms": [
+        "amiodarone"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "valsartan",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "spironolakton",
+      "synonyms": [
+        "spironolactone"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "eplerenon",
+      "synonyms": [
+        "eplerenone"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "paroksetin",
+      "synonyms": [
+        "paroxetine"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "sitalopram",
+      "synonyms": [
+        "citalopram"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "essitalopram",
+      "synonyms": [
+        "escitalopram"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "sertralin",
+      "synonyms": [
+        "sertraline"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "fluoksetin",
+      "synonyms": [
+        "fluoxetine"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "venlafaksin",
+      "synonyms": [
+        "venlafaxine"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "mirtazapin",
+      "synonyms": [
+        "mirtazapine"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "duloksetin",
+      "synonyms": [
+        "duloxetine"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "olanzapin",
+      "synonyms": [
+        "olanzapine"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "ketiapin",
+      "synonyms": [
+        "quetiapine",
+        "quetiapin"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "haloperidol",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "tramadol",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "parasetamol",
+      "synonyms": [
+        "paracetamol",
+        "acetaminophen"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "gabapentin",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "pregabalin",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "memantin",
+      "synonyms": [
+        "memantine"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "levodopa",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "lorazepam",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "klonazepam",
+      "synonyms": [
+        "clonazepam"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "donepezil",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "rivastigmin",
+      "synonyms": [
+        "rivastigmine"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "ibuprofen",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "naproksen",
+      "synonyms": [
+        "naproxen"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "denosumab",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "alendronat",
+      "synonyms": [
+        "alendronate"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "kolekalsiferol",
+      "synonyms": [
+        "cholecalciferol",
+        "vitamin d3"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "allopurinol",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "kolşisin",
+      "synonyms": [
+        "colchicine",
+        "colchicin"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "mirabegron",
+      "synonyms": [],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "solifenasin",
+      "synonyms": [
+        "solifenacin"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "oksibutinin",
+      "synonyms": [
+        "oxybutynin"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "tiotropium",
+      "synonyms": [
+        "tiotropium bromide"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "omeprazol",
+      "synonyms": [
+        "omeprazole"
+      ],
+      "brands": [],
+      "brandSource": null
+    },
+    {
+      "ingredient": "insülin",
+      "synonyms": [
+        "insulin"
+      ],
+      "brands": [],
+      "brandSource": null
+    }
+  ]
+}
