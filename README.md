@@ -42,7 +42,8 @@ https://denizseyithanoglu.github.io/timecriteria_aramamotoru/
 - `styles.css`: Görünüm ve mobil düzen
 - `app.js`: İstemci tarafında arama, filtreleme ve etkileşim
 - `data/criteria.json`: Ayrıştırılmış kriter metinleri, notlar, referanslar ve kaynak sayfalar
-- `data/medicine_aliases.json`: **Kapsamlı olmayan başlangıç sözlüğü**; 54 etken madde, 42 alternatif ad ve 40 doğrulanmış piyasa adı (6 Kasım 2026 itibarıyla)
+- `data/medicine_aliases.json`: İngilizce/Türkçe etken madde eşanlamları (ilk sürümden korunur); piyasa adları için resmi kaynak yerine geçmez
+- `data/titck_time_brands.json`: **TİTCK listesi ile TIME 2024 kriter metinlerinin kesişimi**: 148 etken madde, 1.235 tekilleştirilmiş piyasa adı; 442 kombinasyon ürün satırı kapsam dışı bırakıldı.
 - `search-helpers.js`: İlaç adı eşleştirme ve yazım önerisi motoru
 - `ilac-sozlugu.html`, `directory.js`: Sözlüğü inceleme sayfas
 
@@ -58,10 +59,21 @@ Kaynak belgelerin kullanım ve yeniden yayımlama hakları ayrıca değerlendiri
 
 Hasta verileri, kimlik bilgileri veya hasta kayıtları bu depoya eklenmemelidir.
 
-## İlaç isimleri sözlüğünün kapsamı ve güncellenmesi
+## TİTCK kaynaklı ilaç sözlüğü: kapsam ve provenance
 
-Bu aşamada sözlük **bütün etken maddeleri veya bütün Türkiye piyasa isimlerini kapsamaz**. Piyasa isimleri yalnızca doğrulanmış kaynaklar eşliğinde eklenmiştir. İlaçabak ile eşleştirmelerden seçilmiş kayıtlar kontrol edilmiştir, veritabanının tamamı kopyalanmamıştır.
+**Kaynak:** [TİTCK Ruhsatlı Beşeri Tıbbi Ürünler Listesi](https://www.titck.gov.tr/dinamikmodul/85).
 
-Kapsamı genişletmek için [TİTCK'nin güncel ruhsatlı beşeri tıbbi ürünler listesi](https://www.titck.gov.tr/dinamikmodul/85) temel alınmalı; ürün/etken madde ve kombinasyonlar ayrıştırılmalı, TIME PDF'lerinde açıkça anılan etken maddelerle ve uygunluğuna klinisyen tarafından karar verilen ilaç sınıflarıyla ilişkilendirilmeli; her değişiklik kaynak ve tarih ile kaydedilmelidir. Resmi listeye kayıtlı olmak eczanede bulunabilirlik garantisi vermez. Üçüncü taraf sitelerin toplu verilerini kullanmadan önce yeniden yayımlama haklarını doğrulayın.
+Proje sahibi tarafından sağlanan `RuhsatlBeeriTbbirnlerListesi06.11.2026_...xlsx` dosyasının “RUHSATLI ÜRÜNLER LİSTESİ” çalışma sayfası taranarak oluşturuldu. **Dosyanın adı** 6 Kasım 2026 tarihini taşısa da TİTCK'nin web sayfasında görülen en son resmi liste yayım tarihi **30 Ekim 2026** olduğundan bu adın resmi yayımlanma tarihi olduğu iddia edilmemektedir.
 
-**Güvenlik:** Bir piyasa adının aramaya eşlenmesi ilacın uygunluğu hakkında yorum değildir. Yanlış yazım önerileri kullanıcı seçmeden uygulanmaz. İlaç sınıfları, o sınıfta olan bütün etken maddelere klinik doğrulama olmadan otomatik genişletilmez.
+- TIME-to-START ve TIME-to-STOP kriter açıklamalarında açıkça adı geçen etken madde isimleriyle eşleştirildi.
+- TİTCK dosyasında **“ruhsatı askıda olmayan ürün: 0”** olarak işaretlenmiş satırlar filtrelendi.
+- Birden fazla etken madde içeren **442 ürün satırı** otomatik eşleştirmeden çıkarıldı. Tek bileşenli ürünler için farklı doz/ambalaj satırları aynı ticari isim altında birleştirildi.
+- Sonuç: **148 ilaç girdisi ve 1.235 piyasa adı** (`data/titck_time_brands.json`).
+- Metinde yalnızca ilaç **sınıfı** olarak anılan üyeler (örn. tüm statinler) sınıf adı üzerinden topluca eklenmedi. Bu tür klinik genişletme ayrıca incelenmelidir.
+- 54 girdilik ilk sözlükten İngilizce adlar ve yazım varyantları alındı. Piyasa adı aramasının güncel esas veri kaynağı artık **TİTCK ile eşleştirilmiş dosyadır**.
+- Bu otomatik aktarım **provisional** durumundadır; ticari ad ayrıştırma hataları bulunabilir ve klinisyen tarafından kontrol edilmelidir. TİTCK listesinde bulunmak, ürünün eczanelerde satıldığını veya bulunabildiğini garanti etmez.
+- Orijinal 23 binden fazla satırlık Excel listesi GitHub deposuna yüklenmedi. Yalnızca TIME kapsamındaki süzülmüş isimler yayımlandı.
+
+Bu yaklaşım kaynak gösterimini sağlar; **kaynağın kamuya açık olması bütün verilerin serbest lisanslı olduğu anlamına gelmez**. Yeniden kullanım / veri tabanı hakları açısından gerekli izinlerin ayrıca değerlendirilmesi önerilir. Veriler kişisel hasta bilgisi içermez.
+
+**Klinik güvenlik:** Bir marka adıyla eşleşme tedavinin uygun olduğunu göstermez. Birden fazla etken maddeli ürünler yanlış sınıflandırılmaması için kapsam dışı bırakılmıştır. Yanlış yazım önerileri kullanıcı onayı olmadan otomatik uygulanmaz.
