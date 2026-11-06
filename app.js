@@ -1,7 +1,7 @@
 "use strict";
 
 /* Static, private-by-design search: all filtering happens in the user's browser. */
-const state = { criteria: [], query: "", type: "ALL", category: "ALL", sort: "source", visible: 12 };
+const state = { criteria: [], query: "", resolvedQuery: "", type: "ALL", category: "ALL", sort: "source", visible: 12, aliases: [], candidates: [], matchedAlias: null };
 const elements = {
   query: document.querySelector("#query"),
   clear: document.querySelector("#clear-query"),
@@ -11,7 +11,9 @@ const elements = {
   results: document.querySelector("#results"),
   count: document.querySelector("#result-count"),
   showMore: document.querySelector("#show-more"),
-  remaining: document.querySelector("#remaining")
+  remaining: document.querySelector("#remaining"),
+  suggestions: document.querySelector("#suggestions"),
+  matchNote: document.querySelector("#match-note")
 };
 
 const entityMap = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
@@ -61,7 +63,7 @@ function rank(row, tokens) {
   }, 0);
 }
 function filteredRows() {
-  const tokens = normalize(state.query).split(/\s+/).filter(Boolean);
+  const tokens = state.resolvedQuery.split(/\s+/).filter(Boolean);
   const rows = state.criteria.filter(function(row) {
     if (state.type !== "ALL" && row.type !== state.type) return false;
     if (state.category !== "ALL" && row.category !== state.category) return false;
@@ -106,9 +108,52 @@ function cardHTML(row) {
     '</div></article>'
   ].join("");
 }
+
+function renderHints(rows) {
+  const query = state.query.trim();
+  const suggestions = TimeSearch.suggest(query, rows.length > 0, state.candidates);
+  if (state.matchedAlias && rows.length) {
+    const match = state.matchedAlias;
+    elements.matchNote.hidden = false;
+    elements.matchNote.innerHTML = '<strong>' + (match.kind === "brand" ? "Piyasa adı" : "İlaç adı") +
+      ' eşleşmesi:</strong> ' + escapeHTML(match.label) + ' → <strong>' +
+      escapeHTML(match.ingredient) + '</strong> · Kriter metnine göre arandı.';
+  } else if (!rows.length && query.length >= 4 && suggestions.length) {
+    elements.matchNote.hidden = false;
+    elements.matchNote.innerHTML = '<strong>Şunu mu demek istediniz?</strong> ' +
+      suggestions.slice(0, 3).map(function(x) {
+        return '<button type="button" class="did-you-mean" data-suggestion="' +
+          escapeHTML(x.query) + '">' + escapeHTML(x.label) + '</button>';
+      }).join(" ");
+  } else {
+    elements.matchNote.hidden = true;
+    elements.matchNote.replaceChildren();
+  }
+  if (suggestions.length && query) {
+    elements.suggestions.hidden = false;
+    elements.suggestions.innerHTML =
+      '<div class="suggestions-caption">' + (rows.length ? "ARAMA ÖNERİLERİ" : "BUNLARI MI ARADINIZ?") + '</div>' +
+      suggestions.map(function(x) {
+        return '<button type="button" role="option" class="suggestion-option" data-suggestion="' +
+          escapeHTML(x.query) + '"><strong>' + escapeHTML(x.label) +
+          '</strong><small>' + escapeHTML(x.explanation) + '</small></button>';
+      }).join("");
+  } else {
+    elements.suggestions.hidden = true;
+    elements.suggestions.replaceChildren();
+  }
+}
+function chooseSuggestion(event) {
+  const choice = event.target.closest("[data-suggestion]");
+  if (!choice) return;
+  searchBy(choice.dataset.suggestion);
+  elements.suggestions.hidden = true;
+  elements.query.focus();
+}
 function render() {
   const all = filteredRows();
   const subset = all.slice(0, state.visible);
+  renderHints(all);
   document.querySelectorAll("[data-type]").forEach(function(button) {
     const active = button.dataset.type === state.type;
     button.classList.toggle("active", active);
@@ -129,6 +174,9 @@ function render() {
 }
 function searchBy(term) {
   state.query = term;
+  const resolution = TimeSearch.resolve(term, state.aliases);
+  state.resolvedQuery = resolution.text;
+  state.matchedAlias = resolution.matched;
   state.visible = 12;
   elements.query.value = term;
   if (term.trim()) {
@@ -195,6 +243,8 @@ elements.categories.addEventListener("change", function() {
 elements.sort.addEventListener("change", function() {
   state.sort = elements.sort.value; state.visible = 12; render();
 });
+elements.suggestions.addEventListener("click", chooseSuggestion);
+elements.matchNote.addEventListener("click", chooseSuggestion);
 elements.showMore.addEventListener("click", function() {
   state.visible += 12; render();
 });
@@ -221,9 +271,14 @@ document.addEventListener("keydown", function(event) {
 });
 window.addEventListener("hashchange", openHash);
 
-fetch("./data/criteria.json", { cache: "no-cache" })
-  .then(function(response) { if (!response.ok) throw new Error("HTTP " + response.status); return response.json(); })
-  .then(function(data) {
+Promise.all(["./data/criteria.json", "./data/medicine_aliases.json"].map(function(url) {
+  return fetch(url, {cache:"no-cache"}).then(function(response) {
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    return response.json();
+  });
+})).then(function(files) {
+    const data = files[0];
+    state.aliases = TimeSearch.aliasIndex(files[1].dictionary || []);
     if (!Array.isArray(data.criteria)) throw new Error("Invalid criteria file");
     state.criteria = data.criteria.map(function(row, i) {
       return Object.assign({}, row, {
@@ -234,6 +289,7 @@ fetch("./data/criteria.json", { cache: "no-cache" })
     document.querySelector("#count-all").textContent = state.criteria.length;
     document.querySelector("#count-stop").textContent = state.criteria.filter(function(r) { return r.type === "STOP"; }).length;
     document.querySelector("#count-start").textContent = state.criteria.filter(function(r) { return r.type === "START"; }).length;
+    state.candidates = TimeSearch.makeCandidates(state.aliases, state.criteria);
     updateCategories(); render(); openHash();
   })
   .catch(function(error) {
