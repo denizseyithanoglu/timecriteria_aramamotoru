@@ -1,7 +1,7 @@
 "use strict";
 
 /* Static, private-by-design search: all filtering happens in the user's browser. */
-const state = { criteria: [], query: "", resolvedQuery: "", type: "ALL", category: "ALL", sort: "source", visible: 12, aliases: [], candidates: [], matchedAlias: null };
+const state = { criteria: [], query: "", resolvedQuery: "", type: "ALL", category: "ALL", sort: "source", visible: 12, aliases: [], candidates: [], matchedAlias: null, clinicalGroups: [], clinicalIndex: [], matchedCondition: null };
 const elements = {
   query: document.querySelector("#query"),
   clear: document.querySelector("#clear-query"),
@@ -55,6 +55,7 @@ function rank(row, tokens) {
   const notes = normalize(row.notes.join(" "));
   return tokens.reduce(function(score, token) {
     if (code === token || code.endsWith("-" + token)) return score + 100;
+    if (token.startsWith("~")) return score + 24;
     if (code.includes(token)) return score + 35;
     if (body.startsWith(token)) return score + 18;
     if (body.includes(token)) return score + 9;
@@ -67,7 +68,10 @@ function filteredRows() {
   const rows = state.criteria.filter(function(row) {
     if (state.type !== "ALL" && row.type !== state.type) return false;
     if (state.category !== "ALL" && row.category !== state.category) return false;
-    return tokens.every(function(t) { return row._index.includes(t); });
+    return tokens.every(function(t) {
+      if (t.startsWith("~")) return row._conditions.includes(t.slice(1));
+      return TimeSearch.termMatches(row._index,t);
+    });
   });
   if (state.sort === "relevance" && tokens.length) {
     rows.sort(function(a, b) { return rank(b, tokens) - rank(a, tokens) || a._order - b._order; });
@@ -111,8 +115,31 @@ function cardHTML(row) {
 
 function renderHints(rows) {
   const query = state.query.trim();
-  const suggestions = TimeSearch.suggest(query, rows.length > 0, state.candidates);
-  if (state.matchedAlias && rows.length) {
+  const medicationSuggestions = TimeSearch.suggest(query, rows.length > 0, state.candidates);
+  const diseaseSuggestions = TimeSearch.clinicalSuggestions(query, rows.length > 0, state.clinicalIndex);
+  const suggestions = [], seen = new Set();
+  for (const item of [...diseaseSuggestions, ...medicationSuggestions]) {
+    const key = TimeSearch.norm(item.query);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    suggestions.push(item);
+    if (suggestions.length >= 5) break;
+  }
+  if (state.matchedCondition && rows.length) {
+    const match = state.matchedCondition;
+    elements.matchNote.hidden = false;
+    const special = match.kind === "related"
+      ? '<br><strong>Alt tanı uyarısı:</strong> ' + escapeHTML(match.note)
+      : '';
+    elements.matchNote.innerHTML = '<strong>Tanı / kısaltma eşleşmesi:</strong> ' +
+      escapeHTML(match.label) + ' → <strong>' + escapeHTML(match.canonical) +
+      '</strong>.' + special;
+    if (state.matchedAlias) {
+      elements.matchNote.innerHTML += '<br><strong>İlaç adı:</strong> ' +
+        escapeHTML(state.matchedAlias.label) + ' → ' +
+        escapeHTML(state.matchedAlias.ingredient);
+    }
+  } else if (state.matchedAlias && rows.length) {
     const match = state.matchedAlias;
     elements.matchNote.hidden = false;
     elements.matchNote.innerHTML = '<strong>' + (match.kind === "brand" ? "Piyasa adı" : "İlaç adı") +
@@ -175,8 +202,10 @@ function render() {
 function searchBy(term) {
   state.query = term;
   const resolution = TimeSearch.resolve(term, state.aliases);
-  state.resolvedQuery = resolution.text;
+  const conditionResolution = TimeSearch.resolveConditions(resolution.text, state.clinicalIndex);
+  state.resolvedQuery = conditionResolution.text;
   state.matchedAlias = resolution.matched;
+  state.matchedCondition = conditionResolution.matched;
   state.visible = 12;
   elements.query.value = term;
   if (term.trim()) {
@@ -271,7 +300,7 @@ document.addEventListener("keydown", function(event) {
 });
 window.addEventListener("hashchange", openHash);
 
-Promise.all(["./data/criteria.json", "./data/medicine_aliases.json"].map(function(url) {
+Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/clinical_aliases.json"].map(function(url) {
   return fetch(url, {cache:"no-cache"}).then(function(response) {
     if (!response.ok) throw new Error("HTTP " + response.status);
     return response.json();
@@ -279,11 +308,14 @@ Promise.all(["./data/criteria.json", "./data/medicine_aliases.json"].map(functio
 })).then(function(files) {
     const data = files[0];
     state.aliases = TimeSearch.aliasIndex(files[1].dictionary || []);
+    state.clinicalGroups = files[2].groups || [];
+    state.clinicalIndex = TimeSearch.conditionIndex(state.clinicalGroups);
     if (!Array.isArray(data.criteria)) throw new Error("Invalid criteria file");
     state.criteria = data.criteria.map(function(row, i) {
       return Object.assign({}, row, {
         _order: i,
-        _index: normalize([row.id, row.code, row.category, row.text].concat(row.notes || []).join(" "))
+        _index: normalize([row.id, row.code, row.category, row.text].concat(row.notes || []).join(" ")),
+        _conditions: TimeSearch.conditionGroupsFor(row, state.clinicalGroups)
       });
     });
     document.querySelector("#count-all").textContent = state.criteria.length;
