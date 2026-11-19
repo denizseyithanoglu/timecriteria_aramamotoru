@@ -120,3 +120,25 @@ TİTCK'nin proje sahibi tarafından sağlanan 6 Kasım 2026 isimli XLSX dosyası
 Eşleştirme sadece kriter bulmaya yarar; `START-A10` tedavi endikasyonundaki kalp yetersizliği ve ferritin/transferrin saturasyonu koşullarının ayrı değerlendirilmesi zorunludur.
 
 **Test:** `node tests/search-smoke.cjs` komutu 25 klinik/ilaç sorgusunu ve 15 güvenlik veya filtre kontrolünü çalıştırır. Bu testler otomatik metin ve sınıf eşleştirmesini kontrol eder, klinik içerik doğrulamasının yerine geçmez.
+
+
+## TIME resmî site kimliği ve tanıtım bölümü (20 Kasım 2026)
+
+Ana sayfanın **arama motoru ve kriter sonuçlarının altında** bulunan yeni bölümde aşağıdaki içerikler yer alır:
+
+- TIME Criteria hakkında Türkçe proje özeti ve bağımsız arama aracı açıklaması;
+- Resmî [TIME Criteria](https://timecriteria.com/) sitesi, [Hakkımızda](https://timecriteria.com/about-us.html), [TIME-to-START](https://timecriteria.com/time-to-start.html), [TIME-to-STOP](https://timecriteria.com/time-to-stop.html) ve [yenilikler](https://timecriteria.com/what-is-new.html) bağlantıları;
+- Resmî sitede listelenen Türkçe START/STOP PDF'leri, [App Store](https://apps.apple.com/tr/app/time-criteria/id1560761256) ve [Google Play](https://play.google.com/store/apps/details?id=com.timecriteria_app) bağlantıları;
+- TIME'ın resmî sitesinde listelenen altı akademisyenin resimleri, kurum bilgileri ve kendi resmî profil bağlantıları;
+- Ulusal/uluslararası çalışma gruplarını tanıtan dört fotoğraf ve resmî PDF çalışma grubu listeleri;
+- İletişim ve doğrulanmış resmî sosyal hesap bağlantıları.
+
+Kırmızı, beyaz ve koyu yazı tonlarından oluşan **TIME uygulama kimliğinden esinlenen** arayüz; START'ın yeşil, STOP'ın kırmızı klinik ayrımını korur. Bu bir resmî TIME sitesi kopyası değildir. Orijinal siteden bağlantıyla gösterilen fotoğrafların orijinal kaynağı yeniden düzenlenirse `time-media.js` alternatif dosya konumlarını dener ve gerektiğinde nötr yedek simge kullanır. Görsellerin hakları kaynak siteye aittir. Fotoğrafların yüklenmesi tarayıcı/üçüncü taraf erişimine bağlıdır.
+
+Resmî site **Kasım 2025 güncellemesi** belirtiyor; bu arama motorunun veri seti ise kullanıcı tarafından sağlanan **2024 TIME PDF metinleriyle** sınırlıdır. Bu sürüm ayrımı sitede açıkça belirtilmiştir.
+
+## Kapsamlı TIME terim bankası
+
+`data/time_vocabulary.json`, 190 TIME kriteri üzerinden oluşturulan sınırlı ve denetlenebilir kaynak indeksidir. Sadece kriter metninde açıkça adı geçen etken maddeler ve yine kriterde anılan ilaç sınıflarının seçilmiş üyeleri tutulur. Etken madde, piyasa adı, sinonim, ilaç grubu, hastalık/tanı, kısaltma, kriter ID ve organ sistemi ilişkileri ayrı alanlarla izlenir. Güncel veriler: **225 etken madde girdisi, 34 ilaç sınıfı, 56 klinik konu ve 73 PDF kaynak kısaltması**. Terim bankası veri çıkartma temelli olduğu için, özellikle belirsiz kısaltmalar ve sınıf üyelikleri klinik değerlendirmeye tabidir.
+
+**Arama önceliği**: Doğrudan TIME kriter metni; ardından klinik tanı/kısaltma; ilaç etken maddesi ve marka; ilaç sınıfı. Bir organ sistemi seçtikten sonra arama kutusuna yeni bir terim girilmesi önceki filtreleri temizler. Tetanoz, aşı başlığına bağlanır ve tek başına T-VAC ile Td otomatik eşdeğer kabul edilmez. Levotiroksin ise TIME STOP-G13'teki **tiroid hormonu** ifadesiyle eşleşir; bu, tüm levotiroksin kullanımlarının uygunsuz olduğu anlamına gelmez.
