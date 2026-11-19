@@ -70,7 +70,12 @@ const cases=[
  ["İNFERJECT","START-A10"],["Inferject 500 mg","START-A10"],
  ["Ferapplic","START-A10"],["Ferdepo","START-A10"],
  ["Venofer","START-A10"],["Sukrofer","START-A10"],
- ["IV demir","START-A10"],["oral demir","STOP-C6"]
+ ["IV demir","START-A10"],["oral demir","STOP-C6"],
+ ["tetano","START-I4"],["tetanoz","START-I4"],["tetanoz aşısı","START-I4"],
+ ["influenza","START-I1"],["pnömokok","START-I2"],["RSV","START-I7"],
+ ["levotiroksin","STOP-G13"],["levothyroxine","STOP-G13"],
+ ["Euthyrox","STOP-G13"],["Levotiron","STOP-G13"],["Tirosint","STOP-G13"],
+ ["Tiromel","STOP-G13"],["tiroid hormonu","STOP-G13"]
 ];
 for(const [query,expected] of cases){
  const result=search(query);
@@ -93,4 +98,15 @@ assert.ok(search("",{organ:"gastro",disease:"gord"}).ids.includes("START-C2"));
 assert.ok(search("",{organ:"vaccines",type:"STOP"}).ids.length===0);
 assert.equal(new Set(rows.flatMap(x=>x._organs)).size,organs.length,"All organ options should have criteria");
 assert.ok(rows.every(x=>x._organs.length),"Every TIME criterion is assigned to a main system");
-console.log("PASS: "+cases.length+" medication/clinical queries and 15 safety/organ checks.");
+assert.equal(search("tetanoz").medicine.ingredient,null,"Tetanoz is a clinical/vaccine term, not a drug active ingredient");
+assert.equal(search("T-VAC").ids.length,0,"Single tetanus toxoid must not silently stand in for Td vaccine");
+assert.ok(!search("Euthyrox").ids.includes("START-A10"),"Thyroid hormone must not match IV iron");
+const appSource=fs.readFileSync(path.join(root,"app.js"),"utf8");
+const mainSource=fs.readFileSync(path.join(root,"index.html"),"utf8");
+assert.ok(appSource.includes('state.organ="ALL";state.disease="ALL";state.category="ALL";state.type="ALL"'),"Typing a query must clear filters");
+assert.ok(appSource.includes("literalMatch(row,state.query)"),"Literal criterion text must be preserved");
+assert.ok(mainSource.indexOf('class="official-time"')>mainSource.indexOf('id="results"'),"TIME bio must follow results");
+assert.ok(mainSource.includes("timecriteria.com/about-us.html"),"Official about link must exist");
+assert.equal((mainSource.match(/class="time-person"/g)||[]).length,6);
+assert.equal((mainSource.match(/class="time-working-card"/g)||[]).length,4);
+console.log("PASS: "+cases.length+" medication/clinical queries and safety, organ, reset and editorial assertions.");
