@@ -283,6 +283,440 @@
       "criterionIds": [
         "STOP-G13"
       ]
+    },
+    {
+      "id": "sglt2",
+      "label": "SGLT2 inhibitörleri",
+      "terms": [
+        "sglt-2 inhibit*",
+        "sglt2 inhibit*",
+        "sodyum glukoz co-transporter",
+        "sodyum glukoz ko-transporter"
+      ],
+      "search": [
+        "SGLT2",
+        "SGLT-2",
+        "SGLT2 inhibitörü"
+      ],
+      "members": [
+        "kanagliflozin",
+        "dapagliflozin",
+        "empagliflozin",
+        "ertugliflozin"
+      ]
+    },
+    {
+      "id": "oac",
+      "label": "Oral antikoagülanlar",
+      "terms": [
+        "oak",
+        "oral antikoagülan*"
+      ],
+      "search": [
+        "OAK",
+        "oral antikoagülan",
+        "oral antikoagülanlar"
+      ],
+      "members": [
+        "varfarin",
+        "apiksaban",
+        "dabigatran",
+        "edoksaban",
+        "rivaroksaban"
+      ],
+      "note": "Oral antikoagülanlara ilişkin kriterler hasta/uygulama şartına göre farklılaşır."
+    },
+    {
+      "id": "vka",
+      "label": "Vitamin K antagonistleri",
+      "terms": [
+        "vitamin k antagonist*",
+        "vka"
+      ],
+      "search": [
+        "VKA",
+        "vitamin K antagonisti"
+      ],
+      "members": [
+        "varfarin"
+      ],
+      "note": "Vitamin K antagonisti yalnız DOAK ile eşdeğer sayılmaz."
+    },
+    {
+      "id": "doac",
+      "label": "Doğrudan etkili oral antikoagülanlar",
+      "terms": [
+        "direkt trombin inhibit*",
+        "faktor xa inhibit*",
+        "faktör xa inhibit*",
+        "doak",
+        "doac"
+      ],
+      "search": [
+        "DOAK",
+        "DOAC",
+        "direkt oral antikoagülan"
+      ],
+      "members": [
+        "apiksaban",
+        "rivaroksaban",
+        "dabigatran",
+        "edoksaban"
+      ],
+      "note": "İlaçların böbrek fonksiyonu ve etkileşim profili farklıdır."
+    },
+    {
+      "id": "antiplatelet",
+      "label": "Antiagreganlar",
+      "terms": [
+        "antiagregan*",
+        "antiplatelet*"
+      ],
+      "search": [
+        "antiagregan",
+        "antiagreganlar",
+        "antiplatelet"
+      ],
+      "members": [
+        "aspirin",
+        "klopidogrel",
+        "prasugrel",
+        "tikagrelor",
+        "tiklopidin",
+        "dipiridamol"
+      ]
+    },
+    {
+      "id": "benzodiazepine",
+      "label": "Benzodiazepinler",
+      "terms": [
+        "benzodiazepin*"
+      ],
+      "search": [
+        "benzodiazepin",
+        "benzodiazepinler",
+        "BZD"
+      ],
+      "members": [
+        "diazepam",
+        "lorazepam",
+        "alprazolam",
+        "klonazepam",
+        "oksazepam",
+        "midazolam"
+      ]
+    },
+    {
+      "id": "antipsychotic",
+      "label": "Antipsikotikler / nöroleptikler",
+      "terms": [
+        "antipsikotik*",
+        "nöroleptik*",
+        "nöroleptikler"
+      ],
+      "search": [
+        "antipsikotik",
+        "antipsikotikler",
+        "nöroleptik"
+      ],
+      "members": [
+        "ketiapin",
+        "olanzapin",
+        "risperidon",
+        "haloperidol",
+        "klorpromazin",
+        "klozapin",
+        "flufenazin"
+      ],
+      "note": "Örneğin STOP-B12'de ketiapin ve klozapin istisnası vardır; grup eşleşmesi otomatik uygunsuzluk anlamına gelmez."
+    },
+    {
+      "id": "opioid",
+      "label": "Opioidler",
+      "terms": [
+        "opioid*"
+      ],
+      "search": [
+        "opioid",
+        "opioidler",
+        "opioid analjezik"
+      ],
+      "members": [
+        "morfin",
+        "oksikodon",
+        "fentanil",
+        "buprenorfin",
+        "tramadol",
+        "petidin",
+        "metadon"
+      ],
+      "note": "Zayıf/güçlü opioid ve uygulama yolu ayrımları kriter metnine göre okunmalıdır."
+    },
+    {
+      "id": "muscarinic",
+      "label": "Antimuskarinikler / antikolinerjikler",
+      "terms": [
+        "antimuskarinik*",
+        "antikolinerjik*"
+      ],
+      "search": [
+        "antikolinerjik",
+        "antimuskarinik",
+        "antimuskarinikler"
+      ],
+      "members": [
+        "oksibutinin",
+        "solifenasin",
+        "fesoterodin",
+        "tolterodin",
+        "propiverin",
+        "trospiyum",
+        "hiyosin",
+        "ipratropium",
+        "tiotropium"
+      ],
+      "note": "Antikolinerjik yük ve uygulama yolu değişir; tüm üyeler tüm koşullarda eşdeğer değildir."
+    },
+    {
+      "id": "firstgen_h1",
+      "label": "Birinci kuşak antihistaminikler",
+      "terms": [
+        "birinci nesil antihistaminik*",
+        "1. jenerasyon antihistaminik*",
+        "h1 reseptör bloker*"
+      ],
+      "search": [
+        "birinci nesil antihistaminik",
+        "1. kuşak antihistaminik"
+      ],
+      "members": [
+        "feniramin",
+        "klorfeniramin",
+        "hidroksizin",
+        "difenhidramin",
+        "dimenhidrinat",
+        "siproheptadin"
+      ]
+    },
+    {
+      "id": "systemic_steroids",
+      "label": "Sistemik kortikosteroidler",
+      "terms": [
+        "sistemik kortikosteroid*",
+        "sistemik steroid*"
+      ],
+      "search": [
+        "sistemik kortikosteroid",
+        "sistemik steroid"
+      ],
+      "members": [
+        "prednizolon",
+        "metilprednizolon",
+        "prednizon",
+        "deksametazon"
+      ],
+      "note": "İnhaler ve topikal steroidler bu grupta değildir."
+    },
+    {
+      "id": "oral_iron",
+      "label": "Oral demir preparatları",
+      "terms": [
+        "oral demir"
+      ],
+      "search": [
+        "oral demir",
+        "ağızdan demir",
+        "demir tablet"
+      ],
+      "members": [],
+      "note": "Sadece oral preparatlara özgü kriter. IV demir eşleştirilmez."
+    },
+    {
+      "id": "thiazide",
+      "label": "Tiyazid ve tiyazid benzeri diüretikler",
+      "terms": [
+        "tiazid diüretik*",
+        "tiyazid diüretik*"
+      ],
+      "search": [
+        "tiazid",
+        "tiyazid",
+        "tiyazid diüretik"
+      ],
+      "members": [
+        "hidroklorotiazid",
+        "indapamid",
+        "klortalidon"
+      ]
+    },
+    {
+      "id": "alpha1",
+      "label": "Alfa-1 reseptör blokerleri",
+      "terms": [],
+      "criterionIds": [
+        "START-G1",
+        "START-G2",
+        "STOP-A9",
+        "STOP-A10"
+      ],
+      "search": [
+        "alfa-1 bloker",
+        "alfa 1 bloker",
+        "alfa-1 reseptör blokeri"
+      ],
+      "members": [
+        "tamsulosin",
+        "doksazosin",
+        "terazosin",
+        "silodosin",
+        "alfuzosin"
+      ],
+      "note": "Üroselektif ve nonselektif ajanların farkları ayrı değerlendirilmelidir."
+    },
+    {
+      "id": "nonuro_alpha1",
+      "label": "Üroselektif olmayan alfa-1 blokerler",
+      "terms": [],
+      "criterionIds": [
+        "STOP-F5"
+      ],
+      "search": [
+        "üroselektif olmayan alfa 1 bloker"
+      ],
+      "members": [
+        "doksazosin",
+        "terazosin"
+      ],
+      "note": "STOP-F5 yalnız üroselektif olmayan alfa-1 blokerlere özgüdür."
+    },
+    {
+      "id": "five_alpha",
+      "label": "5-alfa redüktaz inhibitörleri",
+      "terms": [
+        "5-alfa redüktaz inhibit*"
+      ],
+      "search": [
+        "5-alfa redüktaz inhibitörü",
+        "5ARI",
+        "5-ARI"
+      ],
+      "members": [
+        "finasterid",
+        "dutasterid"
+      ]
+    },
+    {
+      "id": "pde5",
+      "label": "Fosfodiesteraz tip 5 inhibitörleri",
+      "terms": [
+        "fosfodiesteraz tip-5 inhibit*",
+        "pde5 inhibit*"
+      ],
+      "search": [
+        "PDE5",
+        "PDE-5",
+        "fosfodiesteraz tip 5 inhibitörü"
+      ],
+      "members": [
+        "avanafil",
+        "sildenafil",
+        "tadalafil",
+        "vardenafil"
+      ]
+    },
+    {
+      "id": "tzd",
+      "label": "Tiazolidindionlar",
+      "terms": [
+        "tiazolidinedion*",
+        "tiazolidindion*"
+      ],
+      "search": [
+        "TZD",
+        "tiazolidindion",
+        "tiazolidinedion"
+      ],
+      "members": [
+        "pioglitazon",
+        "rosiglitazon"
+      ]
+    },
+    {
+      "id": "vitamin_d",
+      "label": "Konvansiyonel D vitamini preparatları",
+      "terms": [
+        "konvansiyonel vitamin d",
+        "vitamin d suplement*",
+        "vitamin d ‘idame’",
+        "vitamin d alımı"
+      ],
+      "search": [
+        "D vitamini",
+        "vitamin D",
+        "kolekalsiferol",
+        "vitamin D3"
+      ],
+      "members": [
+        "kolekalsiferol",
+        "ergokalsiferol"
+      ],
+      "note": "Aktif vitamin D analogları (kalsitriol vb.) ile konvansiyonel D vitamini otomatik eşdeğer değildir."
+    },
+    {
+      "id": "dmard",
+      "label": "Hastalık modifiye edici antiromatizmal ilaçlar",
+      "terms": [
+        "hastalığı modifiye edici tedavi"
+      ],
+      "search": [
+        "DMARD",
+        "DMARD'lar",
+        "hastalık modifiye edici tedavi"
+      ],
+      "members": [],
+      "note": "START-E6 bir ilaç grubu önerir, ancak tüm romatolojik ilaçların ürün adları otomatik eklenmez."
+    },
+    {
+      "id": "ons",
+      "label": "Oral nütrisyonel destekler (ONS)",
+      "terms": [
+        "oral nütrisyonel supleman*",
+        "oral nutrisyonel supleman*",
+        "ons"
+      ],
+      "search": [
+        "ONS",
+        "oral nütrisyonel supleman",
+        "oral beslenme desteği"
+      ],
+      "members": [],
+      "note": "Beslenme ürünleri ruhsatlı ilaç veritabanı ile birebir aynı türde değildir."
+    },
+    {
+      "id": "firstline_antihypertensive",
+      "label": "Antihipertansif tedavi (genel)",
+      "terms": [
+        "antihipertansif tedavi"
+      ],
+      "search": [
+        "antihipertansif",
+        "tansiyon ilacı"
+      ],
+      "members": [],
+      "note": "Genel tedavi grubudur. Tüm piyasa ürünleri doğrudan bu kritere bağlanmaz."
+    },
+    {
+      "id": "antibiotic",
+      "label": "Antibiyotikler (genel)",
+      "terms": [
+        "antibiyotik tedavisi",
+        "antibiyotik kullanımı"
+      ],
+      "search": [
+        "antibiyotik"
+      ],
+      "members": [],
+      "note": "Antibiyotik adları topluca eklenmez; kriterlerdeki klinik bağlam değerlendirilir."
     }
   ]
 }
