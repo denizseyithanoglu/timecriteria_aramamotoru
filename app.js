@@ -1,7 +1,7 @@
 "use strict";
 
 /* Static, private-by-design search: all filtering happens in the user's browser. */
-const state = { criteria: [], query: "", resolvedQuery: "", type: "ALL", category: "ALL", sort: "source", visible: 12, aliases: [], candidates: [], matchedAlias: null, clinicalGroups: [], clinicalIndex: [], matchedCondition: null };
+const state = { criteria: [], query: "", resolvedQuery: "", type: "ALL", category: "ALL", sort: "source", visible: 12, aliases: [], candidates: [], matchedAlias: null, clinicalGroups: [], clinicalIndex: [], matchedCondition: null, matchedClass: null, classGroups: [], selectedIngredient: null, activeDrugClassIds: [] };
 const elements = {
   query: document.querySelector("#query"),
   clear: document.querySelector("#clear-query"),
@@ -55,7 +55,7 @@ function rank(row, tokens) {
   const notes = normalize(row.notes.join(" "));
   return tokens.reduce(function(score, token) {
     if (code === token || code.endsWith("-" + token)) return score + 100;
-    if (token.startsWith("~")) return score + 24;
+    if (token.startsWith("~") || token.startsWith("^")) return score + 24;
     if (code.includes(token)) return score + 35;
     if (body.startsWith(token)) return score + 18;
     if (body.includes(token)) return score + 9;
@@ -70,7 +70,18 @@ function filteredRows() {
     if (state.category !== "ALL" && row.category !== state.category) return false;
     return tokens.every(function(t) {
       if (t.startsWith("~")) return row._conditions.includes(t.slice(1));
-      return TimeSearch.termMatches(row._index,t);
+      if (t.startsWith("^")) {
+        const group=t.slice(1);
+        return row._classes.includes(group) ||
+          ((group==="acei"||group==="arb") && row._classes.includes("ras"));
+      }
+      if (TimeSearch.termMatches(row._index,t)) return true;
+      // Brand -> ingredient -> pharmacological class is an additional
+      // match path, not a replacement for literal criterion matching.
+      if (state.selectedIngredient && t===TimeSearch.norm(state.selectedIngredient)) {
+        return state.activeDrugClassIds.some(id=>row._classes.includes(id));
+      }
+      return false;
     });
   });
   if (state.sort === "relevance" && tokens.length) {
@@ -86,6 +97,13 @@ function filteredRows() {
 }
 function cardHTML(row) {
   const typeClass = row.type === "STOP" ? "stop" : "start";
+  const matchedByClass = state.selectedIngredient &&
+    !TimeSearch.termMatches(row._index,TimeSearch.norm(state.selectedIngredient)) &&
+    state.activeDrugClassIds.filter(id=>row._classes.includes(id));
+  const classExplanation = matchedByClass && matchedByClass.length ?
+    '<p class="class-match-note">İlaç sınıfı eşleşmesi: ' +
+    escapeHTML(matchedByClass.map(id=>(state.classGroups.find(g=>g.id===id)||{}).label||id).join(", ")) +
+    ' · Kriterin klinik şartları ayrıca değerlendirilmelidir.</p>' : "";
   const notes = row.notes.length
     ? '<aside class="note-block"><p class="note-heading">Açıklama ve istisnalar</p><ul>' +
       row.notes.map(function(n) { return "<li>" + escapeHTML(n) + "</li>"; }).join("") +
@@ -104,6 +122,7 @@ function cardHTML(row) {
     '<span class="criterion-code">', escapeHTML(row.code), '</span></div>',
     '<span class="criterion-meta">', escapeHTML(row.category), ' · Kaynak PDF s. ', row.page, '</span></div>',
     '<p class="criterion-text">', escapeHTML(row.text), '</p>',
+    classExplanation,
     notes,
     '<div class="card-bottom">',
     references,
@@ -141,10 +160,28 @@ function renderHints(rows) {
     }
   } else if (state.matchedAlias && rows.length) {
     const match = state.matchedAlias;
+    const names = match.candidateBrands || [];
+    const isPartial = match.kind === "partial-brand";
+    const labels = state.activeDrugClassIds.filter(id=>id!=="ras")
+      .map(id=>(state.classGroups.find(g=>g.id===id)||{}).label||id);
     elements.matchNote.hidden = false;
-    elements.matchNote.innerHTML = '<strong>' + (match.kind === "brand" ? "Piyasa adı" : "İlaç adı") +
-      ' eşleşmesi:</strong> ' + escapeHTML(match.label) + ' → <strong>' +
-      escapeHTML(match.ingredient) + '</strong> · Kriter metnine göre arandı.';
+    elements.matchNote.innerHTML = '<strong>' +
+      (isPartial ? "Kısmi piyasa adı" : match.kind === "brand" ? "Piyasa adı" : "İlaç adı") +
+      ' eşleşmesi:</strong> ' + escapeHTML(match.label) +
+      (isPartial && names.length ? ' (' + escapeHTML(names.join(" / ")) + ')' : '') +
+      ' → <strong>' + escapeHTML(match.ingredient) + '</strong>' +
+      (labels.length ? ' · <strong>Grup:</strong> ' + escapeHTML(labels.join(", ")) : '') +
+      ' · Hem etken madde hem de ilgili ilaç sınıfının TIME kriterleri listelenir.';
+  } else if (state.selectedIngredient && rows.length && state.activeDrugClassIds.length) {
+    elements.matchNote.hidden = false;
+    elements.matchNote.innerHTML = '<strong>İlaç grubu:</strong> ' +
+      escapeHTML(state.activeDrugClassIds.filter(id=>id!=="ras").map(id=>
+        (state.classGroups.find(g=>g.id===id)||{}).label||id).join(", ")) +
+      ' · İlaç sınıfına ilişkin TIME kriterleri de gösterilir.';
+  } else if (state.matchedClass && rows.length) {
+    elements.matchNote.hidden = false;
+    elements.matchNote.innerHTML = '<strong>İlaç sınıfı:</strong> ' +
+      escapeHTML(state.matchedClass.label) + ' · İlgili TIME kriterleri listeleniyor.';
   } else if (!rows.length && query.length >= 4 && suggestions.length) {
     elements.matchNote.hidden = false;
     elements.matchNote.innerHTML = '<strong>Şunu mu demek istediniz?</strong> ' +
@@ -203,9 +240,13 @@ function searchBy(term) {
   state.query = term;
   const resolution = TimeSearch.resolve(term, state.aliases);
   const conditionResolution = TimeSearch.resolveConditions(resolution.text, state.clinicalIndex);
-  state.resolvedQuery = conditionResolution.text;
+  const classResolution = TimeSearch.resolveClassQuery(conditionResolution.text,state.classGroups);
+  state.resolvedQuery = classResolution.text;
   state.matchedAlias = resolution.matched;
   state.matchedCondition = conditionResolution.matched;
+  state.matchedClass = classResolution.matched;
+  state.selectedIngredient = resolution.ingredient;
+  state.activeDrugClassIds = TimeSearch.classesForIngredient(resolution.ingredient,state.classGroups);
   state.visible = 12;
   elements.query.value = term;
   if (term.trim()) {
@@ -300,7 +341,7 @@ document.addEventListener("keydown", function(event) {
 });
 window.addEventListener("hashchange", openHash);
 
-Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/clinical_aliases.json", "./data/titck_time_brands.json"].map(function(url) {
+Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/clinical_aliases.json", "./data/titck_time_brands.json", "./data/medicine_classes.json", "./data/class_member_brands.json"].map(function(url) {
   return fetch(url, {cache:"no-cache"}).then(function(response) {
     if (!response.ok) throw new Error("HTTP " + response.status);
     return response.json();
@@ -322,6 +363,35 @@ Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/cli
         productCount: entry.productCount || 0
       };
     });
+    const extraIngredients = files[5].entries || [];
+    const byIngredient = new Map(scopedDrugs.map(item=>[TimeSearch.norm(item.ingredient),item]));
+    for (const extra of extraIngredients) {
+      const key=TimeSearch.norm(extra.ingredient);
+      if (byIngredient.has(key)) {
+        const row=byIngredient.get(key);
+        const used = new Set(row.brands.map(TimeSearch.norm));
+        for (const brand of extra.brands || []) {
+          if (!used.has(TimeSearch.norm(brand))) {
+            row.brands.push(brand); used.add(TimeSearch.norm(brand));
+          }
+        }
+      } else {
+        const prev=seed.get(key);
+        const row={ingredient:extra.ingredient,brands:extra.brands||[],
+          synonyms:prev?prev.synonyms||[]:[],brandSource:files[5].sourceURL};
+        scopedDrugs.push(row); byIngredient.set(key,row);
+      }
+    }
+    // All further named members belong to a drug class explicitly present
+    // in the TIME criteria, even when no Turkish product is listed.
+    state.classGroups = files[4].classes || [];
+    for (const group of state.classGroups) for (const ingredient of group.members || []) {
+      const key=TimeSearch.norm(ingredient);
+      if (!byIngredient.has(key)) {
+        const row={ingredient,brands:[],synonyms:[],brandSource:null};
+        scopedDrugs.push(row);byIngredient.set(key,row);
+      }
+    }
     // Preserve explicitly named TIME ingredients with no unsuspended
     // single-ingredient TİTCK product (but do not invent any brand).
     const covered = new Set(scopedDrugs.map(function(x) { return TimeSearch.norm(x.ingredient); }));
@@ -338,7 +408,8 @@ Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/cli
       return Object.assign({}, row, {
         _order: i,
         _index: normalize([row.id, row.code, row.category, row.text].concat(row.notes || []).join(" ")),
-        _conditions: TimeSearch.conditionGroupsFor(row, state.clinicalGroups)
+        _conditions: TimeSearch.conditionGroupsFor(row, state.clinicalGroups),
+        _classes: TimeSearch.classesForCriterion(row, state.classGroups)
       });
     });
     document.querySelector("#count-all").textContent = state.criteria.length;
