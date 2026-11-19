@@ -1,0 +1,160 @@
+{
+  "version": "2026-11-20",
+  "note": "TIME PDF bölüm başlıklarının kullanıcı dostu organ ve klinik alanlara normalizasyonu. Kan ve anemi çapraz bölüm tematik indeksidir; diğerleri PDF bölümünden türetilir. Tıbbi uygunluk yorumu değildir.",
+  "systems": [
+    {
+      "id": "cardio",
+      "label": "Kalp ve damar",
+      "icon": "🫀",
+      "categories": [
+        "Kardiyovasküler sistem"
+      ],
+      "diseases": [
+        "ky",
+        "af",
+        "ht",
+        "kah",
+        "aks",
+        "mi",
+        "pah",
+        "dvt",
+        "gia"
+      ]
+    },
+    {
+      "id": "neuro",
+      "label": "Nöroloji ve psikiyatri",
+      "icon": "🧠",
+      "categories": [
+        "Santral sinir sistemi"
+      ],
+      "diseases": [
+        "demans",
+        "depresyon",
+        "parkinson",
+        "epilepsi"
+      ]
+    },
+    {
+      "id": "gastro",
+      "label": "Gastrointestinal",
+      "icon": "🩺",
+      "categories": [
+        "Gastrointestinal sistem"
+      ],
+      "diseases": [
+        "gord",
+        "konstipasyon",
+        "ulser"
+      ]
+    },
+    {
+      "id": "lung",
+      "label": "Solunum",
+      "icon": "🫁",
+      "categories": [
+        "Solunum sistemi"
+      ],
+      "diseases": [
+        "koah",
+        "astim"
+      ]
+    },
+    {
+      "id": "bones",
+      "label": "Kas-iskelet ve romatoloji",
+      "icon": "🦴",
+      "categories": [
+        "Kas-iskelet sistemi ve analjezikler"
+      ],
+      "diseases": [
+        "oa",
+        "ra",
+        "osteoporoz",
+        "gut"
+      ]
+    },
+    {
+      "id": "endocrine",
+      "label": "Endokrin ve metabolizma",
+      "icon": "⚕️",
+      "categories": [
+        "Endokrin sistem"
+      ],
+      "diseases": [
+        "dm",
+        "hipotiroidi"
+      ]
+    },
+    {
+      "id": "renal",
+      "label": "Böbrek",
+      "icon": "💧",
+      "categories": [
+        "Böbrek sistemi"
+      ],
+      "diseases": [
+        "kbh",
+        "nefropati"
+      ]
+    },
+    {
+      "id": "uro",
+      "label": "Ürogenital",
+      "icon": "◉",
+      "categories": [
+        "Ürogenital sistem"
+      ],
+      "diseases": [
+        "bph",
+        "inkontinans"
+      ]
+    },
+    {
+      "id": "blood",
+      "label": "Kan ve anemi",
+      "icon": "🩸",
+      "categories": [],
+      "criterionIds": [
+        "START-A10",
+        "START-H3",
+        "STOP-C6"
+      ],
+      "diseases": [
+        "anemi",
+        "demir_eksikligi"
+      ],
+      "note": "Farklı TIME bölümlerindeki demir ve anemi kriterlerinin tematik görünümü"
+    },
+    {
+      "id": "vaccines",
+      "label": "Aşılar",
+      "icon": "💉",
+      "categories": [
+        "Aşılar"
+      ],
+      "diseases": []
+    },
+    {
+      "id": "nutrition",
+      "label": "Beslenme ve suplemanlar",
+      "icon": "🌿",
+      "categories": [
+        "Beslenme ve suplemanlar",
+        "Suplemanlar"
+      ],
+      "diseases": [
+        "malnutrisyon"
+      ]
+    },
+    {
+      "id": "anticholinergic",
+      "label": "Antikolinerjik yük",
+      "icon": "⚖️",
+      "categories": [
+        "Antimuskarinik–antikolinerjik yük"
+      ],
+      "diseases": []
+    }
+  ]
+}
