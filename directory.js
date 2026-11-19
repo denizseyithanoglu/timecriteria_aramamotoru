@@ -36,7 +36,7 @@ Promise.all(["./data/medicine_aliases.json","./data/titck_time_brands.json",
   return target;
  }
  for(const r of official.entries||[])insert(r.ingredient,r.brands);
- for(const r of extra.entries||[])insert(r.ingredient,r.brands);
+ for(const r of extra.entries||[])insert(r.ingredient,r.brands,r.synonyms||[]);
  for(const r of seed.dictionary||[])insert(r.ingredient,[],r.synonyms);
  for(const g of classes.classes||[])for(const name of g.members||[]){
   const r=insert(name);
