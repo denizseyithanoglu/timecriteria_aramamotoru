@@ -188,3 +188,16 @@ body{background:var(--paper)}
 @media(max-width:480px){.time-resource-grid,.time-working-grid{grid-template-columns:1fr 1fr;gap:8px}.time-resource-card{padding:12px;min-height:143px}.time-resource-card strong{font-size:12px}.time-resource-card small{font-size:10px}.time-working-description{padding:10px;min-height:139px}.time-working-description strong{font-size:11px}.time-about-copy h2{font-size:31px}.time-team-header>span{font-size:10px}}
 
 .time-brand-icon{padding:0;overflow:hidden;background:#fff;border:1px solid #f0e6e9;border-radius:11px;letter-spacing:normal}.time-brand-icon img{display:block;width:100%;height:100%;object-fit:cover}
+
+
+.time-pdf-strip{display:flex;align-items:center;justify-content:space-between;gap:18px;background:#fff;border:1px solid #ece7e8;border-radius:12px;padding:17px 20px;margin-top:13px}
+.time-pdf-strip>div:first-child{display:flex;flex-direction:column;gap:3px;flex:1}
+.time-pdf-strip strong{font-size:12px;color:#302e31}
+.time-pdf-strip span{font-size:10.5px;color:#878187;line-height:1.55}
+.time-pdf-actions{display:flex;flex-wrap:wrap;gap:8px}
+.time-pdf-actions a{text-decoration:none;color:#ac2440;font-size:11px;font-weight:760;padding:8px 11px;border:1px solid #e8c8d0;border-radius:7px;white-space:nowrap}
+.time-pdf-actions a:hover{background:#fff2f4}
+.time-social-links{display:flex;flex-wrap:wrap;gap:16px;align-items:center;border-top:1px solid #eae6e8;padding:20px 0 0;margin-top:28px}
+.time-social-links a{font-size:11px;font-weight:740;color:#a6223e;text-decoration:none}
+.time-social-links a:hover{text-decoration:underline}
+@media(max-width:760px){.time-pdf-strip{align-items:start;flex-direction:column}.time-pdf-actions a{flex:1}}
