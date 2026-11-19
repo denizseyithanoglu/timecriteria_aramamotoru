@@ -1,0 +1,231 @@
+{
+  "version": "2026-11-20",
+  "source": [
+    "Kullanıcının TIME 2024 kriterleri",
+    "TİTCK Ruhsatlı Beşeri Tıbbi Ürünler Listesi 06.11.2026 kullanıcı yüklemesi",
+    "WHO ATC/DDD Index https://atcddd.fhi.no/atc_ddd_index/"
+  ],
+  "note": "Sadece TIME kriterlerinde ilaç grubu olarak anılan sınıfların seçilmiş bileşenleri; arama amaçlı bağlantı, reçete önerisi değildir. İlaç-kriter eşleşmesi klinik bağlam gerektirir.",
+  "rasIncludes": [
+    "acei",
+    "arb"
+  ],
+  "classes": [
+    {
+      "id": "acei",
+      "label": "ACE inhibitörleri",
+      "terms": [
+        "ace inhibit*",
+        "acei",
+        "ace-i",
+        "aceı",
+        "aceı",
+        "anjiyotensin dönüştürücü enzim inhibit*",
+        "anjiyotensin donusturucu enzim inhibit*",
+        "ade inhibit*"
+      ],
+      "search": [
+        "ACEİ",
+        "ACEI",
+        "ACE-I",
+        "ACE inhibitörü",
+        "ACE inhibitörleri",
+        "ADE inhibitörü",
+        "Anjiyotensin dönüştürücü enzim inhibitörü"
+      ],
+      "members": [
+        "ramipril",
+        "enalapril",
+        "perindopril",
+        "kaptopril",
+        "lisinopril",
+        "fosinopril",
+        "trandolapril",
+        "zofenopril",
+        "silazapril",
+        "imidapril",
+        "benazepril",
+        "moexipril"
+      ]
+    },
+    {
+      "id": "arb",
+      "label": "Anjiyotensin reseptör blokerleri (ARB)",
+      "terms": [
+        "arb",
+        "anjiyotensin reseptör blok*",
+        "anjiyotensin reseptor blok*",
+        "anjiyotensin ii reseptör blok*"
+      ],
+      "search": [
+        "ARB",
+        "anjiyotensin reseptör blokeri",
+        "anjiyotensin reseptör blokörü",
+        "sartanlar"
+      ],
+      "members": [
+        "valsartan",
+        "losartan",
+        "kandesartan",
+        "telmisartan",
+        "irbesartan",
+        "olmesartan",
+        "eprosartan",
+        "azilsartan"
+      ]
+    },
+    {
+      "id": "ras",
+      "label": "Renin-anjiyotensin sistemi blokerleri (RAS)",
+      "terms": [
+        "ras blok*",
+        "raas blok*"
+      ],
+      "search": [
+        "RAS blokeri",
+        "RAS blokerleri",
+        "RAAS blokeri"
+      ],
+      "members": []
+    },
+    {
+      "id": "snri",
+      "label": "SNRI (serotonin-noradrenalin geri alım inhibitörleri)",
+      "terms": [
+        "snri",
+        "snrı",
+        "serotonin noradrenalin geri alım inhibit*",
+        "serotonin norepinefrin geri alım inhibit*"
+      ],
+      "search": [
+        "SNRI",
+        "SNRİ",
+        "SNRI grubu"
+      ],
+      "members": [
+        "duloksetin",
+        "venlafaksin",
+        "desvenlafaksin"
+      ]
+    },
+    {
+      "id": "ssri",
+      "label": "SSRI (seçici serotonin geri alım inhibitörleri)",
+      "terms": [
+        "ssri",
+        "ssrı",
+        "selektif serotonin geri alım inhibit*",
+        "seçici serotonin geri alım inhibit*"
+      ],
+      "search": [
+        "SSRI",
+        "SSRİ",
+        "SSRI grubu"
+      ],
+      "members": [
+        "sertralin",
+        "essitalopram",
+        "sitalopram",
+        "fluoksetin",
+        "fluvoksamin",
+        "paroksetin"
+      ]
+    },
+    {
+      "id": "beta",
+      "label": "Beta-blokerler",
+      "terms": [
+        "beta-blok*",
+        "beta blok*",
+        "β-blok*",
+        "β blok*"
+      ],
+      "search": [
+        "beta-bloker",
+        "beta bloker",
+        "beta-blokerler"
+      ],
+      "members": [
+        "bisoprolol",
+        "metoprolol",
+        "nebivolol",
+        "karvedilol",
+        "propranolol",
+        "atenolol",
+        "sotalol",
+        "labetalol",
+        "esmolol"
+      ]
+    },
+    {
+      "id": "statin",
+      "label": "Statinler",
+      "terms": [
+        "statin*"
+      ],
+      "search": [
+        "statin",
+        "statinler"
+      ],
+      "members": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "pitavastatin",
+        "lovastatin"
+      ]
+    },
+    {
+      "id": "ppi",
+      "label": "Proton pompa inhibitörleri (PPİ)",
+      "terms": [
+        "ppi",
+        "proton pompa inhibit*",
+        "proton-pompa inhibit*"
+      ],
+      "search": [
+        "PPİ",
+        "PPI",
+        "proton pompa inhibitörü"
+      ],
+      "members": [
+        "omeprazol",
+        "esomeprazol",
+        "lansoprazol",
+        "dekslansoprazol",
+        "pantoprazol",
+        "rabeprazol",
+        "ilaprazol"
+      ]
+    },
+    {
+      "id": "nsaid",
+      "label": "NSAİİ (nonsteroid antiinflamatuvar ilaçlar)",
+      "terms": [
+        "nsaii",
+        "nsaİİ",
+        "nsaid",
+        "non-steroid antiinflamatu*",
+        "nonsteroid antiinflamatu*"
+      ],
+      "search": [
+        "NSAİİ",
+        "NSAID",
+        "nonsteroid antiinflamatuvar"
+      ],
+      "members": [
+        "ibuprofen",
+        "naproksen",
+        "diklofenak",
+        "ketoprofen",
+        "deksketoprofen",
+        "meloksikam",
+        "piroksikam",
+        "selekoksib",
+        "etorikoksib",
+        "indometasin"
+      ]
+    }
+  ]
+}
