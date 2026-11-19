@@ -134,7 +134,12 @@ function cardHTML(row) {
 
 function renderHints(rows) {
   const query = state.query.trim();
-  const medicationSuggestions = TimeSearch.suggest(query, rows.length > 0, state.candidates);
+  // A clinical abbreviation such as PAF must not suggest similarly
+  // spelled product names such as PAFESAN.
+  const pureClinicalQuery = state.matchedCondition &&
+    state.resolvedQuery === "~" + state.matchedCondition.id;
+  const medicationSuggestions = pureClinicalQuery ? [] :
+    TimeSearch.suggest(query, rows.length > 0, state.candidates);
   const diseaseSuggestions = TimeSearch.clinicalSuggestions(query, rows.length > 0, state.clinicalIndex);
   const suggestions = [], seen = new Set();
   for (const item of [...diseaseSuggestions, ...medicationSuggestions]) {
