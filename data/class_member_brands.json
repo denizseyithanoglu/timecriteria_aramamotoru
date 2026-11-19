@@ -481,7 +481,7 @@
         "levothyroxine",
         "levothyroxine sodium",
         "L-thyroxine",
-        "T4"
+        "LT4"
       ],
       "sourceNote": "TİTCK H03AA01; non-suspended entries, multiple pack sizes deduplicated. Combination levothyroxine+liothyronine product Bitiron excluded."
     },
@@ -494,7 +494,7 @@
       "synonyms": [
         "liothyronine",
         "liothyronine sodium",
-        "T3"
+        "LT3"
       ],
       "sourceNote": "TİTCK H03AA02; not equivalent to levothyroxine. Included via TIME thyroid-hormone class."
     }
