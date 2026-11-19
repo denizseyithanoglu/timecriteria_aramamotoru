@@ -53,12 +53,18 @@ function updateCategories() {
   }
   elements.categories.value = state.category;
 }
+function literalMatch(row,query) {
+  const words=TimeSearch.norm(query).split(/\s+/).filter(Boolean);
+  // Literal criteria wording remains discoverable even if it coincides
+  // with an ingredient, trade name, or clinical synonym.
+  return words.length>0 && words.every(t=>TimeSearch.termMatches(row._index,t));
+}
 function rank(row, tokens) {
   if (!tokens.length) return 0;
   const code = normalize(row.id + " " + row.code);
   const body = normalize(row.text);
   const notes = normalize(row.notes.join(" "));
-  return tokens.reduce(function(score, token) {
+  return (literalMatch(row,state.query)?120:0) + tokens.reduce(function(score, token) {
     if (code === token || code.endsWith("-" + token)) return score + 100;
     if (token==="@drug") return score +
       (state.selectedIngredient && body.includes(TimeSearch.norm(state.selectedIngredient)) ? 95 : 26);
@@ -119,7 +125,7 @@ function filteredRows() {
     if (state.category !== "ALL" && row.category !== state.category) return false;
     if (state.organ !== "ALL" && !row._organs.includes(state.organ)) return false;
     if (state.disease !== "ALL" && !row._conditions.includes(state.disease)) return false;
-    return tokens.every(function(t) {
+    const semanticMatch=tokens.every(function(t) {
       // Treat multi-word active ingredients as one entity, not two unrelated tokens.
       if (t==="@drug") {
         return state.selectedIngredient &&
@@ -140,6 +146,7 @@ function filteredRows() {
       }
       return false;
     });
+    return semanticMatch || literalMatch(row,state.query);
   });
   if (state.sort === "relevance" && tokens.length) {
     rows.sort(function(a, b) { return rank(b, tokens) - rank(a, tokens) || a._order - b._order; });
@@ -300,8 +307,21 @@ function render() {
   elements.remaining.textContent = remaining > 0 ? "(" + remaining.toLocaleString("tr-TR") + " kaldı)" : "";
 }
 function searchBy(term) {
+  // A new text search always spans the entire TIME library, regardless
+  // of which organ, disease, chapter, or START/STOP filter was selected.
+  if(term.trim()){
+    state.organ="ALL";state.disease="ALL";state.category="ALL";state.type="ALL";
+    updateCategories();
+  }
   state.query = term;
-  const resolution = TimeSearch.resolve(term, state.aliases);
+  // For exact known clinical terms, clinical meaning wins over any
+  // coincidentally named pharmaceutical product or ingredient.
+  const key=TimeSearch.norm(term);
+  const isExactClinical=state.clinicalIndex.some(entry=>entry.key===key);
+  const isExactClass=state.classGroups.some(group=>(group.search||[]).some(x=>TimeSearch.norm(x)===key));
+  const resolution=(isExactClinical||isExactClass)
+    ? {text:key,matched:null,ingredient:null}
+    : TimeSearch.resolve(term, state.aliases);
   const conditionResolution = TimeSearch.resolveConditions(resolution.text, state.clinicalIndex);
   const classResolution = TimeSearch.resolveClassQuery(conditionResolution.text,state.classGroups);
   // Replace the resolved active ingredient with an atomic search token.
