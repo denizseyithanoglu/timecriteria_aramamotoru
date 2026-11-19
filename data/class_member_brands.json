@@ -464,6 +464,39 @@
         "Erythava"
       ],
       "route": "IV"
+    },
+    {
+      "ingredient": "levotiroksin",
+      "atc": "H03AA01",
+      "brands": [
+        "EUTHYROX",
+        "LEVOTIRON",
+        "TİROSİNT",
+        "TEFOR DUOTAB",
+        "LEVİPOMİX",
+        "VOTRYXE"
+      ],
+      "synonyms": [
+        "levotiroksin sodyum",
+        "levothyroxine",
+        "levothyroxine sodium",
+        "L-thyroxine",
+        "T4"
+      ],
+      "sourceNote": "TİTCK H03AA01; non-suspended entries, multiple pack sizes deduplicated. Combination levothyroxine+liothyronine product Bitiron excluded."
+    },
+    {
+      "ingredient": "liotironin",
+      "atc": "H03AA02",
+      "brands": [
+        "TİROMEL"
+      ],
+      "synonyms": [
+        "liothyronine",
+        "liothyronine sodium",
+        "T3"
+      ],
+      "sourceNote": "TİTCK H03AA02; not equivalent to levothyroxine. Included via TIME thyroid-hormone class."
     }
   ]
 }
