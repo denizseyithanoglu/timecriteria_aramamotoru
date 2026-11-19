@@ -1,0 +1,9579 @@
+{
+  "version": "2026-11-20",
+  "source": "2024 TIME-to-START and TIME-to-STOP criterion text supplied by repository owner, with selected TİTCK-derived single-ingredient trade-name mappings",
+  "scope": "Internal searchable vocabulary for the TIME 2024 criterion library only. Not the entire Turkish pharmacopoeia.",
+  "disclaimer": "Machine generated candidate tags plus manually curated class/clinical dictionaries. Clinical validation of remaining ambiguous terms is necessary; drugs not present by name or explicitly mentioned group are not added.",
+  "stats": {
+    "criteria": 190,
+    "distinctIngredients": 203,
+    "drugClasses": 11,
+    "clinicalTopics": 38,
+    "sourceAbbreviations": 73,
+    "tradeNames": 1435
+  },
+  "drugIngredients": [
+    {
+      "name": "alendronat",
+      "brands": [
+        "ADROMAX",
+        "ALEMOL",
+        "ANDANTE",
+        "BONEMAX",
+        "BONEX",
+        "FOSAFIX",
+        "FOSATAB",
+        "LENDO",
+        "VEGABON"
+      ],
+      "synonyms": [
+        "alendronate"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-E16"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "allopurinol",
+      "brands": [
+        "ALLOGUT",
+        "ALLOPIN",
+        "ÜRİKOLIZ"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-E8",
+        "STOP-A35",
+        "STOP-E5"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "amilorid",
+      "brands": [
+        "AMILORID",
+        "KALURID"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A14",
+        "STOP-A15",
+        "STOP-A16"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "amiodaron",
+      "brands": [
+        "AMIDOVIN",
+        "CORDALIN",
+        "CORDARONE",
+        "SANORONE"
+      ],
+      "synonyms": [
+        "amiodarone"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "amitriptilin",
+      "brands": [
+        "LAROXYL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B7"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "apiksaban",
+      "brands": [
+        "APACLOT",
+        "Apelto",
+        "Apivora",
+        "Apixelis",
+        "Apixenta",
+        "Atenic",
+        "ELIQUIS",
+        "ELİXABAN",
+        "Equtraban",
+        "Olpixa",
+        "PAXİBAN",
+        "TROMBOXAR",
+        "Vaxivo",
+        "Xaprev",
+        "Zavionyx"
+      ],
+      "synonyms": [
+        "apixaban"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A28",
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "aspirin",
+      "brands": [
+        "ANSETIL",
+        "ASEGAN",
+        "ASINPIRINE",
+        "ASPİNAL",
+        "ASPIRIN",
+        "ATASPIN",
+        "CORASPIN",
+        "DISPRIL",
+        "ECOPIRIN",
+        "ECOPIRIN PRO",
+        "ENKAPRİN",
+        "NOTRAS-LIBA",
+        "OPON",
+        "PASO",
+        "PHARMASPIRIN",
+        "SALIPRIN"
+      ],
+      "synonyms": [
+        "asetilsalisilik asit",
+        "acetylsalicylic acid",
+        "asa"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-A1",
+        "START-C3",
+        "STOP-A18",
+        "STOP-A21",
+        "STOP-A22",
+        "STOP-A23",
+        "STOP-A24",
+        "STOP-A27",
+        "STOP-C2",
+        "STOP-J1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "atenolol",
+      "brands": [
+        "AS-ATENS",
+        "TENSINOR"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "beta"
+      ]
+    },
+    {
+      "name": "atorvastatin",
+      "brands": [
+        "ALVASTİN",
+        "AMVASTAN",
+        "AS-ATOKS",
+        "ATEROZ",
+        "ATOR",
+        "AVITOREL",
+        "AZIMBRA",
+        "CARDYN",
+        "CHOLVAST",
+        "COLASTIN-L",
+        "DIVATOR",
+        "LIPIDRA",
+        "LIPITOR",
+        "LIPITAKSIN",
+        "LIPSUM",
+        "SAPHIRE",
+        "TARDEN",
+        "TORVAXAL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "statin"
+      ]
+    },
+    {
+      "name": "azilsartan",
+      "brands": [
+        "AZEDOK"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "arb",
+        "ras"
+      ]
+    },
+    {
+      "name": "azitromisin",
+      "brands": [
+        "ADAMAKS",
+        "AZAX",
+        "AZELTIN",
+        "AZİTRO",
+        "AZOMAX",
+        "AZRO",
+        "AZYTER",
+        "MAXİTRO",
+        "TIASET",
+        "TREMAC",
+        "ZİTOREL",
+        "ZİTRASİN",
+        "ZITROCID",
+        "ZITROMAX"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "benazepril",
+      "brands": [
+        "CİBACEN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "betahistin",
+      "brands": [
+        "BETARIS",
+        "TINSERC",
+        "TİNSERC BID",
+        "VASOSERC BID",
+        "VASOSERC FORT"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B18"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "bisoprolol",
+      "brands": [
+        "CONCOR",
+        "KARDORİTM",
+        "KENODEN",
+        "RIZOPROL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "START-A6"
+      ],
+      "classIds": [
+        "beta"
+      ]
+    },
+    {
+      "name": "buprenorfin",
+      "brands": [
+        "TEMGESIC"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E18"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "bupropion",
+      "brands": [
+        "BUPRAPAN",
+        "VELDEPYON",
+        "WELLBUTRIN XL",
+        "ZYBAN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B3",
+        "STOP-B22"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "buspiron",
+      "brands": [
+        "BUSPİR",
+        "BUSPON",
+        "NOPIRON"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-B2"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "dabigatran",
+      "brands": [
+        "PRADAXA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A28",
+        "STOP-A39",
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "dapagliflozin",
+      "brands": [
+        "CALİRA",
+        "Danipta",
+        "Dapadap",
+        "Dapgeon",
+        "DAPİTUS",
+        "DAPLİG",
+        "Daprenza",
+        "FORZIGA",
+        "Glazone",
+        "Glyxar",
+        "Jaglif",
+        "Trenicat"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-A8",
+        "STOP-F10",
+        "STOP-G8"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "deksketoprofen",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "dekslansoprazol",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "ppi"
+      ]
+    },
+    {
+      "name": "demir (ııı) hidroksit sükroz kompleksi",
+      "brands": [
+        "SUCROXA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "iviron"
+      ]
+    },
+    {
+      "name": "demir (iii hidroksit sükroz kompleksi",
+      "brands": [
+        "DEMROSE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "iviron"
+      ]
+    },
+    {
+      "name": "demir hidroksit sükroz kompleksi",
+      "brands": [
+        "FERICOSE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "iviron"
+      ]
+    },
+    {
+      "name": "demir iii hidroksit sükroz kompleksi",
+      "brands": [
+        "SUKROFER",
+        "VENİRO"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "iviron"
+      ]
+    },
+    {
+      "name": "demir iii sükroz kompleksi",
+      "brands": [
+        "FERROSEL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "iviron"
+      ]
+    },
+    {
+      "name": "demir karboksimaltoz",
+      "brands": [
+        "İNFERJECT",
+        "Ferapplic",
+        "Ferdepo"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "iviron"
+      ]
+    },
+    {
+      "name": "demir sükroz kompleksi",
+      "brands": [
+        "FERINT",
+        "FERROVEN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "iviron"
+      ]
+    },
+    {
+      "name": "denosumab",
+      "brands": [
+        "Dnoclast",
+        "PROLİA",
+        "Resyniv",
+        "XGEVA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-E2",
+        "START-E4",
+        "STOP-E17"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "desmopressin",
+      "brands": [
+        "MINIRIN",
+        "MINIRIN MELT",
+        "NOCTISSIN",
+        "OCTOSTIM",
+        "OCTOSTIM IV/SC",
+        "PRİDESMO"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-F12"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "desvenlafaksin",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "snri"
+      ]
+    },
+    {
+      "name": "difenhidramin",
+      "brands": [
+        "ALLENIK",
+        "BENISON",
+        "FENOTRAL",
+        "FENOTRAL JEL",
+        "HYDRYLLIN",
+        "PECTAL PEDİYATRİK"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B7",
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "digoksin",
+      "brands": [
+        "DIGOXINE NATIVELLE"
+      ],
+      "synonyms": [
+        "digoxin"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A1",
+        "STOP-A2",
+        "STOP-A3",
+        "STOP-A5",
+        "STOP-A30",
+        "STOP-A36",
+        "STOP-A41",
+        "STOP-J2"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "diklofenak",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "diltiazem",
+      "brands": [
+        "ALTIZEM SR",
+        "ALTIZEM-SR",
+        "DILKOR SR",
+        "Diltiarec",
+        "DİLTİZEM",
+        "DİLTİZEM-L",
+        "Durcanem",
+        "Genrecto",
+        "KAFİZEM",
+        "KARTİAZEM",
+        "LOCAFEN",
+        "PECTAZEM",
+        "PROGOR",
+        "TİACARD"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A4",
+        "STOP-A5",
+        "STOP-A13",
+        "STOP-A39"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "dimenhidrinat",
+      "brands": [
+        "DRAMAMINE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B18",
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "dipiridamol",
+      "brands": [
+        "DRİSENTİN",
+        "TROMBOLIZ"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A22",
+        "STOP-A33"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "doksazosin",
+      "brands": [
+        "KARDOZIN",
+        "TENDURA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-F5"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "donepezil",
+      "brands": [
+        "ALZAMED",
+        "ALZANCER",
+        "ALZANCER EASYTAB",
+        "ALZEPİL",
+        "ALZIL",
+        "ANDEM",
+        "ARICEPT",
+        "ARICEPT EVESS",
+        "ARYPEZ",
+        "DEMENT",
+        "DEZIRA",
+        "DOENZA",
+        "DOENZA ODT",
+        "DONCEP",
+        "DONEFIX",
+        "DOZYL",
+        "DOZYL EASY",
+        "MEMKAR",
+        "NEUREM",
+        "REMELEF",
+        "REWIND",
+        "ZHEDON"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-B3"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "duloksetin",
+      "brands": [
+        "CYMBALTA",
+        "DOLETIN",
+        "DOSETIA",
+        "DULATEC",
+        "DULAXAT",
+        "DULESTER",
+        "DULOXAT",
+        "DULOXX",
+        "DUXALTA",
+        "DUXET",
+        "DYLOXIA",
+        "KOMOX",
+        "LODUX",
+        "NEXETIN"
+      ],
+      "synonyms": [
+        "duloxetine"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-B4",
+        "STOP-B5"
+      ],
+      "classIds": [
+        "snri"
+      ]
+    },
+    {
+      "name": "edoksaban",
+      "brands": [
+        "Edoxtra",
+        "LIXIANA"
+      ],
+      "synonyms": [
+        "edoxaban"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A28",
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "empagliflozin",
+      "brands": [
+        "Emjardi",
+        "Emladip",
+        "Empacros",
+        "Empafel",
+        "Empalfo",
+        "EMPANCE",
+        "Empator",
+        "Empazi",
+        "Epiclo",
+        "Gliflomed",
+        "Glyzarda",
+        "JARDIANCE",
+        "Jardifloz",
+        "Jardolix",
+        "Ubıka"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-A8",
+        "STOP-F10",
+        "STOP-G8"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "enalapril",
+      "brands": [
+        "ENAPRESS",
+        "ENAPRIL",
+        "KETANSIF",
+        "KONVERIL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "eplerenon",
+      "brands": [
+        "EPLEDAY",
+        "INSPRA"
+      ],
+      "synonyms": [
+        "eplerenone"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-A7",
+        "STOP-A14",
+        "STOP-A15"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "eprosartan",
+      "brands": [
+        "TEVETEN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "arb",
+        "ras"
+      ]
+    },
+    {
+      "name": "eritropoietin",
+      "brands": [
+        "EPOPLUS"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-H3"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "esmolol",
+      "brands": [
+        "BREVIBLOC",
+        "BREVİBLOC PREMIKS",
+        "ESMOBLOC",
+        "ESMORATE",
+        "KARDOES PREMİX",
+        "MULTİFLEX ERMOLOC PREMİKS",
+        "TURKTIPSAN ESMOLOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "beta"
+      ]
+    },
+    {
+      "name": "esomeprazol",
+      "brands": [
+        "ESOBLOK",
+        "ESOM",
+        "ESOPRAL",
+        "ESOPRO",
+        "NEXIUM",
+        "NEXSTEP"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "ppi"
+      ]
+    },
+    {
+      "name": "essitalopram",
+      "brands": [
+        "ANZYL",
+        "CELIANTE",
+        "CIPRALEX",
+        "CITOLES",
+        "EGISIT",
+        "ESLONG",
+        "ESMAX",
+        "ESPLUS",
+        "ESRAM",
+        "ESTALORA",
+        "ESTILOM",
+        "ESTORAM",
+        "EXERAM",
+        "LOSIRAM",
+        "LOURES",
+        "MEDOLAPRAM",
+        "SECITA",
+        "SEVPRAM",
+        "TIOPRAM",
+        "ZENDOR"
+      ],
+      "synonyms": [
+        "escitalopram"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-A41",
+        "STOP-B5",
+        "STOP-B24"
+      ],
+      "classIds": [
+        "ssri"
+      ]
+    },
+    {
+      "name": "etorikoksib",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "febuksostat",
+      "brands": [
+        "ADENURIC",
+        "FEBUGUT",
+        "GUSTAT"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E5"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "feniramin",
+      "brands": [
+        "AVIJECT",
+        "AVIL",
+        "CAUPHE",
+        "FENİRAMİN-PF",
+        "LAMELAT",
+        "TÜRKTIPSAN FENİRAMİN MALEAT"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B7",
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "fenitoin",
+      "brands": [
+        "EPDANTOIN",
+        "EPITOIN",
+        "Fenitosel",
+        "TOİNEX"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B21",
+        "STOP-J2"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "fenobarbital",
+      "brands": [
+        "LUMINAL",
+        "LUMINALETTEN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B21",
+        "STOP-J2"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "fentanil",
+      "brands": [
+        "DUROGESIC",
+        "EFFENTORA",
+        "FENTANYL-PF",
+        "FENTAVER",
+        "TALINAT"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E18"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "ferrik hidroksit sükroz kompleksi",
+      "brands": [
+        "KARFERON",
+        "VENOFER",
+        "FERNULA",
+        "FERSİNOL-S",
+        "Erythava"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "iviron"
+      ]
+    },
+    {
+      "name": "fesoterodin",
+      "brands": [
+        "FOSETAZ",
+        "TOVIAZ"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "finerenon",
+      "brands": [
+        "KERENDİA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-H5"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "fludrokortizon",
+      "brands": [
+        "ASTONIN-H"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A12"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "flufenazin",
+      "brands": [
+        "PROLİXİN DECANOATE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-F8"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "fluoksetin",
+      "brands": [
+        "DEPREKS",
+        "FULSAC",
+        "LOKSETIN",
+        "PROZAC",
+        "PSENAC",
+        "SOULZAC",
+        "ZEDPREX"
+      ],
+      "synonyms": [
+        "fluoxetine"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-B2"
+      ],
+      "classIds": [
+        "ssri"
+      ]
+    },
+    {
+      "name": "fluvoksamin",
+      "brands": [
+        "FAVERIN",
+        "REVOXIN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "ssri"
+      ]
+    },
+    {
+      "name": "folik",
+      "brands": [
+        "Femifol",
+        "FOLAS",
+        "FOLASID",
+        "FOLBETAKE",
+        "FOLFULL",
+        "Foligance",
+        "Folinexa",
+        "Folivef",
+        "FOLSET",
+        "Fomibe",
+        "TİNFOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-E7"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "fosinopril",
+      "brands": [
+        "ACEFOR",
+        "MONOPRIL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "gabapentin",
+      "brands": [
+        "AS-GABAPEN",
+        "EVEPTIN",
+        "GABASET",
+        "GABATEVA",
+        "GABENYL",
+        "GEMUDA",
+        "NEPITIN",
+        "NERUDA",
+        "NEURONTIN",
+        "NEUROPENT",
+        "PATYCA",
+        "ROTALEPTIN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-B8",
+        "STOP-B6",
+        "STOP-B21"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "galantamin",
+      "brands": [
+        "BEKLAMEN",
+        "REMINYL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-B3"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "gingko",
+      "brands": [
+        "BILOKAN SUPRA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B25",
+        "STOP-J1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "glibenklamid",
+      "brands": [
+        "DIANORM",
+        "DIYABEN",
+        "GENTISOD",
+        "GLIBEN",
+        "ORABETIK"
+      ],
+      "synonyms": [
+        "glibenclamide",
+        "glyburide"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-G4"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "haloperidol",
+      "brands": [
+        "LEPTOL",
+        "NORODOL",
+        "NORODOL DEKANOAT",
+        "SEDAPERIDOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A41"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "hidroksizin",
+      "brands": [
+        "ATARAX"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "hiyosin",
+      "brands": [
+        "BUSCODYN",
+        "BUSCOPAN",
+        "RELAKSIN",
+        "SPAZMOSEL",
+        "SPAZMOTEK"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "ibuprofen",
+      "brands": [
+        "ADVIL LIQUI-GELS",
+        "ALGIFEN",
+        "APIREKS",
+        "ARTROFEN",
+        "BEFRON",
+        "BERKOFEN",
+        "Bravex Liqui-Gels",
+        "BRUFEN",
+        "BRUFEN RETARD",
+        "BRUJIN",
+        "BRUPREX",
+        "BRUS",
+        "CALDOLON",
+        "CALROFEN",
+        "CİCİFEN",
+        "CORELAR",
+        "DOLGIT",
+        "DOLGIT AKUT",
+        "DOLORIN",
+        "DOLVEN",
+        "DORİFEN",
+        "DUFEN",
+        "DUFEN FORT",
+        "DUKTAFEN",
+        "FENDOL SUPPOZİTUAR",
+        "GEROFEN",
+        "IBU PHARMA BIOS",
+        "İBU-BABY",
+        "IBU-FORT",
+        "IBUACTIVE",
+        "IBUFEN",
+        "İBUJEZİK",
+        "İBUJEZİK BABY",
+        "İBUPREST",
+        "İBUPROFEN-PF",
+        "IBUTEK",
+        "IBUTRIT",
+        "INTRAFEN",
+        "KIDYFEN",
+        "Neoprofen",
+        "NUROFEN",
+        "OROFEN",
+        "PADUCAS",
+        "PATENTOFEN",
+        "PEDIAVER",
+        "PEDIFEN",
+        "PROFEN",
+        "PROFEN FORT",
+        "REPOZAL",
+        "SELOFEN",
+        "SIYAFEN",
+        "SONFEX",
+        "SONFEX FORT",
+        "SPORTIFF",
+        "SUPRAFEN",
+        "TEMSOFEN",
+        "ULTRAFEN",
+        "UPREN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-A18"
+      ],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "ilaprazol",
+      "brands": [
+        "NOLTEC"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "ppi"
+      ]
+    },
+    {
+      "name": "imidapril",
+      "brands": [
+        "TANATRIL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "indometasin",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-E1"
+      ],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "insülin",
+      "brands": [
+        "APIDRA",
+        "BASAGLAR KWIKPEN",
+        "BASALOG ONE",
+        "FİASP® FLEXTOUCH®",
+        "FİASP® PENFİLL®",
+        "GLARIN",
+        "GLARİTUS",
+        "HUMALOG",
+        "HUMALOG KWIKPEN",
+        "HUMULIN N (NPH)",
+        "HUMULIN R",
+        "HUMULIN-M",
+        "LANTUS",
+        "LANTUS SOLOSTAR",
+        "LEVEMIR FLEXPEN",
+        "LEVEMIR PENFİLL",
+        "NOVOMİX",
+        "NOVORAPİD",
+        "NOVORAPİD FLEXPEN",
+        "NOVORAPİD PENFİLL",
+        "TOUJEO",
+        "TRESIBA FLEXTOUCH",
+        "TRESIBA PENFİLL"
+      ],
+      "synonyms": [
+        "insulin"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-G5"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "ipratropium",
+      "brands": [
+        "ATRIVO STERI-NEB",
+        "IPRABÜL",
+        "IPRACORT",
+        "İPRATOM",
+        "VENTOPIUM"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-D1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "irbesartan",
+      "brands": [
+        "ANTROVEL",
+        "ARBESTA",
+        "HIRBES",
+        "IRBECOR",
+        "IRDA",
+        "IRPRESTAN",
+        "KARVEA",
+        "ONESART",
+        "REBEVEA",
+        "ROTAZAR",
+        "SANBARTAN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "arb",
+        "ras"
+      ]
+    },
+    {
+      "name": "itrakonazol",
+      "brands": [
+        "CANDİSTAT",
+        "FUNİT",
+        "ITRAXYL",
+        "SPORANOX",
+        "SPOREX"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "kalsitriol",
+      "brands": [
+        "CAJEX",
+        "CALCITRON",
+        "CALDEROL",
+        "OSTRIOL",
+        "QALYVİZ",
+        "TEORY"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-H1",
+        "STOP-E14"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "kandesartan",
+      "brands": [
+        "ATACAND",
+        "AYRA",
+        "CANDECARD",
+        "CANDENACT",
+        "CANDEXIL",
+        "CANTAB",
+        "LARMONİ",
+        "TENSART",
+        "UCAND"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "arb",
+        "ras"
+      ]
+    },
+    {
+      "name": "kaptopril",
+      "brands": [
+        "KAPRİL",
+        "KAPTORIL",
+        "NOBEPRIL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "karbamazepin",
+      "brands": [
+        "KARAZEPIN",
+        "KARBALEX",
+        "KARBEPEN",
+        "KAZEPIN",
+        "TEMPOROL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B21",
+        "STOP-J2"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "karvedilol",
+      "brands": [
+        "ARLEC",
+        "CALBICOR",
+        "CARVEXAL",
+        "DELOTRAN",
+        "DILATREND",
+        "KINETRA",
+        "VELZAPIN"
+      ],
+      "synonyms": [
+        "carvedilol"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "START-A6",
+        "STOP-A40"
+      ],
+      "classIds": [
+        "beta"
+      ]
+    },
+    {
+      "name": "ketiapin",
+      "brands": [
+        "ANKEP",
+        "AS-KALMEKS",
+        "CEDRİNA",
+        "CEDRINA XR",
+        "ETIPIN",
+        "GYREX",
+        "KEDAY XR",
+        "KETAP",
+        "KETIDOSE",
+        "KETILEPT",
+        "KETINEL",
+        "KETYA",
+        "KETYA XR",
+        "MADRINA",
+        "QUELEPT",
+        "Quelept XR",
+        "QUET",
+        "QUET XR",
+        "QUETAMIN",
+        "SEQUA",
+        "SEREX",
+        "SEROQUEL"
+      ],
+      "synonyms": [
+        "quetiapine",
+        "quetiapin"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-B7",
+        "STOP-B12"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "ketokonazol",
+      "brands": [
+        "FUNGORAL",
+        "KETODERM",
+        "KONAZOL",
+        "TEKNAZOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "ketoprofen",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "klonazepam",
+      "brands": [
+        "MALONTIL",
+        "RİVOCLON",
+        "RIVOTRIL"
+      ],
+      "synonyms": [
+        "clonazepam"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-B14"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "klopidogrel",
+      "brands": [
+        "AS-CLODIP",
+        "ATERVIX",
+        "CARDOGREL",
+        "CLOGAN",
+        "CLOPEROL",
+        "CLOPITRO",
+        "CLOPRA",
+        "DILOXOL",
+        "DIPOREL",
+        "KARUM",
+        "KLOGEL",
+        "LOPİGROL",
+        "OPIREL",
+        "PINGEL",
+        "PLANOR",
+        "PLAVIDOL",
+        "PLAVIX",
+        "PLOVEKS"
+      ],
+      "synonyms": [
+        "clopidogrel"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-A1",
+        "START-C3",
+        "STOP-A22",
+        "STOP-A23",
+        "STOP-A24",
+        "STOP-A27",
+        "STOP-A32",
+        "STOP-C2"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "klorfeniramin",
+      "brands": [
+        "ALERFIN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "klorpromazin",
+      "brands": [
+        "LARGACTİL",
+        "Largasel"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B7",
+        "STOP-B22",
+        "STOP-F8",
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "klorpropamid",
+      "brands": [
+        "ORBIN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-G4"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "klorzoksazon",
+      "brands": [
+        "PARAFLEX",
+        "PARAFLEX FORTE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E11"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "klozapin",
+      "brands": [
+        "LEPONEX"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B7",
+        "STOP-B12",
+        "STOP-B22",
+        "STOP-F8",
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "kolekalsiferol",
+      "brands": [
+        "COLEDAN-D",
+        "Colewinde",
+        "D-COLEFOR",
+        "D-RİSE",
+        "DEVİDOL",
+        "DEVİT",
+        "DOREVIT-D",
+        "HAY-D",
+        "HYAVİT-D",
+        "MONOVIT D",
+        "ONZELA",
+        "Samirton D",
+        "SOLARVİT",
+        "SOLARVİT FORT",
+        "VİN-D"
+      ],
+      "synonyms": [
+        "cholecalciferol",
+        "vitamin d3"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-E14"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "kolşisin",
+      "brands": [
+        "COLCHICUM DISPERT",
+        "Colxeris",
+        "KOLSIN",
+        "Kolsitek"
+      ],
+      "synonyms": [
+        "colchicine",
+        "colchicin"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-E5",
+        "STOP-E6"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "labetalol",
+      "brands": [
+        "LABLOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "beta"
+      ]
+    },
+    {
+      "name": "laktuloz",
+      "brands": [
+        "DUPHALAC",
+        "HEPALAC",
+        "Lacselac",
+        "Lactozen",
+        "LAEVOLAC",
+        "LAKTİLİT",
+        "LAXAMOT",
+        "MEDULAC WM",
+        "ORALAC",
+        "Rexlac",
+        "TULOZ",
+        "Zubeyra"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-C1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "lamotrijin",
+      "brands": [
+        "LAMICTAL DC",
+        "LATRIGAL",
+        "PINRAL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B21"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "lansoprazol",
+      "brands": [
+        "APRAZOL",
+        "DEGASTROL",
+        "LANSAZOL",
+        "LANSOPROL",
+        "LANSOR",
+        "LASOTAB",
+        "OPAGIS",
+        "PEPTİZOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "ppi"
+      ]
+    },
+    {
+      "name": "levodopa",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-B17",
+        "STOP-B27"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "levotiroksin",
+      "brands": [
+        "EUTHYROX",
+        "LEVOTIRON",
+        "TİROSİNT",
+        "TEFOR DUOTAB",
+        "LEVİPOMİX",
+        "VOTRYXE"
+      ],
+      "synonyms": [
+        "levotiroksin sodyum",
+        "levothyroxine",
+        "levothyroxine sodium",
+        "L-thyroxine",
+        "LT4"
+      ],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "thyroid"
+      ]
+    },
+    {
+      "name": "lidokain",
+      "brands": [
+        "ANESTOL",
+        "DOLOCAINE",
+        "JETOKAİN",
+        "JOYMAX",
+        "LİDESTOL",
+        "LİDOCAİNE HYDROCHLORİDE",
+        "LIDOKES",
+        "LİDON",
+        "LINCAINE",
+        "LMX",
+        "LOCANEST",
+        "LOKALEN",
+        "LPKAIN",
+        "LYDOCON",
+        "NOBEKAIN",
+        "OTİKAİN",
+        "OTIPAX",
+        "PAFESAN",
+        "PRECOXIN",
+        "REDEKAIN",
+        "Septix",
+        "STAG"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-E11"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "liotironin",
+      "brands": [
+        "TİROMEL"
+      ],
+      "synonyms": [
+        "liothyronine",
+        "liothyronine sodium",
+        "LT3"
+      ],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "thyroid"
+      ]
+    },
+    {
+      "name": "lisinopril",
+      "brands": [
+        "APRIL-ACE",
+        "RILACE",
+        "SINOPRYL",
+        "TANSTOP"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "lityum",
+      "brands": [
+        "KILONUM RETARD",
+        "LITHURIL",
+        "LİTOMAKS"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A41"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "lorazepam",
+      "brands": [
+        "ATIVAN EXPIDET"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-B14"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "losartan",
+      "brands": [
+        "COZAAR",
+        "EKLIPS",
+        "HILOS",
+        "HILOS FORT",
+        "LORKAR",
+        "LOSARTIL",
+        "LOSARYUM",
+        "LOXIBIN",
+        "SARILEN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "arb",
+        "ras"
+      ]
+    },
+    {
+      "name": "lovastatin",
+      "brands": [
+        "LOVASTIN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "statin"
+      ]
+    },
+    {
+      "name": "maprotilin",
+      "brands": [
+        "LUDIOMIL",
+        "MAPROTIL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B22"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "megestrol",
+      "brands": [
+        "BOREA",
+        "MEGACE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-G12"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "melatonin",
+      "brands": [
+        "Abdi İbrahim Melatonin",
+        "Baymela",
+        "Circaday",
+        "COZYMEL",
+        "İlko Melatonin",
+        "Insovef",
+        "Melabiem",
+        "Melafor",
+        "Mellarest",
+        "Melogen",
+        "Melonisenk",
+        "Mihada",
+        "Tab Melatonin",
+        "Vefarma Melatonin"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B11"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "meloksikam",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "memantin",
+      "brands": [
+        "ALCEBA",
+        "ALIOS",
+        "ALMENTA",
+        "ALZANT",
+        "ALZER",
+        "ALZIA",
+        "ALZMEX",
+        "ANGETİN",
+        "CERAMIN",
+        "COGITO",
+        "DEMAX",
+        "DEMAX EASYTAB",
+        "EBITEX",
+        "EBİXA",
+        "EMAXIN",
+        "EMAXIN BASLANGIC SETI",
+        "FEMTA",
+        "FIXREM",
+        "KORINT",
+        "KORINT BAŞLANGIÇ PAKETI,TABLET",
+        "MAXIRAM",
+        "MELANDA",
+        "MELANDA RAPİD",
+        "MEMANZAKS",
+        "MEMOTEC",
+        "MENTAX",
+        "MEXIA",
+        "MEXIA XR",
+        "SAYCON",
+        "VIXIMEM"
+      ],
+      "synonyms": [
+        "memantine"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-B4",
+        "STOP-B10"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "metamizol",
+      "brands": [
+        "ADEPIRON",
+        "ALGOPAN",
+        "ANDOLOR",
+        "BEBİGUT",
+        "DEVALJİN",
+        "FARMİZOL",
+        "GERALGINE-M",
+        "KAFALGİN",
+        "KARMIZOL",
+        "METAMIZOL",
+        "NOVAKOM",
+        "NOVAKOM FORT",
+        "NOVAKOM S",
+        "NOVALGIN",
+        "NOVAMIZOL",
+        "NOVAPLEKS",
+        "NOVAPLEX",
+        "ONPYRON",
+        "SEDORAL",
+        "TÜRKTIPSAN METAMİZOL SODYUM"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "metformin",
+      "brands": [
+        "ATAMET",
+        "DIABEST",
+        "DİAFORMIN",
+        "DIAFORMIN XR",
+        "DİAMET",
+        "Diormin",
+        "GLIFOR",
+        "GLIFOR SR",
+        "GLIMETON",
+        "GLINEXT",
+        "GLISUS",
+        "GLUCOTARD",
+        "GLUFORCE",
+        "GLUFORMİN",
+        "GLUKOFEN",
+        "INSUFOR",
+        "MATOFIN",
+        "MEFODAY MR",
+        "MERNEPTA",
+        "METAFORMAL",
+        "METFORIX",
+        "METFULL",
+        "METODEL",
+        "METODEL SR",
+        "METVEL",
+        "METVEL SR"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-G2",
+        "STOP-G3"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "metoklopramid",
+      "brands": [
+        "ANTI-NAUSEA",
+        "METOKLAMİDE",
+        "NASTIFRAN",
+        "PRAMED",
+        "TURKTIPSAN METOKLOPRAMID HIDROKLORÜR",
+        "VOMEPRAM"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-C7"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "metoprolol",
+      "brands": [
+        "Altobio Metoprolol",
+        "BELOC",
+        "BELOC DURULES",
+        "Beloc Zok",
+        "BETABLOK SR",
+        "CARDOVOL",
+        "CORCURATİO",
+        "MECORLONG",
+        "MEPOLEX",
+        "METLOC",
+        "MEVOPAL",
+        "NORMOLOL",
+        "PROBLOK",
+        "SANELOC"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "START-A6"
+      ],
+      "classIds": [
+        "beta"
+      ]
+    },
+    {
+      "name": "metotreksat",
+      "brands": [
+        "Artjet",
+        "ARTROJECT",
+        "MEKSRATU",
+        "METHOTREXAT 'EBEWE' PFS",
+        "METHOTREXAT EBEWE",
+        "METHOTREXAT EBEWE PFS",
+        "METHOTREXATE KOÇAK",
+        "METOART",
+        "METOART CON",
+        "MEXTU",
+        "Rheumetex",
+        "SUBMEX"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-E7",
+        "STOP-E7"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "mirabegron",
+      "brands": [
+        "Begamir",
+        "BETMIGA",
+        "Urotrexin"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A41",
+        "STOP-F9"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "mirtazapin",
+      "brands": [
+        "MIRES",
+        "MİTAZEN",
+        "REDEPRA",
+        "REMERON",
+        "ULKAPIN",
+        "ZESTAT"
+      ],
+      "synonyms": [
+        "mirtazapine"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-B3",
+        "STOP-B5",
+        "STOP-B11"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "misoprostol",
+      "brands": [
+        "CYTOTEC"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-C3",
+        "STOP-E1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "modafinil",
+      "brands": [
+        "CRALİUM",
+        "MODIODAL",
+        "MODIOGEN",
+        "MODİVİGİL",
+        "MODIWAKE",
+        "SLEEPEX"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B25"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "moexipril",
+      "brands": [
+        "UNIVASC"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "morfin",
+      "brands": [
+        "MORFIA",
+        "MORFIA CR",
+        "MORFİN HİDROKLORÜR OSEL",
+        "MORPHINE HCl"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E18"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "naproksen",
+      "brands": [
+        "A-NOX FORT",
+        "ALEVE",
+        "APRALJIN FORTE",
+        "APRANAX",
+        "APRANAX FORT",
+        "APRODENT FORT",
+        "APROFLEX",
+        "APROL",
+        "APROL FORT",
+        "APROMED",
+        "APROMED FORT",
+        "APROWELL",
+        "APROWELL FORT",
+        "ARMANAKS",
+        "ATREN",
+        "ATREN FORT",
+        "BONMIN",
+        "EXVILE",
+        "FEMİNİN",
+        "FLAMAKS",
+        "FLAMAKS FORT",
+        "INAPROL",
+        "İNAPROL FORT",
+        "INAPROL JEL",
+        "KAROKSEN",
+        "KAROKSEN FORT",
+        "MEDNAP",
+        "MOTRİNAX",
+        "MOTRİNAX FORT",
+        "NAPONAL",
+        "NAPONAL FORT",
+        "NAPRADOL FORTE",
+        "NAPRAX JEL",
+        "NAPREN S",
+        "NAPROFF",
+        "NAPROFF FORTE",
+        "NAPROL",
+        "NAPROSYN",
+        "NAPROSYN CR",
+        "NAPROSYN EC",
+        "NAXERİ JEL",
+        "NEXPRO",
+        "NEXPRO FORTE",
+        "OPRAKS",
+        "OPRAKS FORT",
+        "RANDOL",
+        "RANDOL FORT",
+        "RANDOL JEL",
+        "RELOKAP",
+        "RUMAZOLIDIN",
+        "RUMAZOLIDIN FORT",
+        "SODINAX",
+        "SODINAX FORT",
+        "SYNAX",
+        "SYNAX FORTE"
+      ],
+      "synonyms": [
+        "naproxen"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-A18"
+      ],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "nebivolol",
+      "brands": [
+        "BLOXER",
+        "CROMTOL",
+        "NEBIWORLD",
+        "NEVIMOL",
+        "NEVOL",
+        "NEXIVOL",
+        "VALENDE",
+        "VASCURA",
+        "VASOXEN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "START-A6"
+      ],
+      "classIds": [
+        "beta"
+      ]
+    },
+    {
+      "name": "nitrofurantoin",
+      "brands": [
+        "FURANTİNE",
+        "PIYELOSEPTYL",
+        "ÜRİNEKS"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-F7"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "oksibutinin",
+      "brands": [
+        "FUITAN",
+        "KENTERA",
+        "UROPAN",
+        "VOXET"
+      ],
+      "synonyms": [
+        "oxybutynin"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "oksikodon",
+      "brands": [
+        "OXICUT",
+        "OXOPANE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E18"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "olanzapin",
+      "brands": [
+        "AS-PINEKS",
+        "DEPREXINAT",
+        "ELYNZA",
+        "OFANS ODT",
+        "OFERTA",
+        "OLAFER",
+        "OLAXINN",
+        "OLFREX",
+        "OLFREX EASYTAB",
+        "OLLAFAX",
+        "OLNEGIS",
+        "OLZANID",
+        "OZAPRIN",
+        "OZAPRIN RAPID",
+        "REXAPIN",
+        "REXAPIN EASYTAB",
+        "ZOLAPINE",
+        "ZYPREXA",
+        "ZYPREXA VELOTAB",
+        "ZYZAPIN"
+      ],
+      "synonyms": [
+        "olanzapine"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-B7",
+        "STOP-B22",
+        "STOP-F8",
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "olmesartan",
+      "brands": [
+        "CALENDA",
+        "DEFANSAR",
+        "HİPERSAR",
+        "OLGEN",
+        "OLMEDAY",
+        "OLMETEC",
+        "OLMYSAR",
+        "OLSART",
+        "OMETAN",
+        "OSARTEC"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "arb",
+        "ras"
+      ]
+    },
+    {
+      "name": "omeprazol",
+      "brands": [
+        "DEMEPRAZOL",
+        "ERBINNA",
+        "GASTROMAX EP",
+        "LOSEPROL",
+        "LYOMEPRA",
+        "MEPRAİSOL",
+        "OLETEN",
+        "OLMEZOL",
+        "OMEFIX",
+        "OMEGAST",
+        "OMEPRAZID",
+        "OMEPREFUL",
+        "OMEPROL",
+        "OMEREF",
+        "OMEX",
+        "OMHEAL",
+        "OMİZOL",
+        "POMERON",
+        "ZOLASİT"
+      ],
+      "synonyms": [
+        "omeprazole"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "START-C3"
+      ],
+      "classIds": [
+        "ppi"
+      ]
+    },
+    {
+      "name": "ondansetron",
+      "brands": [
+        "EMESET",
+        "KEMOSET",
+        "KEMOTRON",
+        "Kyrons",
+        "LAUFRAN",
+        "NAUZEX",
+        "ONASET",
+        "ONDAREN",
+        "ONZYD",
+        "OSETRON",
+        "SANTIS",
+        "VOCHERON",
+        "ZOFER",
+        "ZOFRAN",
+        "ZOFRAN ZYDIS",
+        "ZOLTEM",
+        "ZONTRON",
+        "ZOPHRALEN",
+        "ZOPHRALEN IV"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A41"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "pantoprazol",
+      "brands": [
+        "PANDEV",
+        "PANOCER",
+        "PANTO",
+        "PANTOZOL",
+        "PULCET",
+        "PROTONEX",
+        "PROTİNUM"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "ppi"
+      ]
+    },
+    {
+      "name": "parasetamol",
+      "brands": [
+        "A-FERİN ZERO",
+        "A-PER",
+        "ALGOMOL",
+        "ASENOL",
+        "BABI'KAN",
+        "BABINOKS",
+        "BABYMOL",
+        "CALPOL",
+        "CALPOSET",
+        "DEFLU",
+        "DEFLU FORT",
+        "DOLASET",
+        "DURAPAN",
+        "EFPA EFERVESAN",
+        "EKİPARADOL",
+        "GERALGİNE P SUPPOZİTUAR",
+        "GERALGINE-P",
+        "GRIPIN BEBE",
+        "INFLU",
+        "KALMET",
+        "KATESOL",
+        "KİDMOL",
+        "MEDASED",
+        "MEDASET",
+        "MINAFEN",
+        "MINAMOL",
+        "MİNAMOL FORT",
+        "MİNOPAR",
+        "MİNOPAR PLUS",
+        "MINOSET",
+        "MUTEP",
+        "NORAL",
+        "NORFLAM SUPPOZİTUVAR",
+        "PACİMOL",
+        "PACİMOL PLUS",
+        "PANADOL",
+        "PARA-COLD",
+        "PARACEROL",
+        "PARACET",
+        "PARANOX",
+        "PARANOX S",
+        "PARASEDOL",
+        "PARASEDOL PED",
+        "PARCALM",
+        "PARCALM PLUS",
+        "PARCETOL",
+        "PAROKAN",
+        "PAROL",
+        "PAROL PLUS",
+        "PAROSET UNO PLUS",
+        "PAROVANC",
+        "PARSETAN",
+        "PARTEMOL",
+        "PARTERAL",
+        "PEDIPAR",
+        "PEDIPAR PLUS",
+        "PEDITUS UNO",
+        "PHARMADOL",
+        "PİRETİKOL",
+        "PIROFEN",
+        "POLAMINOFEN",
+        "Prexibay",
+        "Prexibay Plus",
+        "RASTAMOL",
+        "REGAL",
+        "SASEPOL",
+        "SEDALON",
+        "SEPARMOL",
+        "SETAMOL",
+        "SETAPAR",
+        "SETAPAR PLUS",
+        "Syrpil",
+        "TAMOJIL",
+        "TAMOL",
+        "TAMOL PLUS",
+        "TERMACET",
+        "TERMACET PLUS",
+        "TERMALGINE PED",
+        "TYLOL",
+        "TYLOL BABY",
+        "TYLOL FORT",
+        "Tylotus Night",
+        "VERMIDON",
+        "VİATAL",
+        "VOLPAN",
+        "VOLPAN BEBEK SUPPOZİTUVARI",
+        "VOLPAN ÇOCUK SUPPOZİTUVARI",
+        "XFEBRIL",
+        "ZALDAKS"
+      ],
+      "synonyms": [
+        "paracetamol",
+        "acetaminophen"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-E9",
+        "STOP-E1",
+        "STOP-E18"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "paroksetin",
+      "brands": [
+        "AS-PAROKS",
+        "NOKTURN",
+        "PALUXON",
+        "PAXERA",
+        "PAXIL",
+        "PAXOTIN",
+        "XETANOR"
+      ],
+      "synonyms": [
+        "paroxetine"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-B2",
+        "STOP-B5",
+        "STOP-B7",
+        "STOP-H1"
+      ],
+      "classIds": [
+        "ssri"
+      ]
+    },
+    {
+      "name": "perindopril",
+      "brands": [
+        "ACEPER",
+        "COVERSYL",
+        "PADERO",
+        "PERIDAY",
+        "PERPRIL",
+        "RATEN",
+        "SERPERIL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "petidin",
+      "brands": [
+        "ALDINE",
+        "CEDEPTİN",
+        "PETHOLAN",
+        "PETİSEL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E18"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "pioglitazon",
+      "brands": [
+        "ACTOS",
+        "DROPIA",
+        "DYNDION",
+        "GLIFIX",
+        "PIOFORCE",
+        "PIONDIA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-G5"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "pirasetam",
+      "brands": [
+        "NECETAM",
+        "NEUROSETAM",
+        "NOOTROVER",
+        "NORETAM",
+        "NÖRODIN",
+        "NOTROSERB",
+        "OPEMIN",
+        "PİRAMAN",
+        "PİRAPİL",
+        "SETROPİL",
+        "TURKTIPSAN PİRASETAM"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B20",
+        "STOP-B25"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "pirimidon",
+      "brands": [
+        "GRANMID"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-B5"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "piroksikam",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "pitavastatin",
+      "brands": [
+        "ALIPZA",
+        "PITAMIN",
+        "PITAS",
+        "PRATİN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "statin"
+      ]
+    },
+    {
+      "name": "polietilen",
+      "brands": [
+        "BARSOLAX",
+        "GOLYTELY BAGIRSAK TEMIZLEME TOZU",
+        "NEXTOLAC",
+        "PEGDİN",
+        "POLİCOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-C1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "pramipeksol",
+      "brands": [
+        "PACTO",
+        "PARKIPEX",
+        "PARKİPEX ER",
+        "PARKYN",
+        "PARKYN ER",
+        "PARSON",
+        "PEXA",
+        "PEXA XR",
+        "PEXOLA ER",
+        "PIDREX",
+        "PIDREX ER",
+        "PRADOSE",
+        "PRAMITU",
+        "PRANOW"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-B8"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "prasugrel",
+      "brands": [
+        "EFFIENT",
+        "SUGVİDA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A31",
+        "STOP-A32"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "pravastatin",
+      "brands": [
+        "PAVAS",
+        "PRAVACHOL",
+        "UPRAST"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "statin"
+      ]
+    },
+    {
+      "name": "prednizolon",
+      "brands": [
+        "NEOCORTEN",
+        "PREDNOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-E3"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "pregabalin",
+      "brands": [
+        "AGAPAL",
+        "ALYSE",
+        "GABADAY SR",
+        "GABALENE",
+        "GALARA",
+        "GEBBRA",
+        "GERICA",
+        "GERTORE",
+        "LYPRE",
+        "LYRICA",
+        "MAROPAN",
+        "NEOGABA",
+        "NEURICA",
+        "NORAFIT",
+        "PADEN",
+        "PAGADIN",
+        "PAGAMAX",
+        "PERGE",
+        "PIGUS",
+        "PRECOBAL",
+        "PRELICA",
+        "PRETAW",
+        "REGAPEN",
+        "REGOBOL",
+        "SNAPLINE",
+        "SYMRA",
+        "TORIA",
+        "ZAGERA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-B2",
+        "START-B8",
+        "STOP-B6"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "progesteron",
+      "brands": [
+        "CRINONE",
+        "Gestinax",
+        "Pregetox",
+        "PROGESTAN",
+        "PROGESTAN DEX",
+        "Prolutex",
+        "PROMESTER"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-G11"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "propiverin",
+      "brands": [
+        "ECCURY",
+        "Incont",
+        "MİCTONORM",
+        "MICTONORM SR",
+        "PROVEREL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "propranolol",
+      "brands": [
+        "DIDERAL",
+        "HEMANGİOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "START-B5"
+      ],
+      "classIds": [
+        "beta"
+      ]
+    },
+    {
+      "name": "rabeprazol",
+      "brands": [
+        "PARIET",
+        "PEPTYRA",
+        "PRABEX",
+        "RABELIS",
+        "RABENOL",
+        "RABIZA",
+        "RAZOGEN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "ppi"
+      ]
+    },
+    {
+      "name": "ramelteon",
+      "brands": [
+        "RAMELDA",
+        "ROZEREST"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B11"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "ramipril",
+      "brands": [
+        "CORVIX",
+        "DELIX",
+        "DELIX PROTECT",
+        "DICEF",
+        "GENPRIXA",
+        "RACE",
+        "RAPALIX",
+        "REVIL",
+        "REVIL PROTECT",
+        "SANDACE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "ranolazin",
+      "brands": [
+        "Anjilex",
+        "LATIXA",
+        "RAZİNA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "rivaroksaban",
+      "brands": [
+        "ONAXAN",
+        "Rivelto",
+        "TROMABAN",
+        "VENMİX",
+        "VENOMİA",
+        "Vorelban",
+        "VOXABAN",
+        "XARELTO",
+        "XAROKS"
+      ],
+      "synonyms": [
+        "rivaroxaban"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A28",
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "rivastigmin",
+      "brands": [
+        "ABEXTIN",
+        "EXELON",
+        "EXELON PATCH",
+        "EXEVIS",
+        "PROMETAX PATCH",
+        "RISTART",
+        "RIVAREM",
+        "RIVASTORON"
+      ],
+      "synonyms": [
+        "rivastigmine"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-B3"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "romosozumab",
+      "brands": [
+        "EVENİTY"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-F2",
+        "STOP-G14"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "ropinirol",
+      "brands": [
+        "PARGUIP XL",
+        "REQUIP XL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-B8"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "rosuvastatin",
+      "brands": [
+        "COLEFIX",
+        "COLNAR",
+        "CRELIX",
+        "CRESTOR",
+        "GENVOTRIN",
+        "KOLROS",
+        "LIVERCOL",
+        "NOLIP",
+        "REAKT",
+        "RONAP",
+        "ROSACT",
+        "ROSAVA",
+        "ROSUCOR",
+        "ROSUFIX",
+        "ROSUGEN",
+        "ROSUSTAR",
+        "ROSUVAS",
+        "SANROSE",
+        "STAGE",
+        "STATA",
+        "ULTROX"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "statin"
+      ]
+    },
+    {
+      "name": "saksagliptin",
+      "brands": [
+        "ONGLYZA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-G6"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "selekoksib",
+      "brands": [],
+      "synonyms": [],
+      "provenance": [
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "nsaid"
+      ]
+    },
+    {
+      "name": "sertralin",
+      "brands": [
+        "AS-SERTRAL",
+        "LUSTEC",
+        "LUSTRAL",
+        "LUSTRAL SPECIAL",
+        "MISOL",
+        "Olinar",
+        "SELECTRA",
+        "SEROTOP"
+      ],
+      "synonyms": [
+        "sertraline"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-B5",
+        "STOP-B10"
+      ],
+      "classIds": [
+        "ssri"
+      ]
+    },
+    {
+      "name": "siklobenzaprin",
+      "brands": [
+        "Enzaris",
+        "FLESSİ",
+        "Lospaz",
+        "SPAZBEN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E11"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "siklosporin",
+      "brands": [
+        "CİCLORES",
+        "CYLORİN",
+        "DEPORES",
+        "DEPORES FREE",
+        "DEPORES X",
+        "DROSPORIN",
+        "EPOSTIN",
+        "LYMUNİR",
+        "OCURİN",
+        "PANOSPORIN",
+        "RESTASİS",
+        "Restasis Multi Doz",
+        "SANDIMMUN",
+        "SANDIMMUN NEORAL",
+        "SANDIMMUN-NEORAL",
+        "SIGMASPORIN MICRORAL",
+        "SİKLOTEAR",
+        "TEARON"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "silazapril",
+      "brands": [
+        "ACEPRIX",
+        "INHIBACE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "sildenafil",
+      "brands": [
+        "COMBO",
+        "Coshra",
+        "DEGRA",
+        "EGIRA",
+        "ERELONG",
+        "HIPOLES",
+        "JELIGRA",
+        "NEWAGRA",
+        "PULARTER",
+        "RETOMİN",
+        "REVATIO",
+        "SILDEGRA",
+        "SILFECT",
+        "SILMED",
+        "SİLPOW",
+        "SINEGRA",
+        "VEGIRO",
+        "VIAGRA",
+        "VİAMED",
+        "VIGAROO",
+        "VİGRAFİL",
+        "VIGRANDE",
+        "VULGAR"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-G5",
+        "STOP-F4"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "simvastatin",
+      "brands": [
+        "LİPVAKOL",
+        "SIMTA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "statin"
+      ]
+    },
+    {
+      "name": "sinnarizin",
+      "brands": [
+        "ULGERON",
+        "ULGERON FORT"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B19"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "siproheptadin",
+      "brands": [
+        "SIPRAKTIN",
+        "VINA ELIXIR"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B7",
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "sitalopram",
+      "brands": [
+        "AS-CILOG",
+        "ATOPRAN",
+        "CIPRAM",
+        "CITARA",
+        "CITEXAM",
+        "CITOL",
+        "CITOLIXIN",
+        "CITREX",
+        "CYTERAS",
+        "LAIRA",
+        "VODELAX"
+      ],
+      "synonyms": [
+        "citalopram"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-A41",
+        "STOP-B5",
+        "STOP-B10",
+        "STOP-B24"
+      ],
+      "classIds": [
+        "ssri"
+      ]
+    },
+    {
+      "name": "solifenasin",
+      "brands": [
+        "BEVLASIN",
+        "KINZY",
+        "KONTIFEN",
+        "NATYSIN",
+        "OLIFESIN",
+        "SOLIFAS",
+        "SOLIRON",
+        "VESIFIX",
+        "VESISOL"
+      ],
+      "synonyms": [
+        "solifenacin"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "sotalol",
+      "brands": [
+        "DAROB",
+        "TALOZIN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "beta"
+      ]
+    },
+    {
+      "name": "spironolakton",
+      "brands": [
+        "ALDACTONE",
+        "ALDACTONE-A",
+        "DALYLACTON",
+        "Ridakton",
+        "SPYLACTON"
+      ],
+      "synonyms": [
+        "spironolactone"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-A7",
+        "STOP-A14",
+        "STOP-A15"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "tadalafil",
+      "brands": [
+        "AFILTA",
+        "CIALIS",
+        "DAFİLA",
+        "DEPARTON",
+        "DICLASIL",
+        "ECONIX",
+        "Erexfil",
+        "ERONİS",
+        "Felitas",
+        "FLYNTA",
+        "HARDCIS",
+        "LEX",
+        "LIFTA",
+        "LONGIS",
+        "LONGIVO",
+        "MYESED",
+        "NOBİCİA",
+        "ORCAFIL",
+        "PAHTAFİL",
+        "PUBİLTOR",
+        "PULDAFİX",
+        "REKFİL",
+        "TADACİA",
+        "TADAMED",
+        "TADARTER",
+        "Tadbee",
+        "TADLIS",
+        "TADON",
+        "TALAFY",
+        "TALAVİST",
+        "TORK",
+        "Vapoxant",
+        "VEGALİS"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-G5",
+        "STOP-F4"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "tamoksifen",
+      "brands": [
+        "TAMOXIFEN-TEVA",
+        "TAMOXIFENCELL",
+        "TAMOXIT"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "telmisartan",
+      "brands": [
+        "MICARDIS",
+        "MICATOR",
+        "QUALTAN",
+        "TELMITEK",
+        "TELVIS",
+        "TELZAP",
+        "ULOXETIC"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "arb",
+        "ras"
+      ]
+    },
+    {
+      "name": "teofilin",
+      "brands": [
+        "BRONKOLIN",
+        "TEOFIL SR"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-D2",
+        "STOP-J2"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "terazosin",
+      "brands": [
+        "HYTRIN",
+        "HYTRIN BP TEDAVIYE BAS.PAKETI",
+        "TERAUMON"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-F5"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "teriparatid",
+      "brands": [
+        "FORSTEO",
+        "Tericent"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-E5",
+        "STOP-E17"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "testosteron",
+      "brands": [
+        "NEBIDO"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-G9"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "tikagrelor",
+      "brands": [
+        "AGRİLOR",
+        "Bicaglor",
+        "BRILINTA",
+        "CAMİLLA",
+        "TALDEROL",
+        "TİCASA",
+        "TİGRELO",
+        "TİLANTA",
+        "TİXALOR"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A32",
+        "STOP-A40"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "tiklopidin",
+      "brands": [
+        "TICLOCARD"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A32"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "tiotropium",
+      "brands": [
+        "Airfect Neucloud",
+        "AIRTIO",
+        "BRONTİO",
+        "CORİVA",
+        "SPİRACT",
+        "SPIRIVA",
+        "TIODAY CAPSAIR",
+        "TIOFIX",
+        "TIONEX",
+        "TIOTEK DİSCAİR",
+        "TİOUMİT",
+        "TUTAST ARVOHALER"
+      ],
+      "synonyms": [
+        "tiotropium bromide"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-D1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "tiyokolsikosid",
+      "brands": [
+        "ADELEKS",
+        "COLCIOSPA",
+        "FILEXID",
+        "FIXOLINE",
+        "KENFIX",
+        "KEPLERON",
+        "KEYRELAKS",
+        "MAXTHİO",
+        "MAXTHIO ODT",
+        "MUSCAL",
+        "MUSCOFLEX",
+        "MUSCORIL",
+        "MUSFIXA",
+        "MYAL FORT",
+        "MYODIN",
+        "RECOSIDE",
+        "RECOSIDE MR",
+        "REDEMUS",
+        "TEFEL",
+        "THİOSPA",
+        "TIORELAX",
+        "TİOWELL",
+        "TIYOZID",
+        "TYOFLEX",
+        "TYOFLEX FORT"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-E11"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "tizanidin",
+      "brands": [
+        "SANTADİNE",
+        "Simvacor",
+        "SIRDALUD",
+        "SIRDALUD MR"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-A41",
+        "STOP-E11"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "tolterodin",
+      "brands": [
+        "DETREXA SR",
+        "GİNLOBA SR",
+        "Tolteridex SR",
+        "TOLTEX",
+        "Toreda",
+        "TOREDA SR",
+        "URIDYN",
+        "Urıstat"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "tramadol",
+      "brands": [
+        "CONTRAMAL",
+        "CONTRATEK",
+        "MADOL",
+        "RAMADEX",
+        "TRADOLEX",
+        "TRAMOSEL",
+        "TRAMTURK",
+        "ULTRAMEX"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-B22",
+        "STOP-E1",
+        "STOP-E9",
+        "STOP-E18"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "trandolapril",
+      "brands": [
+        "GOPTEN",
+        "GOPTEN FORTE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "trimetazidin",
+      "brands": [
+        "ANPEKS MR",
+        "CARMETADIN",
+        "PICADIL",
+        "PICADIL MR",
+        "TIRVAS MR",
+        "TRIPLUS MR",
+        "TROTENIL",
+        "TROTENIL MR",
+        "VASOFIX",
+        "VASTAREL MR",
+        "VAZIDIN MR"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B18"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "trimetobenzamid",
+      "brands": [
+        "EMEDUR",
+        "EMETOL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-C7"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "trospiyum",
+      "brands": [
+        "VOLTERRA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-H1"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "valsartan",
+      "brands": [
+        "CARDOPAN",
+        "CERACARD",
+        "DIOVAN",
+        "HIXAR",
+        "LIMITEN",
+        "PREMIUM",
+        "TAMGARD",
+        "VALCOR",
+        "VALSO",
+        "VALTENSIN",
+        "VİASART",
+        "WANSAAR"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "START-A9"
+      ],
+      "classIds": [
+        "arb",
+        "ras"
+      ]
+    },
+    {
+      "name": "vardenafil",
+      "brands": [
+        "Cimlitrol",
+        "LEVITRA",
+        "LOVİTREC",
+        "VAREKSİL",
+        "Varoni"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "START-G5",
+        "STOP-F4"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "varfarin",
+      "brands": [
+        "PLASORİN",
+        "VARFARİN",
+        "WARFMADİN",
+        "WARSU"
+      ],
+      "synonyms": [
+        "warfarin"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "START-C3",
+        "STOP-A28",
+        "STOP-A29",
+        "STOP-A30",
+        "STOP-J2",
+        "STOP-J3"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "venlafaksin",
+      "brands": [
+        "BONILUX",
+        "EFEXOR XR",
+        "FAXIVEN XR",
+        "SULINEX XR",
+        "VENEGIS XR",
+        "VENLADEP XR"
+      ],
+      "synonyms": [
+        "venlafaxine"
+      ],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [
+        "STOP-B4",
+        "STOP-B5"
+      ],
+      "classIds": [
+        "snri"
+      ]
+    },
+    {
+      "name": "verapamil",
+      "brands": [
+        "FIBROCARD L.P",
+        "ISOPAMIL",
+        "ISOPTIN",
+        "ISOPTIN IV",
+        "ISOPTIN KKH",
+        "ISOPTIN SR",
+        "ORMIL"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient",
+        "manually curated synonym"
+      ],
+      "directCriterionIds": [
+        "STOP-A4",
+        "STOP-A5",
+        "STOP-A13",
+        "STOP-A36",
+        "STOP-A39",
+        "STOP-A40",
+        "STOP-C6"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "vortioksetin",
+      "brands": [
+        "FONKSERA",
+        "Serenvi",
+        "SORDENA"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B5"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "zofenopril",
+      "brands": [
+        "ZOPROTEC"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME referenced class member",
+        "TIME pharmacologic class member"
+      ],
+      "directCriterionIds": [],
+      "classIds": [
+        "acei",
+        "ras"
+      ]
+    },
+    {
+      "name": "zolpidem",
+      "brands": [
+        "REMİN"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B13"
+      ],
+      "classIds": []
+    },
+    {
+      "name": "zopiklon",
+      "brands": [
+        "IMOVANE"
+      ],
+      "synonyms": [],
+      "provenance": [
+        "TİTCK TIME exact-text ingredient"
+      ],
+      "directCriterionIds": [
+        "STOP-B13"
+      ],
+      "classIds": []
+    }
+  ],
+  "drugClasses": [
+    {
+      "id": "acei",
+      "label": "ACE inhibitörleri",
+      "searchTerms": [
+        "ACEİ",
+        "ACEI",
+        "ACE-I",
+        "ACE inhibitörü",
+        "ACE inhibitörleri",
+        "ADE inhibitörü",
+        "Anjiyotensin dönüştürücü enzim inhibitörü"
+      ],
+      "criterionIds": [
+        "START-A5",
+        "START-A9",
+        "START-F1",
+        "START-H4",
+        "START-H5",
+        "STOP-A14",
+        "STOP-A15",
+        "STOP-A16"
+      ],
+      "members": [
+        "ramipril",
+        "enalapril",
+        "perindopril",
+        "kaptopril",
+        "lisinopril",
+        "fosinopril",
+        "trandolapril",
+        "zofenopril",
+        "silazapril",
+        "imidapril",
+        "benazepril",
+        "moexipril"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "arb",
+      "label": "Anjiyotensin reseptör blokerleri (ARB)",
+      "searchTerms": [
+        "ARB",
+        "anjiyotensin reseptör blokeri",
+        "anjiyotensin reseptör blokörü",
+        "sartanlar"
+      ],
+      "criterionIds": [
+        "START-A9",
+        "START-F1",
+        "START-H4",
+        "START-H5",
+        "STOP-A14",
+        "STOP-A15",
+        "STOP-A16"
+      ],
+      "members": [
+        "valsartan",
+        "losartan",
+        "kandesartan",
+        "telmisartan",
+        "irbesartan",
+        "olmesartan",
+        "eprosartan",
+        "azilsartan"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ras",
+      "label": "Renin-anjiyotensin sistemi blokerleri (RAS)",
+      "searchTerms": [
+        "RAS blokeri",
+        "RAS blokerleri",
+        "RAAS blokeri"
+      ],
+      "criterionIds": [
+        "STOP-A14",
+        "STOP-A15"
+      ],
+      "members": [],
+      "notes": ""
+    },
+    {
+      "id": "snri",
+      "label": "SNRI (serotonin-noradrenalin geri alım inhibitörleri)",
+      "searchTerms": [
+        "SNRI",
+        "SNRİ",
+        "SNRI grubu"
+      ],
+      "criterionIds": [
+        "START-B2",
+        "STOP-B4"
+      ],
+      "members": [
+        "duloksetin",
+        "venlafaksin",
+        "desvenlafaksin"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ssri",
+      "label": "SSRI (seçici serotonin geri alım inhibitörleri)",
+      "searchTerms": [
+        "SSRI",
+        "SSRİ",
+        "SSRI grubu"
+      ],
+      "criterionIds": [
+        "START-B2",
+        "STOP-B2",
+        "STOP-B3",
+        "STOP-J2"
+      ],
+      "members": [
+        "sertralin",
+        "essitalopram",
+        "sitalopram",
+        "fluoksetin",
+        "fluvoksamin",
+        "paroksetin"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "beta",
+      "label": "Beta-blokerler",
+      "searchTerms": [
+        "beta-bloker",
+        "beta bloker",
+        "beta-blokerler"
+      ],
+      "criterionIds": [
+        "START-A6",
+        "STOP-A5",
+        "STOP-A13",
+        "STOP-A19",
+        "STOP-A20",
+        "STOP-A36"
+      ],
+      "members": [
+        "bisoprolol",
+        "metoprolol",
+        "nebivolol",
+        "karvedilol",
+        "propranolol",
+        "atenolol",
+        "sotalol",
+        "labetalol",
+        "esmolol"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "statin",
+      "label": "Statinler",
+      "searchTerms": [
+        "statin",
+        "statinler"
+      ],
+      "criterionIds": [
+        "START-A2",
+        "STOP-A34"
+      ],
+      "members": [
+        "atorvastatin",
+        "rosuvastatin",
+        "simvastatin",
+        "pravastatin",
+        "pitavastatin",
+        "lovastatin"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ppi",
+      "label": "Proton pompa inhibitörleri (PPİ)",
+      "searchTerms": [
+        "PPİ",
+        "PPI",
+        "proton pompa inhibitörü"
+      ],
+      "criterionIds": [
+        "START-C2",
+        "START-C3",
+        "STOP-C3",
+        "STOP-C4"
+      ],
+      "members": [
+        "omeprazol",
+        "esomeprazol",
+        "lansoprazol",
+        "dekslansoprazol",
+        "pantoprazol",
+        "rabeprazol",
+        "ilaprazol"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "nsaid",
+      "label": "NSAİİ (nonsteroid antiinflamatuvar ilaçlar)",
+      "searchTerms": [
+        "NSAİİ",
+        "NSAID",
+        "nonsteroid antiinflamatuvar"
+      ],
+      "criterionIds": [
+        "START-C3",
+        "START-E9",
+        "STOP-A18",
+        "STOP-C1",
+        "STOP-C2",
+        "STOP-E1",
+        "STOP-E2",
+        "STOP-E5",
+        "STOP-E18",
+        "STOP-J1"
+      ],
+      "members": [
+        "ibuprofen",
+        "naproksen",
+        "diklofenak",
+        "ketoprofen",
+        "deksketoprofen",
+        "meloksikam",
+        "piroksikam",
+        "selekoksib",
+        "etorikoksib",
+        "indometasin"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "iviron",
+      "label": "İntravenöz demir preparatları",
+      "searchTerms": [
+        "intravenöz demir",
+        "IV demir",
+        "damar içi demir",
+        "parenteral demir"
+      ],
+      "criterionIds": [
+        "START-A10"
+      ],
+      "members": [
+        "demir karboksimaltoz",
+        "demir (ııı) hidroksit sükroz kompleksi",
+        "demir (iii hidroksit sükroz kompleksi",
+        "demir hidroksit sükroz kompleksi",
+        "demir iii hidroksit sükroz kompleksi",
+        "demir iii sükroz kompleksi",
+        "demir sükroz kompleksi",
+        "ferrik hidroksit sükroz kompleksi"
+      ],
+      "notes": "Yalnızca damar içi (IV) demir preparatları; intramüsküler ve oral formlar bu eşleştirmeye dahil değildir."
+    },
+    {
+      "id": "thyroid",
+      "label": "Tiroid hormonları",
+      "searchTerms": [
+        "tiroid hormonu",
+        "tiroid hormonları",
+        "tiroid hormonu tedavisi",
+        "tiroid replasman tedavisi",
+        "T4 replasmanı"
+      ],
+      "criterionIds": [
+        "STOP-G13"
+      ],
+      "members": [
+        "levotiroksin",
+        "liotironin"
+      ],
+      "notes": "STOP-G13 yalnızca metinde tanımlanan TSH 4–10 mIU/L ve normal sT4 ile seyreden subklinik hipotiroidili yaşlılar için geçerlidir. Hipotiroidinin diğer tiplerine otomatik uygulanmaz."
+    }
+  ],
+  "clinicalTopics": [
+    {
+      "id": "af",
+      "label": "Atriyal fibrilasyon",
+      "searchTerms": [
+        "atriyal fibrilasyon",
+        "atriyal fibrillasyon",
+        "atrial fibrilasyon",
+        "atrial fibrillation",
+        "AF",
+        "AFib",
+        "a-fib"
+      ],
+      "related": [
+        {
+          "label": "PAF",
+          "note": "Paroksismal atriyal fibrilasyon, AF'nin bir alt tipidir. Sonuçlarda AF genel kriterleri de yer alır."
+        },
+        {
+          "label": "paroksismal atriyal fibrilasyon",
+          "note": "Paroksismal AF, AF'nin alt tipidir; tüm sonuçlar bu alt tipe özgü olmayabilir."
+        },
+        {
+          "label": "paroxysmal atrial fibrillation",
+          "note": "Paroksismal AF, AF'nin alt tipidir; tüm sonuçlar bu alt tipe özgü olmayabilir."
+        }
+      ],
+      "criterionIds": [
+        "START-A4",
+        "STOP-A1",
+        "STOP-A3",
+        "STOP-A24",
+        "STOP-A27",
+        "STOP-A28",
+        "STOP-A29",
+        "STOP-B16",
+        "STOP-G13"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ht",
+      "label": "Hipertansiyon",
+      "searchTerms": [
+        "hipertansiyon",
+        "hipertansif",
+        "hypertension",
+        "HT",
+        "arteriyel hipertansiyon",
+        "arterial hypertension"
+      ],
+      "related": [],
+      "criterionIds": [
+        "STOP-A7",
+        "STOP-A8",
+        "STOP-A9",
+        "STOP-A10",
+        "STOP-A13",
+        "STOP-A18",
+        "STOP-A22",
+        "STOP-A28",
+        "STOP-B4",
+        "STOP-E1",
+        "STOP-F9"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "dm",
+      "label": "Diyabetes mellitus",
+      "searchTerms": [
+        "diyabetes mellitus",
+        "diabetes mellitus",
+        "diyabet",
+        "diabetes",
+        "DM"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-A8",
+        "START-F1",
+        "START-H5",
+        "START-I7",
+        "STOP-A15",
+        "STOP-A19",
+        "STOP-F3",
+        "STOP-G4",
+        "STOP-G8"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ky",
+      "label": "Kalp yetersizliği",
+      "searchTerms": [
+        "kalp yetersizliği",
+        "kalp yetmezliği",
+        "heart failure",
+        "KY"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-A5",
+        "START-A6",
+        "START-A9",
+        "START-A10",
+        "START-I7",
+        "STOP-A3",
+        "STOP-A6",
+        "STOP-A9",
+        "STOP-A18",
+        "STOP-B10",
+        "STOP-E1",
+        "STOP-F4",
+        "STOP-G3",
+        "STOP-G5",
+        "STOP-G6",
+        "STOP-G8"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "kah",
+      "label": "Koroner arter hastalığı",
+      "searchTerms": [
+        "koroner arter hastalığı",
+        "coronary artery disease",
+        "koroner kalp hastalığı",
+        "KAH",
+        "CAD"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-A1",
+        "START-A2",
+        "STOP-A24"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "kbh",
+      "label": "Kronik böbrek hastalığı",
+      "searchTerms": [
+        "kronik böbrek hastalığı",
+        "kronik böbrek yetersizliği",
+        "kronik böbrek yetmezliği",
+        "chronic kidney disease",
+        "KBH",
+        "KBY",
+        "CKD"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-H1",
+        "START-H5",
+        "START-I7",
+        "STOP-A35",
+        "STOP-C4"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "koah",
+      "label": "Kronik obstrüktif akciğer hastalığı",
+      "searchTerms": [
+        "kronik obstrüktif akciğer hastalığı",
+        "KOAH",
+        "COPD",
+        "chronic obstructive pulmonary disease"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-D1",
+        "START-D2",
+        "START-I7",
+        "STOP-B16",
+        "STOP-D2",
+        "STOP-D3",
+        "STOP-G3"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "mi",
+      "label": "Miyokard infarktüsü",
+      "searchTerms": [
+        "miyokard infarktüsü",
+        "miyokard infarktüs",
+        "miyokard enfarktüsü",
+        "myocardial infarction",
+        "kalp krizi",
+        "Mİ",
+        "MI"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-A5",
+        "START-A6",
+        "STOP-A18",
+        "STOP-F4"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "gia",
+      "label": "Geçici iskemik atak",
+      "searchTerms": [
+        "geçici iskemik atak",
+        "transient ischemic attack",
+        "TIA",
+        "GİA"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-A1",
+        "START-A2",
+        "STOP-A23",
+        "STOP-A28",
+        "STOP-A31"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "aks",
+      "label": "Akut koroner sendrom",
+      "searchTerms": [
+        "akut koroner sendrom",
+        "acute coronary syndrome",
+        "AKS",
+        "ACS"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-A1",
+        "START-A2",
+        "STOP-A23",
+        "STOP-A24"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "bph",
+      "label": "Benign prostat hiperplazisi",
+      "searchTerms": [
+        "benign prostat hiperplazisi",
+        "benign prostatic hyperplasia",
+        "BPH",
+        "BPH/LUTS"
+      ],
+      "related": [],
+      "criterionIds": [
+        "STOP-F1",
+        "STOP-F3",
+        "STOP-F5"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "oa",
+      "label": "Osteoartrit",
+      "searchTerms": [
+        "osteoartrit",
+        "osteoartrit hastalığı",
+        "osteoarthritis",
+        "OA"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-E9",
+        "STOP-E1",
+        "STOP-E3"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ra",
+      "label": "Romatoid artrit",
+      "searchTerms": [
+        "romatoid artrit",
+        "rheumatoid arthritis",
+        "RA"
+      ],
+      "related": [],
+      "criterionIds": [
+        "STOP-E4"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "dvt",
+      "label": "Derin ven trombozu",
+      "searchTerms": [
+        "derin ven trombozu",
+        "derin ven trombüsü",
+        "deep vein thrombosis",
+        "DVT"
+      ],
+      "related": [],
+      "criterionIds": [
+        "STOP-A25"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "gord",
+      "label": "Gastroözofageal reflü hastalığı",
+      "searchTerms": [
+        "gastroözofageal reflü hastalığı",
+        "gastroözofageal reflü",
+        "gastroesophageal reflux disease",
+        "GÖRH",
+        "GERD"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-C2",
+        "START-C3"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pah",
+      "label": "Periferik arter hastalığı",
+      "searchTerms": [
+        "periferik arter hastalığı",
+        "peripheral arterial disease",
+        "PAH",
+        "PAD"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-A2",
+        "STOP-A23",
+        "STOP-A24",
+        "STOP-F11",
+        "STOP-G7"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "demans",
+      "label": "Demans ve bilişsel bozukluk",
+      "searchTerms": [
+        "demans",
+        "alzheimer hastalığı",
+        "alzheimer",
+        "bilişsel bozukluk"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-B3",
+        "START-B4",
+        "STOP-A11",
+        "STOP-B7",
+        "STOP-B10",
+        "STOP-B11",
+        "STOP-B12",
+        "STOP-B14",
+        "STOP-B25",
+        "STOP-C4",
+        "STOP-H1"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "depresyon",
+      "label": "Depresyon",
+      "searchTerms": [
+        "depresyon",
+        "depresif bozukluk",
+        "depresif belirtiler"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-B1",
+        "START-B2",
+        "STOP-A9",
+        "STOP-B1",
+        "STOP-B11"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "parkinson",
+      "label": "Parkinson hastalığı",
+      "searchTerms": [
+        "parkinson",
+        "parkinson hastalığı"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-B3",
+        "START-B6",
+        "START-B7",
+        "STOP-B7",
+        "STOP-B8",
+        "STOP-B17",
+        "STOP-B27"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "epilepsi",
+      "label": "Epilepsi",
+      "searchTerms": [
+        "epilepsi",
+        "epileptik nöbet"
+      ],
+      "related": [],
+      "criterionIds": [
+        "STOP-B21",
+        "STOP-B22",
+        "STOP-B23"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "konstipasyon",
+      "label": "Konstipasyon",
+      "searchTerms": [
+        "konstipasyon",
+        "kabızlık",
+        "fekal tıkaç"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-C1",
+        "STOP-C5",
+        "STOP-C6",
+        "STOP-E10",
+        "STOP-E11",
+        "STOP-H1"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ulser",
+      "label": "Peptik ülser",
+      "searchTerms": [
+        "peptik ülser",
+        "gastrik ülser",
+        "duodenal ülser",
+        "ülser hastalığı"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-C3",
+        "STOP-C2",
+        "STOP-C3",
+        "STOP-E15"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "astim",
+      "label": "Astım",
+      "searchTerms": [
+        "astım",
+        "asthma"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-D1",
+        "START-D2",
+        "START-I7",
+        "STOP-A20",
+        "STOP-D2"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "osteoporoz",
+      "label": "Osteoporoz",
+      "searchTerms": [
+        "osteoporoz",
+        "osteopeni"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-E2",
+        "START-E3",
+        "START-E4",
+        "STOP-E12",
+        "STOP-E16",
+        "STOP-E17",
+        "STOP-G13"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "gut",
+      "label": "Gut hastalığı",
+      "searchTerms": [
+        "gut hastalığı",
+        "gut atağı",
+        "gut tedavisi"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-E8",
+        "STOP-E5",
+        "STOP-E6"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "hipotiroidi",
+      "label": "Tiroid hastalıkları",
+      "searchTerms": [
+        "hipotiroidi",
+        "hipertiroidi",
+        "tiroid hastalığı",
+        "tiroid hormon replasmanı",
+        "subklinik hipotiroidi"
+      ],
+      "related": [],
+      "criterionIds": [
+        "STOP-G13"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "nefropati",
+      "label": "Nefropati / albuminüri",
+      "searchTerms": [
+        "nefropati",
+        "proteinüri",
+        "albuminüri",
+        "mikroalbuminüri"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-F1",
+        "START-H4",
+        "START-H5",
+        "START-H6",
+        "STOP-E1",
+        "STOP-G8"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "inkontinans",
+      "label": "Üriner inkontinans",
+      "searchTerms": [
+        "üriner inkontinans",
+        "idrar inkontinansı",
+        "urge inkontinans",
+        "sıkışma inkontinansı"
+      ],
+      "related": [],
+      "criterionIds": [
+        "STOP-F12"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "anemi",
+      "label": "Anemi",
+      "searchTerms": [
+        "anemi",
+        "hematinik"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-H3"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "demir_eksikligi",
+      "label": "Demir eksikliği / demir tedavisi",
+      "searchTerms": [
+        "demir eksikliği",
+        "demir tedavisi"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-A10",
+        "START-B8",
+        "STOP-C6"
+      ],
+      "notes": "Oral ve intravenöz demir yolları aynı değildir. Kullanıcı doğrudan oral/IV demir ararsa ilaç yolu korunur; bu başlık yalnızca hastalık gezintisine yarar."
+    },
+    {
+      "id": "malnutrisyon",
+      "label": "Malnütrisyon",
+      "searchTerms": [
+        "malnutrisyon",
+        "malnütrisyon",
+        "yetersiz beslenme"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-J1",
+        "START-J3",
+        "STOP-G2"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tetanus",
+      "label": "Tetanoz aşılaması (Td)",
+      "searchTerms": [
+        "tetanoz",
+        "tetanus",
+        "tetano",
+        "tetanoz aşısı",
+        "tetanoz aşılaması",
+        "tetanoz-difteri",
+        "tetanoz difteri",
+        "Td aşısı",
+        "Td"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-I4"
+      ],
+      "notes": "TIME START-I4, erişkin Td (tetanoz-difteri toksoidi) aşısını ele alır. Tek başına tetanoz toksoidi aşısıyla otomatik eşdeğerlik kurmayın."
+    },
+    {
+      "id": "influenza_vaccine",
+      "label": "İnfluenza aşılaması",
+      "searchTerms": [
+        "influenza aşısı",
+        "influenza",
+        "grip aşısı",
+        "mevsimsel grip aşısı"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-I1"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "pneumococcal_vaccine",
+      "label": "Pnömokok aşılaması",
+      "searchTerms": [
+        "pnömokok",
+        "pnomokok",
+        "pnömokok aşısı",
+        "pnömoni aşısı"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-I2"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "zoster_vaccine",
+      "label": "Herpes zoster aşılaması",
+      "searchTerms": [
+        "herpes zoster",
+        "zona",
+        "zona aşısı",
+        "zoster"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-I3"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "meningococcus_vaccine",
+      "label": "Meningokok aşılaması",
+      "searchTerms": [
+        "meningokok",
+        "meningococcal vaccine",
+        "meningokok aşısı"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-I5"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "covid_vaccine",
+      "label": "COVID-19 aşılaması",
+      "searchTerms": [
+        "covid",
+        "covid-19",
+        "sars-cov2",
+        "sars cov2",
+        "koronavirüs aşısı"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-I6"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "rsv_vaccine",
+      "label": "RSV aşılaması",
+      "searchTerms": [
+        "RSV",
+        "RSV aşısı",
+        "respiratuvar sinsityal virüs"
+      ],
+      "related": [],
+      "criterionIds": [
+        "START-I7"
+      ],
+      "notes": ""
+    }
+  ],
+  "sourceAbbreviations": [
+    {
+      "abbreviation": "ACE",
+      "criteria": [
+        "START-A5",
+        "START-A9",
+        "STOP-A14"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "ACE-I",
+      "criteria": [
+        "START-H4"
+      ],
+      "meanings": [
+        {
+          "type": "drugClass",
+          "id": "acei",
+          "label": "ACE inhibitörleri"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "ACEI",
+      "criteria": [
+        "START-H5"
+      ],
+      "meanings": [
+        {
+          "type": "drugClass",
+          "id": "acei",
+          "label": "ACE inhibitörleri"
+        },
+        {
+          "type": "drugClass",
+          "id": "acei",
+          "label": "ACE inhibitörleri"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "ACEİ",
+      "criteria": [
+        "STOP-A15",
+        "STOP-A16"
+      ],
+      "meanings": [
+        {
+          "type": "drugClass",
+          "id": "acei",
+          "label": "ACE inhibitörleri"
+        },
+        {
+          "type": "drugClass",
+          "id": "acei",
+          "label": "ACE inhibitörleri"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "ACEİ-ARB",
+      "criteria": [
+        "START-F1"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "AF",
+      "criteria": [
+        "START-A4",
+        "STOP-A1",
+        "STOP-A3",
+        "STOP-A24",
+        "STOP-A27",
+        "STOP-A28",
+        "STOP-A29",
+        "STOP-B16"
+      ],
+      "meanings": [
+        {
+          "type": "clinical",
+          "id": "af",
+          "label": "Atriyal fibrilasyon"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "ARB",
+      "criteria": [
+        "START-F1",
+        "START-H4",
+        "START-H5",
+        "STOP-A14",
+        "STOP-A15",
+        "STOP-A16"
+      ],
+      "meanings": [
+        {
+          "type": "drugClass",
+          "id": "arb",
+          "label": "Anjiyotensin reseptör blokerleri (ARB)"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "BKİ",
+      "criteria": [
+        "STOP-E19"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "BMD",
+      "criteria": [
+        "START-E4"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "BPSD",
+      "criteria": [
+        "START-B4"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "BTM",
+      "criteria": [
+        "START-E4"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "CHA",
+      "criteria": [
+        "START-A4"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "COMT",
+      "criteria": [
+        "START-B7"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "COX-2",
+      "criteria": [
+        "START-C3"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "DM",
+      "criteria": [
+        "STOP-A19",
+        "STOP-G4"
+      ],
+      "meanings": [
+        {
+          "type": "clinical",
+          "id": "dm",
+          "label": "Diyabetes mellitus"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "DS",
+      "criteria": [
+        "START-A4"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "DSÖ",
+      "criteria": [
+        "STOP-E18"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "EF",
+      "criteria": [
+        "START-A5",
+        "START-A6",
+        "STOP-A3",
+        "STOP-A4",
+        "STOP-G8"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "ESC",
+      "criteria": [
+        "STOP-G8"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "FDA",
+      "criteria": [
+        "START-B3",
+        "START-B5",
+        "START-I1",
+        "START-I7"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "FEV",
+      "criteria": [
+        "START-D2"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "GFR",
+      "criteria": [
+        "STOP-A16",
+        "STOP-A28",
+        "STOP-B5",
+        "STOP-B6",
+        "STOP-C8",
+        "STOP-E2",
+        "STOP-E6",
+        "STOP-E7",
+        "STOP-E9",
+        "STOP-E16",
+        "STOP-F7",
+        "STOP-G3",
+        "STOP-G8"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "GİA",
+      "criteria": [
+        "START-A1",
+        "START-A2",
+        "STOP-A23",
+        "STOP-A28",
+        "STOP-A31"
+      ],
+      "meanings": [
+        {
+          "type": "clinical",
+          "id": "gia",
+          "label": "Geçici iskemik atak"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "GİS",
+      "criteria": [
+        "START-A1",
+        "STOP-B5",
+        "STOP-C1",
+        "STOP-C5",
+        "STOP-E15",
+        "STOP-G2"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "GÖR",
+      "criteria": [
+        "START-C3",
+        "STOP-E15"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "HMB",
+      "criteria": [
+        "START-J4"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "HT",
+      "criteria": [
+        "STOP-A7",
+        "STOP-A8",
+        "STOP-A9",
+        "STOP-A10",
+        "STOP-A13",
+        "STOP-A18",
+        "STOP-A22",
+        "STOP-A28",
+        "STOP-B4",
+        "STOP-C7",
+        "STOP-E1"
+      ],
+      "meanings": [
+        {
+          "type": "clinical",
+          "id": "ht",
+          "label": "Hipertansiyon"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "IA",
+      "criteria": [
+        "STOP-A41"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "III",
+      "criteria": [
+        "STOP-A41"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "INR",
+      "criteria": [
+        "STOP-A28"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "IPSS",
+      "criteria": [
+        "START-G1",
+        "START-G2"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "IU",
+      "criteria": [
+        "START-J5"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "İÜ",
+      "criteria": [
+        "START-E1",
+        "STOP-E13"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "KBH",
+      "criteria": [
+        "START-H5"
+      ],
+      "meanings": [
+        {
+          "type": "clinical",
+          "id": "kbh",
+          "label": "Kronik böbrek hastalığı"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "KDIGO",
+      "criteria": [
+        "STOP-G8"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "KOAH",
+      "criteria": [
+        "START-D1",
+        "START-D2",
+        "START-I7",
+        "STOP-B16",
+        "STOP-D2",
+        "STOP-D3",
+        "STOP-G3"
+      ],
+      "meanings": [
+        {
+          "type": "clinical",
+          "id": "koah",
+          "label": "Kronik obstrüktif akciğer hastalığı"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "KV",
+      "criteria": [
+        "STOP-E1"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "KY",
+      "criteria": [
+        "START-A6"
+      ],
+      "meanings": [
+        {
+          "type": "clinical",
+          "id": "ky",
+          "label": "Kalp yetersizliği"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "LBBB",
+      "criteria": [
+        "STOP-B16"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "LUTS",
+      "criteria": [
+        "START-G1",
+        "START-G2",
+        "STOP-D1",
+        "STOP-F1",
+        "STOP-F5",
+        "STOP-H1"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "MAO-B",
+      "criteria": [
+        "START-B7"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "Mİ",
+      "criteria": [
+        "START-A5",
+        "START-A6",
+        "STOP-A18",
+        "STOP-F4"
+      ],
+      "meanings": [
+        {
+          "type": "clinical",
+          "id": "mi",
+          "label": "Miyokard infarktüsü"
+        },
+        {
+          "type": "clinical",
+          "id": "mi",
+          "label": "Miyokard infarktüsü"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "MN",
+      "criteria": [
+        "START-J1",
+        "START-J2"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "MNR",
+      "criteria": [
+        "START-J1",
+        "START-J2"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "MRA",
+      "criteria": [
+        "START-H5"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "MS",
+      "criteria": [
+        "STOP-A28"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "MSS",
+      "criteria": [
+        "STOP-A9",
+        "STOP-E1"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "NSAİİ",
+      "criteria": [
+        "START-C3",
+        "START-E9",
+        "STOP-A18",
+        "STOP-C1",
+        "STOP-C2",
+        "STOP-E1",
+        "STOP-E2",
+        "STOP-E5",
+        "STOP-E18",
+        "STOP-J1"
+      ],
+      "meanings": [
+        {
+          "type": "drugClass",
+          "id": "nsaid",
+          "label": "NSAİİ (nonsteroid antiinflamatuvar ilaçlar)"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "NYHA",
+      "criteria": [
+        "STOP-F4"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "OAK",
+      "criteria": [
+        "START-A4",
+        "STOP-A22",
+        "STOP-A24",
+        "STOP-A25",
+        "STOP-A26",
+        "STOP-A27",
+        "STOP-A28",
+        "STOP-C1"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "OH",
+      "criteria": [
+        "STOP-E14"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "ONS",
+      "criteria": [
+        "START-J1",
+        "START-J2",
+        "START-J3",
+        "START-J4"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "PCO",
+      "criteria": [
+        "STOP-B15"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "PMR",
+      "criteria": [
+        "STOP-D1",
+        "STOP-F1",
+        "STOP-F3"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "PO",
+      "criteria": [
+        "STOP-B15"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "PPİ",
+      "criteria": [
+        "START-C3",
+        "STOP-C3",
+        "STOP-C4",
+        "STOP-E1"
+      ],
+      "meanings": [
+        {
+          "type": "drugClass",
+          "id": "ppi",
+          "label": "Proton pompa inhibitörleri (PPİ)"
+        },
+        {
+          "type": "drugClass",
+          "id": "ppi",
+          "label": "Proton pompa inhibitörleri (PPİ)"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "PR",
+      "criteria": [
+        "STOP-A5"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "RAS",
+      "criteria": [
+        "STOP-A14",
+        "STOP-A15"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "REM",
+      "criteria": [
+        "STOP-B14"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "RSV",
+      "criteria": [
+        "START-I7"
+      ],
+      "meanings": [
+        {
+          "type": "clinical",
+          "id": "rsv_vaccine",
+          "label": "RSV aşılaması"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "RZV",
+      "criteria": [
+        "START-I3"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "SARS",
+      "criteria": [
+        "START-I6"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "SDBY",
+      "criteria": [
+        "STOP-A28"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "SGLT",
+      "criteria": [
+        "START-H6",
+        "STOP-F10",
+        "STOP-G8"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "SGLT-2",
+      "criteria": [
+        "START-A8",
+        "STOP-G7",
+        "STOP-G8"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "SNRİ",
+      "criteria": [
+        "START-B2",
+        "STOP-B4"
+      ],
+      "meanings": [
+        {
+          "type": "drugClass",
+          "id": "snri",
+          "label": "SNRI (serotonin-noradrenalin geri alım inhibitörleri)"
+        },
+        {
+          "type": "drugClass",
+          "id": "snri",
+          "label": "SNRI (serotonin-noradrenalin geri alım inhibitörleri)"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "SO",
+      "criteria": [
+        "START-D3"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "SSRI",
+      "criteria": [
+        "STOP-B2",
+        "STOP-B3"
+      ],
+      "meanings": [
+        {
+          "type": "drugClass",
+          "id": "ssri",
+          "label": "SSRI (seçici serotonin geri alım inhibitörleri)"
+        },
+        {
+          "type": "drugClass",
+          "id": "ssri",
+          "label": "SSRI (seçici serotonin geri alım inhibitörleri)"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "SSRİ",
+      "criteria": [
+        "START-B2",
+        "STOP-B3",
+        "STOP-B10",
+        "STOP-J2"
+      ],
+      "meanings": [
+        {
+          "type": "drugClass",
+          "id": "ssri",
+          "label": "SSRI (seçici serotonin geri alım inhibitörleri)"
+        },
+        {
+          "type": "drugClass",
+          "id": "ssri",
+          "label": "SSRI (seçici serotonin geri alım inhibitörleri)"
+        }
+      ],
+      "reviewRequired": false
+    },
+    {
+      "abbreviation": "ST",
+      "criteria": [
+        "START-A5"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "TSH",
+      "criteria": [
+        "STOP-G13"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "YOAK",
+      "criteria": [
+        "START-A4"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    },
+    {
+      "abbreviation": "ZVL",
+      "criteria": [
+        "START-I3"
+      ],
+      "meanings": [],
+      "reviewRequired": true
+    }
+  ],
+  "perCriterion": [
+    {
+      "id": "START-A1",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "aspirin",
+        "klopidogrel"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "kah",
+        "gia",
+        "aks"
+      ],
+      "sourceAbbreviations": [
+        "GİA",
+        "GİS"
+      ]
+    },
+    {
+      "id": "START-A2",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "statin"
+      ],
+      "clinicalTopics": [
+        "kah",
+        "gia",
+        "aks",
+        "pah"
+      ],
+      "sourceAbbreviations": [
+        "GİA"
+      ]
+    },
+    {
+      "id": "START-A3",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-A4",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "af"
+      ],
+      "sourceAbbreviations": [
+        "AF",
+        "CHA",
+        "DS",
+        "OAK",
+        "YOAK"
+      ]
+    },
+    {
+      "id": "START-A5",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "acei"
+      ],
+      "clinicalTopics": [
+        "ky",
+        "mi"
+      ],
+      "sourceAbbreviations": [
+        "EF",
+        "ST",
+        "Mİ",
+        "ACE"
+      ]
+    },
+    {
+      "id": "START-A6",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "bisoprolol",
+        "karvedilol",
+        "metoprolol",
+        "nebivolol"
+      ],
+      "drugClasses": [
+        "beta"
+      ],
+      "clinicalTopics": [
+        "ky",
+        "mi"
+      ],
+      "sourceAbbreviations": [
+        "EF",
+        "Mİ",
+        "KY"
+      ]
+    },
+    {
+      "id": "START-A7",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "eplerenon",
+        "spironolakton"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-A8",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "dapagliflozin",
+        "empagliflozin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "dm"
+      ],
+      "sourceAbbreviations": [
+        "SGLT-2"
+      ]
+    },
+    {
+      "id": "START-A9",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "valsartan"
+      ],
+      "drugClasses": [
+        "acei",
+        "arb"
+      ],
+      "clinicalTopics": [
+        "ky"
+      ],
+      "sourceAbbreviations": [
+        "ACE"
+      ]
+    },
+    {
+      "id": "START-A10",
+      "type": "START",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio",
+        "blood"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "iviron"
+      ],
+      "clinicalTopics": [
+        "ky",
+        "demir_eksikligi"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-B1",
+      "type": "START",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "depresyon"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-B2",
+      "type": "START",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "buspiron",
+        "pregabalin"
+      ],
+      "drugClasses": [
+        "snri",
+        "ssri"
+      ],
+      "clinicalTopics": [
+        "depresyon"
+      ],
+      "sourceAbbreviations": [
+        "SSRİ",
+        "SNRİ"
+      ]
+    },
+    {
+      "id": "START-B3",
+      "type": "START",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "donepezil",
+        "galantamin",
+        "rivastigmin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demans",
+        "parkinson"
+      ],
+      "sourceAbbreviations": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "START-B4",
+      "type": "START",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "memantin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demans"
+      ],
+      "sourceAbbreviations": [
+        "BPSD"
+      ]
+    },
+    {
+      "id": "START-B5",
+      "type": "START",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "pirimidon",
+        "propranolol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "START-B6",
+      "type": "START",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "parkinson"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-B7",
+      "type": "START",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "parkinson"
+      ],
+      "sourceAbbreviations": [
+        "MAO-B",
+        "COMT"
+      ]
+    },
+    {
+      "id": "START-B8",
+      "type": "START",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "gabapentin",
+        "pramipeksol",
+        "pregabalin",
+        "ropinirol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demir_eksikligi"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-C1",
+      "type": "START",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [
+        "laktuloz",
+        "polietilen"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "konstipasyon"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-C2",
+      "type": "START",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "ppi"
+      ],
+      "clinicalTopics": [
+        "gord"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-C3",
+      "type": "START",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [
+        "aspirin",
+        "klopidogrel",
+        "misoprostol",
+        "omeprazol",
+        "varfarin"
+      ],
+      "drugClasses": [
+        "ppi",
+        "nsaid"
+      ],
+      "clinicalTopics": [
+        "gord",
+        "ulser"
+      ],
+      "sourceAbbreviations": [
+        "GÖR",
+        "COX-2",
+        "NSAİİ",
+        "PPİ"
+      ]
+    },
+    {
+      "id": "START-C4",
+      "type": "START",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-D1",
+      "type": "START",
+      "category": "Solunum sistemi",
+      "organSystems": [
+        "lung"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "koah",
+        "astim"
+      ],
+      "sourceAbbreviations": [
+        "KOAH"
+      ]
+    },
+    {
+      "id": "START-D2",
+      "type": "START",
+      "category": "Solunum sistemi",
+      "organSystems": [
+        "lung"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "koah",
+        "astim"
+      ],
+      "sourceAbbreviations": [
+        "FEV",
+        "KOAH"
+      ]
+    },
+    {
+      "id": "START-D3",
+      "type": "START",
+      "category": "Solunum sistemi",
+      "organSystems": [
+        "lung"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "SO"
+      ]
+    },
+    {
+      "id": "START-E1",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "İÜ"
+      ]
+    },
+    {
+      "id": "START-E2",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "denosumab"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "osteoporoz"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-E3",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "prednizolon"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "osteoporoz"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-E4",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "denosumab"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "osteoporoz"
+      ],
+      "sourceAbbreviations": [
+        "BTM",
+        "BMD"
+      ]
+    },
+    {
+      "id": "START-E5",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "teriparatid"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-E6",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-E7",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "folik",
+        "metotreksat"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-E8",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "allopurinol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "gut"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-E9",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "parasetamol"
+      ],
+      "drugClasses": [
+        "nsaid"
+      ],
+      "clinicalTopics": [
+        "oa"
+      ],
+      "sourceAbbreviations": [
+        "NSAİİ"
+      ]
+    },
+    {
+      "id": "START-E10",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-E11",
+      "type": "START",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "lidokain"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-F1",
+      "type": "START",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "acei",
+        "arb"
+      ],
+      "clinicalTopics": [
+        "dm",
+        "nefropati"
+      ],
+      "sourceAbbreviations": [
+        "ARB",
+        "ACEİ-ARB"
+      ]
+    },
+    {
+      "id": "START-F2",
+      "type": "START",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "romosozumab"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-G1",
+      "type": "START",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "IPSS",
+        "LUTS"
+      ]
+    },
+    {
+      "id": "START-G2",
+      "type": "START",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "IPSS",
+        "LUTS"
+      ]
+    },
+    {
+      "id": "START-G3",
+      "type": "START",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-G4",
+      "type": "START",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-G5",
+      "type": "START",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [
+        "sildenafil",
+        "tadalafil",
+        "vardenafil"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-H1",
+      "type": "START",
+      "category": "Böbrek sistemi",
+      "organSystems": [
+        "renal"
+      ],
+      "ingredientMentions": [
+        "kalsitriol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "kbh"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-H2",
+      "type": "START",
+      "category": "Böbrek sistemi",
+      "organSystems": [
+        "renal"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-H3",
+      "type": "START",
+      "category": "Böbrek sistemi",
+      "organSystems": [
+        "renal",
+        "blood"
+      ],
+      "ingredientMentions": [
+        "eritropoietin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "anemi"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-H4",
+      "type": "START",
+      "category": "Böbrek sistemi",
+      "organSystems": [
+        "renal"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "acei",
+        "arb"
+      ],
+      "clinicalTopics": [
+        "nefropati"
+      ],
+      "sourceAbbreviations": [
+        "ARB",
+        "ACE-I"
+      ]
+    },
+    {
+      "id": "START-H5",
+      "type": "START",
+      "category": "Böbrek sistemi",
+      "organSystems": [
+        "renal"
+      ],
+      "ingredientMentions": [
+        "finerenon"
+      ],
+      "drugClasses": [
+        "acei",
+        "arb"
+      ],
+      "clinicalTopics": [
+        "dm",
+        "kbh",
+        "nefropati"
+      ],
+      "sourceAbbreviations": [
+        "ACEI",
+        "ARB",
+        "MRA",
+        "KBH"
+      ]
+    },
+    {
+      "id": "START-H6",
+      "type": "START",
+      "category": "Böbrek sistemi",
+      "organSystems": [
+        "renal"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "nefropati"
+      ],
+      "sourceAbbreviations": [
+        "SGLT"
+      ]
+    },
+    {
+      "id": "START-I1",
+      "type": "START",
+      "category": "Aşılar",
+      "organSystems": [
+        "vaccines"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "influenza_vaccine"
+      ],
+      "sourceAbbreviations": [
+        "FDA"
+      ]
+    },
+    {
+      "id": "START-I2",
+      "type": "START",
+      "category": "Aşılar",
+      "organSystems": [
+        "vaccines"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "pneumococcal_vaccine"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-I3",
+      "type": "START",
+      "category": "Aşılar",
+      "organSystems": [
+        "vaccines"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "zoster_vaccine"
+      ],
+      "sourceAbbreviations": [
+        "RZV",
+        "ZVL"
+      ]
+    },
+    {
+      "id": "START-I4",
+      "type": "START",
+      "category": "Aşılar",
+      "organSystems": [
+        "vaccines"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "tetanus"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-I5",
+      "type": "START",
+      "category": "Aşılar",
+      "organSystems": [
+        "vaccines"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "meningococcus_vaccine"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "START-I6",
+      "type": "START",
+      "category": "Aşılar",
+      "organSystems": [
+        "vaccines"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "covid_vaccine"
+      ],
+      "sourceAbbreviations": [
+        "SARS"
+      ]
+    },
+    {
+      "id": "START-I7",
+      "type": "START",
+      "category": "Aşılar",
+      "organSystems": [
+        "vaccines"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "dm",
+        "ky",
+        "kbh",
+        "koah",
+        "astim",
+        "rsv_vaccine"
+      ],
+      "sourceAbbreviations": [
+        "RSV",
+        "KOAH",
+        "FDA"
+      ]
+    },
+    {
+      "id": "START-J1",
+      "type": "START",
+      "category": "Beslenme ve suplemanlar",
+      "organSystems": [
+        "nutrition"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "malnutrisyon"
+      ],
+      "sourceAbbreviations": [
+        "MN",
+        "MNR",
+        "ONS"
+      ]
+    },
+    {
+      "id": "START-J2",
+      "type": "START",
+      "category": "Beslenme ve suplemanlar",
+      "organSystems": [
+        "nutrition"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "MN",
+        "MNR",
+        "ONS"
+      ]
+    },
+    {
+      "id": "START-J3",
+      "type": "START",
+      "category": "Beslenme ve suplemanlar",
+      "organSystems": [
+        "nutrition"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "malnutrisyon"
+      ],
+      "sourceAbbreviations": [
+        "ONS"
+      ]
+    },
+    {
+      "id": "START-J4",
+      "type": "START",
+      "category": "Beslenme ve suplemanlar",
+      "organSystems": [
+        "nutrition"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "ONS",
+        "HMB"
+      ]
+    },
+    {
+      "id": "START-J5",
+      "type": "START",
+      "category": "Beslenme ve suplemanlar",
+      "organSystems": [
+        "nutrition"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "IU"
+      ]
+    },
+    {
+      "id": "STOP-A1",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "digoksin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "af"
+      ],
+      "sourceAbbreviations": [
+        "AF"
+      ]
+    },
+    {
+      "id": "STOP-A2",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "digoksin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A3",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "digoksin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "af",
+        "ky"
+      ],
+      "sourceAbbreviations": [
+        "EF",
+        "AF"
+      ]
+    },
+    {
+      "id": "STOP-A4",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "diltiazem",
+        "verapamil"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "EF"
+      ]
+    },
+    {
+      "id": "STOP-A5",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "digoksin",
+        "diltiazem",
+        "verapamil"
+      ],
+      "drugClasses": [
+        "beta"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "PR"
+      ]
+    },
+    {
+      "id": "STOP-A6",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ky"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A7",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ht"
+      ],
+      "sourceAbbreviations": [
+        "HT"
+      ]
+    },
+    {
+      "id": "STOP-A8",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ht"
+      ],
+      "sourceAbbreviations": [
+        "HT"
+      ]
+    },
+    {
+      "id": "STOP-A9",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ht",
+        "ky",
+        "depresyon"
+      ],
+      "sourceAbbreviations": [
+        "HT",
+        "MSS"
+      ]
+    },
+    {
+      "id": "STOP-A10",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ht"
+      ],
+      "sourceAbbreviations": [
+        "HT"
+      ]
+    },
+    {
+      "id": "STOP-A11",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demans"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A12",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "fludrokortizon"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A13",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "diltiazem",
+        "verapamil"
+      ],
+      "drugClasses": [
+        "beta"
+      ],
+      "clinicalTopics": [
+        "ht"
+      ],
+      "sourceAbbreviations": [
+        "HT"
+      ]
+    },
+    {
+      "id": "STOP-A14",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "amilorid",
+        "eplerenon",
+        "spironolakton"
+      ],
+      "drugClasses": [
+        "acei",
+        "arb",
+        "ras"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "RAS",
+        "ACE",
+        "ARB"
+      ]
+    },
+    {
+      "id": "STOP-A15",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "amilorid",
+        "eplerenon",
+        "spironolakton"
+      ],
+      "drugClasses": [
+        "acei",
+        "arb",
+        "ras"
+      ],
+      "clinicalTopics": [
+        "dm"
+      ],
+      "sourceAbbreviations": [
+        "RAS",
+        "ACEİ",
+        "ARB"
+      ]
+    },
+    {
+      "id": "STOP-A16",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "amilorid"
+      ],
+      "drugClasses": [
+        "acei",
+        "arb"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "GFR",
+        "ACEİ",
+        "ARB"
+      ]
+    },
+    {
+      "id": "STOP-A17",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A18",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "aspirin",
+        "ibuprofen",
+        "naproksen"
+      ],
+      "drugClasses": [
+        "nsaid"
+      ],
+      "clinicalTopics": [
+        "ht",
+        "ky",
+        "mi"
+      ],
+      "sourceAbbreviations": [
+        "HT",
+        "Mİ",
+        "NSAİİ"
+      ]
+    },
+    {
+      "id": "STOP-A19",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "beta"
+      ],
+      "clinicalTopics": [
+        "dm"
+      ],
+      "sourceAbbreviations": [
+        "DM"
+      ]
+    },
+    {
+      "id": "STOP-A20",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "beta"
+      ],
+      "clinicalTopics": [
+        "astim"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A21",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "aspirin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A22",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "aspirin",
+        "dipiridamol",
+        "klopidogrel"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ht"
+      ],
+      "sourceAbbreviations": [
+        "OAK",
+        "HT"
+      ]
+    },
+    {
+      "id": "STOP-A23",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "aspirin",
+        "klopidogrel"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "gia",
+        "aks",
+        "pah"
+      ],
+      "sourceAbbreviations": [
+        "GİA"
+      ]
+    },
+    {
+      "id": "STOP-A24",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "aspirin",
+        "klopidogrel"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "af",
+        "kah",
+        "aks",
+        "pah"
+      ],
+      "sourceAbbreviations": [
+        "AF",
+        "OAK"
+      ]
+    },
+    {
+      "id": "STOP-A25",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "dvt"
+      ],
+      "sourceAbbreviations": [
+        "OAK"
+      ]
+    },
+    {
+      "id": "STOP-A26",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "OAK"
+      ]
+    },
+    {
+      "id": "STOP-A27",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "aspirin",
+        "klopidogrel"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "af"
+      ],
+      "sourceAbbreviations": [
+        "OAK",
+        "AF"
+      ]
+    },
+    {
+      "id": "STOP-A28",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "apiksaban",
+        "dabigatran",
+        "edoksaban",
+        "rivaroksaban",
+        "varfarin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "af",
+        "ht",
+        "gia"
+      ],
+      "sourceAbbreviations": [
+        "GFR",
+        "SDBY",
+        "AF",
+        "INR",
+        "HT",
+        "GİA",
+        "MS",
+        "OAK"
+      ]
+    },
+    {
+      "id": "STOP-A29",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "varfarin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "af"
+      ],
+      "sourceAbbreviations": [
+        "AF"
+      ]
+    },
+    {
+      "id": "STOP-A30",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "digoksin",
+        "varfarin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A31",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "prasugrel"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "gia"
+      ],
+      "sourceAbbreviations": [
+        "GİA"
+      ]
+    },
+    {
+      "id": "STOP-A32",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "klopidogrel",
+        "prasugrel",
+        "tikagrelor",
+        "tiklopidin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A33",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "dipiridamol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A34",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "statin"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A35",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "allopurinol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "kbh"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A36",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "digoksin",
+        "verapamil"
+      ],
+      "drugClasses": [
+        "beta"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A37",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A38",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A39",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "dabigatran",
+        "diltiazem",
+        "verapamil"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A40",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "amiodaron",
+        "apiksaban",
+        "azitromisin",
+        "dabigatran",
+        "edoksaban",
+        "itrakonazol",
+        "karvedilol",
+        "ketokonazol",
+        "ranolazin",
+        "rivaroksaban",
+        "siklosporin",
+        "tamoksifen",
+        "tikagrelor",
+        "verapamil"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-A41",
+      "type": "STOP",
+      "category": "Kardiyovasküler sistem",
+      "organSystems": [
+        "cardio"
+      ],
+      "ingredientMentions": [
+        "digoksin",
+        "essitalopram",
+        "haloperidol",
+        "lityum",
+        "mirabegron",
+        "ondansetron",
+        "sitalopram",
+        "tizanidin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "IA",
+        "III"
+      ]
+    },
+    {
+      "id": "STOP-B1",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "depresyon"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B2",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "fluoksetin",
+        "paroksetin"
+      ],
+      "drugClasses": [
+        "ssri"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "SSRI"
+      ]
+    },
+    {
+      "id": "STOP-B3",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "bupropion",
+        "mirtazapin"
+      ],
+      "drugClasses": [
+        "ssri"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "SSRİ",
+        "SSRI"
+      ]
+    },
+    {
+      "id": "STOP-B4",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "duloksetin",
+        "venlafaksin"
+      ],
+      "drugClasses": [
+        "snri"
+      ],
+      "clinicalTopics": [
+        "ht"
+      ],
+      "sourceAbbreviations": [
+        "HT",
+        "SNRİ"
+      ]
+    },
+    {
+      "id": "STOP-B5",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "duloksetin",
+        "essitalopram",
+        "mirtazapin",
+        "paroksetin",
+        "sertralin",
+        "sitalopram",
+        "venlafaksin",
+        "vortioksetin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "GFR",
+        "GİS"
+      ]
+    },
+    {
+      "id": "STOP-B6",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "gabapentin",
+        "pregabalin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "GFR"
+      ]
+    },
+    {
+      "id": "STOP-B7",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "amitriptilin",
+        "difenhidramin",
+        "feniramin",
+        "ketiapin",
+        "klorpromazin",
+        "klozapin",
+        "olanzapin",
+        "paroksetin",
+        "siproheptadin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demans",
+        "parkinson"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B8",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "parkinson"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B9",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B10",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "memantin",
+        "sertralin",
+        "sitalopram"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ky",
+        "demans"
+      ],
+      "sourceAbbreviations": [
+        "SSRİ"
+      ]
+    },
+    {
+      "id": "STOP-B11",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "melatonin",
+        "mirtazapin",
+        "ramelteon"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demans",
+        "depresyon"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B12",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "ketiapin",
+        "klozapin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demans"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B13",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "zolpidem",
+        "zopiklon"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B14",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "klonazepam",
+        "lorazepam"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demans"
+      ],
+      "sourceAbbreviations": [
+        "REM"
+      ]
+    },
+    {
+      "id": "STOP-B15",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "PO",
+        "PCO"
+      ]
+    },
+    {
+      "id": "STOP-B16",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "af",
+        "koah"
+      ],
+      "sourceAbbreviations": [
+        "LBBB",
+        "AF",
+        "KOAH"
+      ]
+    },
+    {
+      "id": "STOP-B17",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "levodopa"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "parkinson"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B18",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "betahistin",
+        "dimenhidrinat",
+        "trimetazidin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B19",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "sinnarizin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B20",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "pirasetam"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B21",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "fenitoin",
+        "fenobarbital",
+        "gabapentin",
+        "karbamazepin",
+        "lamotrijin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "epilepsi"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B22",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "bupropion",
+        "klorpromazin",
+        "klozapin",
+        "maprotilin",
+        "olanzapin",
+        "tramadol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "epilepsi"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B23",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "epilepsi"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B24",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "essitalopram",
+        "sitalopram"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B25",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "gingko",
+        "modafinil",
+        "pirasetam"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demans"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B26",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-B27",
+      "type": "STOP",
+      "category": "Santral sinir sistemi",
+      "organSystems": [
+        "neuro"
+      ],
+      "ingredientMentions": [
+        "levodopa"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "parkinson"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-C1",
+      "type": "STOP",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "nsaid"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "NSAİİ",
+        "OAK",
+        "GİS"
+      ]
+    },
+    {
+      "id": "STOP-C2",
+      "type": "STOP",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [
+        "aspirin",
+        "klopidogrel"
+      ],
+      "drugClasses": [
+        "nsaid"
+      ],
+      "clinicalTopics": [
+        "ulser"
+      ],
+      "sourceAbbreviations": [
+        "NSAİİ"
+      ]
+    },
+    {
+      "id": "STOP-C3",
+      "type": "STOP",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "ppi"
+      ],
+      "clinicalTopics": [
+        "ulser"
+      ],
+      "sourceAbbreviations": [
+        "PPİ"
+      ]
+    },
+    {
+      "id": "STOP-C4",
+      "type": "STOP",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "ppi"
+      ],
+      "clinicalTopics": [
+        "kbh",
+        "demans"
+      ],
+      "sourceAbbreviations": [
+        "PPİ"
+      ]
+    },
+    {
+      "id": "STOP-C5",
+      "type": "STOP",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "konstipasyon"
+      ],
+      "sourceAbbreviations": [
+        "GİS"
+      ]
+    },
+    {
+      "id": "STOP-C6",
+      "type": "STOP",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro",
+        "blood"
+      ],
+      "ingredientMentions": [
+        "verapamil"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "konstipasyon",
+        "demir_eksikligi"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-C7",
+      "type": "STOP",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [
+        "metoklopramid",
+        "trimetobenzamid"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "HT"
+      ]
+    },
+    {
+      "id": "STOP-C8",
+      "type": "STOP",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "GFR"
+      ]
+    },
+    {
+      "id": "STOP-C9",
+      "type": "STOP",
+      "category": "Gastrointestinal sistem",
+      "organSystems": [
+        "gastro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-D1",
+      "type": "STOP",
+      "category": "Solunum sistemi",
+      "organSystems": [
+        "lung"
+      ],
+      "ingredientMentions": [
+        "ipratropium",
+        "tiotropium"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "LUTS",
+        "PMR"
+      ]
+    },
+    {
+      "id": "STOP-D2",
+      "type": "STOP",
+      "category": "Solunum sistemi",
+      "organSystems": [
+        "lung"
+      ],
+      "ingredientMentions": [
+        "teofilin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "koah",
+        "astim"
+      ],
+      "sourceAbbreviations": [
+        "KOAH"
+      ]
+    },
+    {
+      "id": "STOP-D3",
+      "type": "STOP",
+      "category": "Solunum sistemi",
+      "organSystems": [
+        "lung"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "koah"
+      ],
+      "sourceAbbreviations": [
+        "KOAH"
+      ]
+    },
+    {
+      "id": "STOP-E1",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "indometasin",
+        "metamizol",
+        "misoprostol",
+        "parasetamol",
+        "tramadol"
+      ],
+      "drugClasses": [
+        "nsaid"
+      ],
+      "clinicalTopics": [
+        "ht",
+        "ky",
+        "oa",
+        "nefropati"
+      ],
+      "sourceAbbreviations": [
+        "NSAİİ",
+        "HT",
+        "KV",
+        "MSS",
+        "PPİ"
+      ]
+    },
+    {
+      "id": "STOP-E2",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "nsaid"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "NSAİİ",
+        "GFR"
+      ]
+    },
+    {
+      "id": "STOP-E3",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "oa"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-E4",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ra"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-E5",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "allopurinol",
+        "febuksostat",
+        "kolşisin"
+      ],
+      "drugClasses": [
+        "nsaid"
+      ],
+      "clinicalTopics": [
+        "gut"
+      ],
+      "sourceAbbreviations": [
+        "NSAİİ"
+      ]
+    },
+    {
+      "id": "STOP-E6",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "kolşisin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "gut"
+      ],
+      "sourceAbbreviations": [
+        "GFR"
+      ]
+    },
+    {
+      "id": "STOP-E7",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "metotreksat"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "GFR"
+      ]
+    },
+    {
+      "id": "STOP-E8",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-E9",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "tramadol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "GFR"
+      ]
+    },
+    {
+      "id": "STOP-E10",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "konstipasyon"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-E11",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "klorzoksazon",
+        "siklobenzaprin",
+        "tiyokolsikosid",
+        "tizanidin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "konstipasyon"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-E12",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "osteoporoz"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-E13",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "İÜ"
+      ]
+    },
+    {
+      "id": "STOP-E14",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "kalsitriol",
+        "kolekalsiferol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "OH"
+      ]
+    },
+    {
+      "id": "STOP-E15",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ulser"
+      ],
+      "sourceAbbreviations": [
+        "GİS",
+        "GÖR"
+      ]
+    },
+    {
+      "id": "STOP-E16",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "alendronat"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "osteoporoz"
+      ],
+      "sourceAbbreviations": [
+        "GFR"
+      ]
+    },
+    {
+      "id": "STOP-E17",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "denosumab",
+        "teriparatid"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "osteoporoz"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-E18",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [
+        "buprenorfin",
+        "fentanil",
+        "morfin",
+        "oksikodon",
+        "parasetamol",
+        "petidin",
+        "tramadol"
+      ],
+      "drugClasses": [
+        "nsaid"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "DSÖ",
+        "NSAİİ"
+      ]
+    },
+    {
+      "id": "STOP-E19",
+      "type": "STOP",
+      "category": "Kas-iskelet sistemi ve analjezikler",
+      "organSystems": [
+        "bones"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "BKİ"
+      ]
+    },
+    {
+      "id": "STOP-F1",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "bph"
+      ],
+      "sourceAbbreviations": [
+        "LUTS",
+        "PMR"
+      ]
+    },
+    {
+      "id": "STOP-F2",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-F3",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "dm",
+        "bph"
+      ],
+      "sourceAbbreviations": [
+        "PMR"
+      ]
+    },
+    {
+      "id": "STOP-F4",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [
+        "sildenafil",
+        "tadalafil",
+        "vardenafil"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ky",
+        "mi"
+      ],
+      "sourceAbbreviations": [
+        "NYHA",
+        "Mİ"
+      ]
+    },
+    {
+      "id": "STOP-F5",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [
+        "doksazosin",
+        "terazosin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "bph"
+      ],
+      "sourceAbbreviations": [
+        "LUTS"
+      ]
+    },
+    {
+      "id": "STOP-F6",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-F7",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [
+        "nitrofurantoin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "GFR"
+      ]
+    },
+    {
+      "id": "STOP-F8",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [
+        "flufenazin",
+        "klorpromazin",
+        "klozapin",
+        "olanzapin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-F9",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [
+        "mirabegron"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ht"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-F10",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [
+        "dapagliflozin",
+        "empagliflozin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "SGLT"
+      ]
+    },
+    {
+      "id": "STOP-F11",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "pah"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-F12",
+      "type": "STOP",
+      "category": "Ürogenital sistem",
+      "organSystems": [
+        "uro"
+      ],
+      "ingredientMentions": [
+        "desmopressin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "inkontinans"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-G1",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-G2",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "metformin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "malnutrisyon"
+      ],
+      "sourceAbbreviations": [
+        "GİS"
+      ]
+    },
+    {
+      "id": "STOP-G3",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "metformin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ky",
+        "koah"
+      ],
+      "sourceAbbreviations": [
+        "GFR",
+        "KOAH"
+      ]
+    },
+    {
+      "id": "STOP-G4",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "glibenklamid",
+        "klorpropamid"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "dm"
+      ],
+      "sourceAbbreviations": [
+        "DM"
+      ]
+    },
+    {
+      "id": "STOP-G5",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "insülin",
+        "pioglitazon"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ky"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-G6",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "saksagliptin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "ky"
+      ],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-G7",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "pah"
+      ],
+      "sourceAbbreviations": [
+        "SGLT-2"
+      ]
+    },
+    {
+      "id": "STOP-G8",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "dapagliflozin",
+        "empagliflozin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "dm",
+        "ky",
+        "nefropati"
+      ],
+      "sourceAbbreviations": [
+        "SGLT-2",
+        "GFR",
+        "SGLT",
+        "EF",
+        "ESC",
+        "KDIGO"
+      ]
+    },
+    {
+      "id": "STOP-G9",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "testosteron"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-G10",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-G11",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "progesteron"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-G12",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "megestrol"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-G13",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [],
+      "drugClasses": [
+        "thyroid"
+      ],
+      "clinicalTopics": [
+        "af",
+        "osteoporoz",
+        "hipotiroidi"
+      ],
+      "sourceAbbreviations": [
+        "TSH"
+      ]
+    },
+    {
+      "id": "STOP-G14",
+      "type": "STOP",
+      "category": "Endokrin sistem",
+      "organSystems": [
+        "endocrine"
+      ],
+      "ingredientMentions": [
+        "romosozumab"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    },
+    {
+      "id": "STOP-H1",
+      "type": "STOP",
+      "category": "Antimuskarinik–antikolinerjik yük",
+      "organSystems": [
+        "anticholinergic"
+      ],
+      "ingredientMentions": [
+        "difenhidramin",
+        "dimenhidrinat",
+        "feniramin",
+        "fesoterodin",
+        "hidroksizin",
+        "hiyosin",
+        "klorfeniramin",
+        "klorpromazin",
+        "klozapin",
+        "oksibutinin",
+        "olanzapin",
+        "paroksetin",
+        "propiverin",
+        "siproheptadin",
+        "solifenasin",
+        "tolterodin",
+        "trospiyum"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [
+        "demans",
+        "konstipasyon"
+      ],
+      "sourceAbbreviations": [
+        "LUTS"
+      ]
+    },
+    {
+      "id": "STOP-J1",
+      "type": "STOP",
+      "category": "Suplemanlar",
+      "organSystems": [
+        "nutrition"
+      ],
+      "ingredientMentions": [
+        "aspirin",
+        "gingko"
+      ],
+      "drugClasses": [
+        "nsaid"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "NSAİİ"
+      ]
+    },
+    {
+      "id": "STOP-J2",
+      "type": "STOP",
+      "category": "Suplemanlar",
+      "organSystems": [
+        "nutrition"
+      ],
+      "ingredientMentions": [
+        "digoksin",
+        "fenitoin",
+        "fenobarbital",
+        "karbamazepin",
+        "teofilin",
+        "varfarin"
+      ],
+      "drugClasses": [
+        "ssri"
+      ],
+      "clinicalTopics": [],
+      "sourceAbbreviations": [
+        "SSRİ"
+      ]
+    },
+    {
+      "id": "STOP-J3",
+      "type": "STOP",
+      "category": "Suplemanlar",
+      "organSystems": [
+        "nutrition"
+      ],
+      "ingredientMentions": [
+        "varfarin"
+      ],
+      "drugClasses": [],
+      "clinicalTopics": [],
+      "sourceAbbreviations": []
+    }
+  ]
+}
