@@ -258,6 +258,31 @@
       "criterionIds": [
         "START-A10"
       ]
+    },
+    {
+      "id": "thyroid",
+      "label": "Tiroid hormonları",
+      "terms": [
+        "tiroid hormonu",
+        "tiroid hormon*",
+        "tiroid replasman*",
+        "tiroksin tedavisi"
+      ],
+      "search": [
+        "tiroid hormonu",
+        "tiroid hormonları",
+        "tiroid hormonu tedavisi",
+        "tiroid replasman tedavisi",
+        "T4 replasmanı"
+      ],
+      "members": [
+        "levotiroksin",
+        "liotironin"
+      ],
+      "note": "STOP-G13 yalnızca metinde tanımlanan TSH 4–10 mIU/L ve normal sT4 ile seyreden subklinik hipotiroidili yaşlılar için geçerlidir. Hipotiroidinin diğer tiplerine otomatik uygulanmaz.",
+      "criterionIds": [
+        "STOP-G13"
+      ]
     }
   ]
 }
