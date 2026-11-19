@@ -15,6 +15,7 @@ TIME Kriterleri, İstanbul Tıp Fakültesi Geriatri Bilim Dalı çalışmalarıy
 Veriler, proje sahibi tarafından sağlanan, 2024 tarihli **referanslı ve açıklamalı** TIME-to-START (45 sayfa) ve TIME-to-STOP (72 sayfa) PDF'lerinden otomatik olarak ayrıştırılmıştır.
 
 - İlaç adı, klinik durum, kategori ve kriter koduyla arama
+- **12 organ/klinik alan kartı üzerinden gezinme:** sistem → isteğe bağlı hastalık filtresi → START ve STOP sonuçları birlikte. PDF bölümü filtresi ve START/STOP seçimi de korunur.
 - START / STOP ve organ sistemine göre filtreleme
 - Kriter açıklamaları ve bibliyografik referanslar
 - Kaynak PDF sayfa numarası
@@ -47,7 +48,9 @@ https://denizseyithanoglu.github.io/timecriteria_aramamotoru/
 - `data/medicine_aliases.json`: İngilizce/Türkçe etken madde eşanlamları (ilk sürümden korunur); piyasa adları için resmi kaynak yerine geçmez
 - `data/titck_time_brands.json`: **TİTCK listesi ile TIME 2024 kriter metinlerinin kesişimi**: 148 etken madde, 1.235 tekilleştirilmiş piyasa adı; 442 kombinasyon ürün satırı kapsam dışı bırakıldı.
 - `data/medicine_classes.json`: TIME metninde geçen 9 ilaç grubu için seçilmiş etken madde üyelikleri ve sınıf terimleri
-- `data/class_member_brands.json`: Kullanıcının TİTCK Excel dosyasından TIME ilaç sınıflarıyla ilişkili 35 ek etken madde ve 178 seçilmiş piyasa adı (kombinasyonlar hariç)
+- `data/class_member_brands.json`: Kullanıcının TİTCK Excel dosyasından TIME ilaç sınıflarıyla ilişkili 43 ek etken madde girdisi ve 194 seçilmiş piyasa adı (kombinasyonlar hariç; IV demir formları ayrı doğrulanır)
+- `data/organ_systems.json`: 12 organ/klinik alan, PDF bölüm başlığı eşleştirmeleri ve ilgili hastalık alt filtreleri
+- `data/clinical_aliases.json`: Tanı adları, kısaltmalar ve incelenmiş kriter–hastalık eşleştirmeleri
 - `search-helpers.js`: İlaç adı, sınıf, kısaltma ve yazım önerisi motoru
 - `tests/search-smoke.cjs`: Değişiklik sonrası arama regresyon testleri; `node tests/search-smoke.cjs`
 - `ilac-sozlugu.html`, `directory.js`: Sözlüğü inceleme sayfas
@@ -98,3 +101,22 @@ Yalnızca kriterin **ana açıklama metninde** ilgili sınıf açıkça geçiyor
 Geliştirici testi: `node tests/search-smoke.cjs` (ek paket gerekmez).
 
 Kaynaklar: 2024 TIME kriter belgeleri, kullanıcı tarafından sağlanan TİTCK listesi; ATC sınıflarının kontrolü için [WHO ATC/DDD](https://atcddd.fhi.no/atc_ddd_index/).
+
+
+## Organ sistemi ve hastalık bazlı gezinme (20 Kasım 2026)
+
+Ana sayfadaki **“Organ sistemine göre incele”** kartlarından kardiyovasküler, nöroloji-psikiyatri, gastrointestinal, solunum, kas-iskelet, endokrin-metabolizma, böbrek, ürogenital, kan-anemi, aşılar, beslenme-suplemanlar veya antikolinerjik yük alanı seçilebilir. Seçilen alana uygun hastalıklar ikinci açılır menüden belirlenebilir. START/STOP sekmeleri ile birlikte kullanılabilir. Kullanıcıya gösterilen sistemler 2024 TIME PDF'sinin bölüm başlıklarına dayalıdır; **“Kan ve anemi”** istisnai olarak üç farklı bölümden `START-A10`, `START-H3`, `STOP-C6` kriterlerini bir araya getiren *tematik* görünümdür, orijinal PDF başlığı değildir.
+
+BPH ve romatoid artrit gibi Türkçe çekim ekleri nedeniyle daha önce aranamayan tanılar için ayrıca incelenmiş kriter kodları tanımlanmıştır. Bu filtreler kişiye özgü karar motoru değildir; kriterin tam metnine ve klinik koşullarına bakılması gerekir.
+
+## İntravenöz demir örneği
+
+TİTCK'nin proje sahibi tarafından sağlanan 6 Kasım 2026 isimli XLSX dosyasındaki **B03AC** satırları ve **uygulama yolu** kontrol edilmiştir. `İNFERJECT` (demir karboksimaltoz), `Ferapplic`, `Ferdepo`, `Venofer`, `Sukrofer` ve diğer seçilmiş, **IV** preparatlar `data/class_member_brands.json` dosyasına eklendi. Aynı veride bulunan **IM** demir ürünleri IV demir grubuna eklenmemiştir.
+
+- `Inferject` → demir karboksimaltoz → **intravenöz demir** → `START-A10`
+- `Venofer` → ferrik hidroksit sükroz kompleksi → **intravenöz demir** → `START-A10`
+- `oral demir` → **`STOP-C6`**; `START-A10` ile otomatik birleştirilmez.
+
+Eşleştirme sadece kriter bulmaya yarar; `START-A10` tedavi endikasyonundaki kalp yetersizliği ve ferritin/transferrin saturasyonu koşullarının ayrı değerlendirilmesi zorunludur.
+
+**Test:** `node tests/search-smoke.cjs` komutu 25 klinik/ilaç sorgusunu ve 15 güvenlik veya filtre kontrolünü çalıştırır. Bu testler otomatik metin ve sınıf eşleştirmesini kontrol eder, klinik içerik doğrulamasının yerine geçmez.
