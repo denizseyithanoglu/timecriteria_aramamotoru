@@ -374,9 +374,13 @@
       "terms": [
         "hipotiroidi",
         "hipertiroidi",
-        "tiroid hastalığı"
+        "tiroid hastalığı",
+        "tiroid hormon replasmanı",
+        "subklinik hipotiroidi"
       ],
-      "criterionIds": []
+      "criterionIds": [
+        "STOP-G13"
+      ]
     },
     {
       "id": "nefropati",
@@ -441,6 +445,102 @@
       "criterionIds": [
         "START-J1",
         "START-J3"
+      ]
+    },
+    {
+      "id": "tetanus",
+      "label": "Tetanoz aşılaması (Td)",
+      "terms": [
+        "tetanoz",
+        "tetanus",
+        "tetano",
+        "tetanoz aşısı",
+        "tetanoz aşılaması",
+        "tetanoz-difteri",
+        "tetanoz difteri",
+        "Td aşısı",
+        "Td"
+      ],
+      "criterionIds": [
+        "START-I4"
+      ],
+      "note": "TIME START-I4, erişkin Td (tetanoz-difteri toksoidi) aşısını ele alır. Tek başına tetanoz toksoidi aşısıyla otomatik eşdeğerlik kurmayın."
+    },
+    {
+      "id": "influenza_vaccine",
+      "label": "İnfluenza aşılaması",
+      "terms": [
+        "influenza aşısı",
+        "influenza",
+        "grip aşısı",
+        "mevsimsel grip aşısı"
+      ],
+      "criterionIds": [
+        "START-I1"
+      ]
+    },
+    {
+      "id": "pneumococcal_vaccine",
+      "label": "Pnömokok aşılaması",
+      "terms": [
+        "pnömokok",
+        "pnomokok",
+        "pnömokok aşısı",
+        "pnömoni aşısı"
+      ],
+      "criterionIds": [
+        "START-I2"
+      ]
+    },
+    {
+      "id": "zoster_vaccine",
+      "label": "Herpes zoster aşılaması",
+      "terms": [
+        "herpes zoster",
+        "zona",
+        "zona aşısı",
+        "zoster"
+      ],
+      "criterionIds": [
+        "START-I3"
+      ]
+    },
+    {
+      "id": "meningococcus_vaccine",
+      "label": "Meningokok aşılaması",
+      "terms": [
+        "meningokok",
+        "meningococcal vaccine",
+        "meningokok aşısı"
+      ],
+      "criterionIds": [
+        "START-I5"
+      ]
+    },
+    {
+      "id": "covid_vaccine",
+      "label": "COVID-19 aşılaması",
+      "terms": [
+        "covid",
+        "covid-19",
+        "sars-cov2",
+        "sars cov2",
+        "koronavirüs aşısı"
+      ],
+      "criterionIds": [
+        "START-I6"
+      ]
+    },
+    {
+      "id": "rsv_vaccine",
+      "label": "RSV aşılaması",
+      "terms": [
+        "RSV",
+        "RSV aşısı",
+        "respiratuvar sinsityal virüs"
+      ],
+      "criterionIds": [
+        "START-I7"
       ]
     }
   ]
