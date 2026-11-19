@@ -478,10 +478,16 @@ Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/cli
             row.brands.push(brand); used.add(TimeSearch.norm(brand));
           }
         }
+        const synonymKeys = new Set((row.synonyms||[]).map(TimeSearch.norm));
+        for (const synonym of extra.synonyms || []) {
+          if (!synonymKeys.has(TimeSearch.norm(synonym))) {
+            row.synonyms.push(synonym); synonymKeys.add(TimeSearch.norm(synonym));
+          }
+        }
       } else {
         const prev=seed.get(key);
         const row={ingredient:extra.ingredient,brands:extra.brands||[],
-          synonyms:prev?prev.synonyms||[]:[],brandSource:files[5].sourceURL};
+          synonyms:[...(prev?prev.synonyms||[]:[]),...(extra.synonyms||[])],brandSource:files[5].sourceURL};
         scopedDrugs.push(row); byIngredient.set(key,row);
       }
     }
