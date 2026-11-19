@@ -226,6 +226,38 @@
         "etorikoksib",
         "indometasin"
       ]
+    },
+    {
+      "id": "iviron",
+      "label": "İntravenöz demir preparatları",
+      "terms": [
+        "intravenöz demir",
+        "intravenoz demir",
+        "iv demir",
+        "i.v. demir",
+        "damar içi demir",
+        "parenteral demir"
+      ],
+      "search": [
+        "intravenöz demir",
+        "IV demir",
+        "damar içi demir",
+        "parenteral demir"
+      ],
+      "members": [
+        "demir karboksimaltoz",
+        "demir (ııı) hidroksit sükroz kompleksi",
+        "demir (iii hidroksit sükroz kompleksi",
+        "demir hidroksit sükroz kompleksi",
+        "demir iii hidroksit sükroz kompleksi",
+        "demir iii sükroz kompleksi",
+        "demir sükroz kompleksi",
+        "ferrik hidroksit sükroz kompleksi"
+      ],
+      "note": "Yalnızca damar içi (IV) demir preparatları; intramüsküler ve oral formlar bu eşleştirmeye dahil değildir.",
+      "criterionIds": [
+        "START-A10"
+      ]
     }
   ]
 }
