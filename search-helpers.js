@@ -199,7 +199,10 @@ window.TimeSearch = (function () {
     return phraseInText(text,p);
   }
   function classesForCriterion(row,groups){
-    return groups.filter(g=>(g.terms||[]).some(t=>classPatternMatch(row.text,t))).map(g=>g.id);
+    return groups.filter(g=>
+      !(g.excludeCriterionIds||[]).includes(row.id) &&
+      ((g.criterionIds||[]).includes(row.id) ||
+       (g.terms||[]).some(t=>classPatternMatch(row.text,t)))).map(g=>g.id);
   }
   function classesForIngredient(ingredient,groups){
     const key=norm(ingredient);
