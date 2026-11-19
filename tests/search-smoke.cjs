@@ -25,7 +25,7 @@ function add(name,brands=[],synonyms=[]){
  for(const s of synonyms)if(!entry.synonyms.some(x=>api.norm(x)===api.norm(s)))entry.synonyms.push(s);
 }
 for(const row of original)add(row.ingredient,row.brands);
-for(const row of additions)add(row.ingredient,row.brands);
+for(const row of additions)add(row.ingredient,row.brands,row.synonyms||[]);
 for(const row of old)add(row.ingredient,[],row.synonyms);
 for(const group of classes)for(const name of group.members)add(name);
 const alias=api.aliasIndex([...ingredients.values()]);
