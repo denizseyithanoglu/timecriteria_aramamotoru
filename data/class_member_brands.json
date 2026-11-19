@@ -2,7 +2,7 @@
   "version": "2026-11-20",
   "source": "Kullanıcının yüklediği 6 Kasım 2026 adlı TİTCK Ruhsatlı Beşeri Tıbbi Ürünler Listesi, ürün adı/etkin madde/ATC alanlarından seçilmiş tek etkin maddeli ruhsatı askıda olmayan ürünler",
   "sourceURL": "https://www.titck.gov.tr/dinamikmodul/85",
-  "scope": "Only active ingredients belonging to explicitly referenced classes in TIME 2024. Not all Turkish medicines. Combination products omitted.",
+  "scope": "Only active ingredients belonging to explicitly referenced classes in TIME 2024. Not all Turkish medicines. Combination products omitted. IV iron agents with route verified from user-uploaded TİTCK sheet added.",
   "status": "curated-review-required",
   "entries": [
     {
@@ -392,6 +392,78 @@
       "brands": [
         "NOLTEC"
       ]
+    },
+    {
+      "ingredient": "demir karboksimaltoz",
+      "atc": "B03AC",
+      "brands": [
+        "İNFERJECT",
+        "Ferapplic",
+        "Ferdepo"
+      ],
+      "route": "IV"
+    },
+    {
+      "ingredient": "demir (ııı) hidroksit sükroz kompleksi",
+      "atc": "B03AC",
+      "brands": [
+        "SUCROXA"
+      ],
+      "route": "IV"
+    },
+    {
+      "ingredient": "demir (iii hidroksit sükroz kompleksi",
+      "atc": "B03AC",
+      "brands": [
+        "DEMROSE"
+      ],
+      "route": "IV"
+    },
+    {
+      "ingredient": "demir hidroksit sükroz kompleksi",
+      "atc": "B03AC",
+      "brands": [
+        "FERICOSE"
+      ],
+      "route": "IV"
+    },
+    {
+      "ingredient": "demir iii hidroksit sükroz kompleksi",
+      "atc": "B03AC",
+      "brands": [
+        "SUKROFER",
+        "VENİRO"
+      ],
+      "route": "IV"
+    },
+    {
+      "ingredient": "demir iii sükroz kompleksi",
+      "atc": "B03AC",
+      "brands": [
+        "FERROSEL"
+      ],
+      "route": "IV"
+    },
+    {
+      "ingredient": "demir sükroz kompleksi",
+      "atc": "B03AC",
+      "brands": [
+        "FERINT",
+        "FERROVEN"
+      ],
+      "route": "IV"
+    },
+    {
+      "ingredient": "ferrik hidroksit sükroz kompleksi",
+      "atc": "B03AC",
+      "brands": [
+        "KARFERON",
+        "VENOFER",
+        "FERNULA",
+        "FERSİNOL-S",
+        "Erythava"
+      ],
+      "route": "IV"
     }
   ]
 }
