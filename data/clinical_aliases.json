@@ -40,10 +40,15 @@
         "hypertension",
         "HT",
         "arteriyel hipertansiyon",
-        "arterial hypertension"
+        "arterial hypertension",
+        "yüksek tansiyon",
+        "arteriyel kan basıncı yüksekliği"
       ],
       "related": [],
-      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/",
+      "criterionIds": [
+        "START-A3"
+      ]
     },
     {
       "id": "dm",
@@ -53,10 +58,15 @@
         "diabetes mellitus",
         "diyabet",
         "diabetes",
-        "DM"
+        "DM",
+        "glisemik kontrol",
+        "kan şekeri kontrolü"
       ],
       "related": [],
-      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/",
+      "criterionIds": [
+        "STOP-G1"
+      ]
     },
     {
       "id": "ky",
@@ -68,7 +78,10 @@
         "KY"
       ],
       "related": [],
-      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/",
+      "criterionIds": [
+        "STOP-A37"
+      ]
     },
     {
       "id": "kah",
@@ -93,10 +106,15 @@
         "chronic kidney disease",
         "KBH",
         "KBY",
-        "CKD"
+        "CKD",
+        "kronik renal yetersizlik"
       ],
       "related": [],
-      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/",
+      "criterionIds": [
+        "START-H2",
+        "STOP-C8"
+      ]
     },
     {
       "id": "koah",
@@ -156,14 +174,18 @@
         "benign prostat hiperplazisi",
         "benign prostatic hyperplasia",
         "BPH",
-        "BPH/LUTS"
+        "BPH/LUTS",
+        "LUTS",
+        "alt üriner sistem semptomları"
       ],
       "related": [],
       "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/",
       "criterionIds": [
         "STOP-F1",
         "STOP-F3",
-        "STOP-F5"
+        "STOP-F5",
+        "START-G1",
+        "START-G2"
       ]
     },
     {
@@ -360,12 +382,14 @@
       "terms": [
         "gut hastalığı",
         "gut atağı",
-        "gut tedavisi"
+        "gut tedavisi",
+        "gut"
       ],
       "criterionIds": [
         "START-E8",
         "STOP-E5",
-        "STOP-E6"
+        "STOP-E6",
+        "STOP-A17"
       ]
     },
     {
@@ -440,11 +464,16 @@
       "terms": [
         "malnutrisyon",
         "malnütrisyon",
-        "yetersiz beslenme"
+        "yetersiz beslenme",
+        "MN",
+        "MNR",
+        "oral nütrisyonel destek"
       ],
       "criterionIds": [
         "START-J1",
-        "START-J3"
+        "START-J3",
+        "START-J2",
+        "START-J4"
       ]
     },
     {
@@ -541,6 +570,238 @@
       ],
       "criterionIds": [
         "START-I7"
+      ]
+    },
+    {
+      "id": "oxygen_failure",
+      "label": "Kronik hipoksemi / oksijen tedavisi",
+      "terms": [
+        "hipoksemi",
+        "kronik hipoksemi",
+        "oksijen tedavisi",
+        "evde oksijen"
+      ],
+      "criterionIds": [
+        "START-D3"
+      ]
+    },
+    {
+      "id": "c_difficile",
+      "label": "Clostridioides difficile ile ilişkili diyare",
+      "terms": [
+        "Clostridium difficile",
+        "C. difficile",
+        "C difficile",
+        "antibiyotik ilişkili diyare",
+        "C. diff"
+      ],
+      "criterionIds": [
+        "START-C4"
+      ]
+    },
+    {
+      "id": "vitamin_d_deficiency",
+      "label": "D vitamini eksikliği / replasman",
+      "terms": [
+        "D vitamini",
+        "vitamin D",
+        "kolekalsiferol eksikliği",
+        "hipovitaminoz D",
+        "vitamin D eksikliği"
+      ],
+      "criterionIds": [
+        "START-E1",
+        "START-J5",
+        "STOP-E13"
+      ]
+    },
+    {
+      "id": "rheumatologic_active",
+      "label": "Aktif romatolojik hastalık",
+      "terms": [
+        "aktif romatolojik hastalık",
+        "romatolojik hastalık",
+        "DMARD tedavisi"
+      ],
+      "criterionIds": [
+        "START-E6"
+      ]
+    },
+    {
+      "id": "chronic_pain",
+      "label": "Kronik ağrı / opioid tedavisi",
+      "terms": [
+        "kronik ağrı",
+        "ağrı tedavisi",
+        "opioid tedavisi",
+        "kaçak ağrı",
+        "breakthrough pain"
+      ],
+      "criterionIds": [
+        "START-E10",
+        "STOP-E8",
+        "STOP-E19"
+      ]
+    },
+    {
+      "id": "atrophic_vaginitis",
+      "label": "Atrofik vajinit",
+      "terms": [
+        "atrofik vajinit",
+        "vulvovajinal atrofi",
+        "genitoüriner menopoz sendromu"
+      ],
+      "criterionIds": [
+        "START-G3"
+      ]
+    },
+    {
+      "id": "recurrent_uti",
+      "label": "Tekrarlayan üriner sistem enfeksiyonu",
+      "terms": [
+        "tekrarlayan üriner sistem enfeksiyonu",
+        "tekrarlayan idrar yolu enfeksiyonu",
+        "rekürren İYE"
+      ],
+      "criterionIds": [
+        "START-G4"
+      ]
+    },
+    {
+      "id": "hyperphosphatemia",
+      "label": "Hiperfosfatemi",
+      "terms": [
+        "hiperfosfatemi",
+        "serum fosfat yüksekliği",
+        "fosfat bağlayıcı"
+      ],
+      "criterionIds": [
+        "START-H2"
+      ]
+    },
+    {
+      "id": "pressure_ulcer",
+      "label": "Bası yarası",
+      "terms": [
+        "bası yarası",
+        "basınç yaralanması",
+        "dekübit ülseri"
+      ],
+      "criterionIds": [
+        "START-J4"
+      ]
+    },
+    {
+      "id": "electrolyte_disorder",
+      "label": "Elektrolit bozuklukları",
+      "terms": [
+        "hipopotasemi",
+        "hiponatremi",
+        "hiperkalsemi",
+        "hiperpotasemi",
+        "hipomagnezemi"
+      ],
+      "criterionIds": [
+        "STOP-A17"
+      ]
+    },
+    {
+      "id": "pulmonary_embolism",
+      "label": "Pulmoner emboli",
+      "terms": [
+        "pulmoner emboli",
+        "PE",
+        "PTE",
+        "pulmonary embolism"
+      ],
+      "criterionIds": [
+        "STOP-A26"
+      ]
+    },
+    {
+      "id": "extrapyramidal",
+      "label": "Ekstrapiramidal yan etkiler",
+      "terms": [
+        "ekstrapiramidal yan etki",
+        "ekstrapiramidal bulgu",
+        "EPS"
+      ],
+      "criterionIds": [
+        "STOP-B9"
+      ]
+    },
+    {
+      "id": "resp_failure",
+      "label": "Solunum yetersizliği",
+      "terms": [
+        "solunum yetersizliği",
+        "solunum yetmezliği",
+        "respiratory failure"
+      ],
+      "criterionIds": [
+        "STOP-B15"
+      ]
+    },
+    {
+      "id": "insomnia",
+      "label": "İnsomni / uykusuzluk",
+      "terms": [
+        "insomni",
+        "insomnia",
+        "uykusuzluk",
+        "uykuya dalamama"
+      ],
+      "criterionIds": [
+        "STOP-B26"
+      ]
+    },
+    {
+      "id": "dysphagia",
+      "label": "Disfaji",
+      "terms": [
+        "disfaji",
+        "yutma güçlüğü",
+        "yutma bozukluğu"
+      ],
+      "criterionIds": [
+        "STOP-C9"
+      ]
+    },
+    {
+      "id": "glaucoma",
+      "label": "Glokom",
+      "terms": [
+        "glokom",
+        "dar açılı glokom"
+      ],
+      "criterionIds": [
+        "STOP-F2"
+      ]
+    },
+    {
+      "id": "asymptomatic_bacteriuria",
+      "label": "Asemptomatik bakteriüri",
+      "terms": [
+        "asemptomatik bakteriüri",
+        "asymptomatic bacteriuria",
+        "ABU"
+      ],
+      "criterionIds": [
+        "STOP-F6"
+      ]
+    },
+    {
+      "id": "vte",
+      "label": "Venöz tromboembolizm",
+      "terms": [
+        "venöz tromboembolizm",
+        "VTE",
+        "VTE öyküsü"
+      ],
+      "criterionIds": [
+        "STOP-G10",
+        "STOP-A25",
+        "STOP-A26"
       ]
     }
   ]
