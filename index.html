@@ -45,14 +45,32 @@
           </div>
           <span class="source-label">2024 · Referanslı ve açıklamalı sürüm</span>
         </div>
+        <section class="organ-browser" aria-labelledby="organ-heading">
+          <div class="organ-browser-head">
+            <div>
+              <p class="eyebrow">SİSTEME VE HASTALIĞA GÖRE</p>
+              <h3 id="organ-heading">Organ sistemine göre incele</h3>
+              <p class="organ-browser-intro">Bir sistem seçin, ardından isterseniz hastalığa göre daraltın. START ve STOP kriterleri birlikte görüntülenir.</p>
+            </div>
+            <button id="clear-organ" class="organ-clear" type="button" hidden>Seçimi temizle ×</button>
+          </div>
+          <div id="organ-grid" class="organ-grid" role="group" aria-label="Organ sistemi seçenekleri"></div>
+          <div id="disease-controls" class="disease-controls" hidden>
+            <label class="filter-label" for="disease-select">Hastalık / klinik durum
+              <select id="disease-select"><option value="ALL">Bu sistemdeki tüm kriterler</option></select>
+            </label>
+            <p id="browse-summary" class="organ-summary" aria-live="polite"></p>
+          </div>
+          <p class="organ-explainer">Organ grupları TIME'ın PDF bölüm başlıklarını birleştirir. <strong>Kan ve anemi</strong> ise farklı bölümlerdeki ilgili kriterlerin tematik görünümüdür. Kriterin klinik koşulları mutlaka ayrıca değerlendirilmelidir.</p>
+        </section>
         <div class="segment-bar" role="group" aria-label="Kriter türü">
           <button type="button" data-type="ALL" class="segment active" aria-pressed="true">Tümü <span id="count-all">190</span></button>
           <button type="button" data-type="STOP" class="segment" aria-pressed="false"><span class="segment-indicator stop"></span> TIME-to-STOP <span id="count-stop">129</span></button>
           <button type="button" data-type="START" class="segment" aria-pressed="false"><span class="segment-indicator start"></span> TIME-to-START <span id="count-start">61</span></button>
         </div>
         <div class="toolbar">
-          <label class="filter-label">Sistem
-            <select id="category" aria-label="Sistem kategorisi"><option value="ALL">Tüm sistemler</option></select>
+          <label class="filter-label">PDF bölümü
+            <select id="category" aria-label="TIME kaynak PDF bölümü"><option value="ALL">Tüm sistemler</option></select>
           </label>
           <label class="filter-label">Sıralama
             <select id="sort" aria-label="Sonuçları sırala"><option value="source">Kriter sırası</option><option value="relevance">Arama ilgisi</option><option value="az">Kriter kodu (A–Z)</option></select>
