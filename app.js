@@ -60,6 +60,8 @@ function rank(row, tokens) {
   const notes = normalize(row.notes.join(" "));
   return tokens.reduce(function(score, token) {
     if (code === token || code.endsWith("-" + token)) return score + 100;
+    if (token==="@drug") return score +
+      (state.selectedIngredient && body.includes(TimeSearch.norm(state.selectedIngredient)) ? 95 : 26);
     if (token.startsWith("~") || token.startsWith("^")) return score + 24;
     if (code.includes(token)) return score + 35;
     if (body.startsWith(token)) return score + 18;
@@ -118,6 +120,12 @@ function filteredRows() {
     if (state.organ !== "ALL" && !row._organs.includes(state.organ)) return false;
     if (state.disease !== "ALL" && !row._conditions.includes(state.disease)) return false;
     return tokens.every(function(t) {
+      // Treat multi-word active ingredients as one entity, not two unrelated tokens.
+      if (t==="@drug") {
+        return state.selectedIngredient &&
+          (TimeSearch.phraseInText(row._index,state.selectedIngredient) ||
+           state.activeDrugClassIds.some(id=>row._classes.includes(id)));
+      }
       if (t.startsWith("~")) return row._conditions.includes(t.slice(1));
       if (t.startsWith("^")) {
         const group=t.slice(1);
@@ -296,7 +304,12 @@ function searchBy(term) {
   const resolution = TimeSearch.resolve(term, state.aliases);
   const conditionResolution = TimeSearch.resolveConditions(resolution.text, state.clinicalIndex);
   const classResolution = TimeSearch.resolveClassQuery(conditionResolution.text,state.classGroups);
-  state.resolvedQuery = classResolution.text;
+  // Replace the resolved active ingredient with an atomic search token.
+  // This fixes brands such as INFERJECT -> "demir karboksimaltoz" where
+  // splitting on spaces previously required both words in the PDF text.
+  state.resolvedQuery = resolution.ingredient ?
+    classResolution.text.replace(TimeSearch.norm(resolution.ingredient),"@drug") :
+    classResolution.text;
   state.matchedAlias = resolution.matched;
   state.matchedCondition = conditionResolution.matched;
   state.matchedClass = classResolution.matched;
