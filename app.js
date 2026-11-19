@@ -1,7 +1,7 @@
 "use strict";
 
 /* Static, private-by-design search: all filtering happens in the user's browser. */
-const state = { criteria: [], query: "", resolvedQuery: "", type: "ALL", category: "ALL", sort: "source", visible: 12, aliases: [], candidates: [], matchedAlias: null, clinicalGroups: [], clinicalIndex: [], matchedCondition: null, matchedClass: null, classGroups: [], selectedIngredient: null, activeDrugClassIds: [] };
+const state = { criteria: [], query: "", resolvedQuery: "", type: "ALL", category: "ALL", sort: "source", visible: 12, aliases: [], candidates: [], matchedAlias: null, clinicalGroups: [], clinicalIndex: [], matchedCondition: null, matchedClass: null, classGroups: [], selectedIngredient: null, activeDrugClassIds: [], organ: "ALL", disease: "ALL", organSystems: [] };
 const elements = {
   query: document.querySelector("#query"),
   clear: document.querySelector("#clear-query"),
@@ -13,7 +13,12 @@ const elements = {
   showMore: document.querySelector("#show-more"),
   remaining: document.querySelector("#remaining"),
   suggestions: document.querySelector("#suggestions"),
-  matchNote: document.querySelector("#match-note")
+  matchNote: document.querySelector("#match-note"),
+  organGrid: document.querySelector("#organ-grid"),
+  clearOrgan: document.querySelector("#clear-organ"),
+  diseaseControls: document.querySelector("#disease-controls"),
+  diseaseSelect: document.querySelector("#disease-select"),
+  browseSummary: document.querySelector("#browse-summary")
 };
 
 const entityMap = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" };
@@ -63,11 +68,55 @@ function rank(row, tokens) {
     return score + 1;
   }, 0);
 }
+
+function updateOrganBrowser(){
+  const active = state.organSystems.find(o=>o.id===state.organ);
+  const totalFor = organ => state.criteria.filter(row=>
+    (state.type==="ALL"||row.type===state.type)&&row._organs.includes(organ.id)).length;
+  elements.organGrid.innerHTML = state.organSystems.map(organ=>{
+    const count=totalFor(organ),isActive=state.organ===organ.id;
+    return '<button type="button" class="organ-option'+(isActive?' active':'')+
+      '" data-organ="'+escapeHTML(organ.id)+'" aria-pressed="'+String(isActive)+
+      '"'+(count===0&&!isActive?' disabled':'')+'>'+
+      '<span class="organ-icon" aria-hidden="true">'+escapeHTML(organ.icon||'•')+'</span>'+
+      '<span class="organ-name">'+escapeHTML(organ.label)+'</span>'+
+      '<span class="organ-count">'+count+'</span></button>';
+  }).join("");
+  elements.clearOrgan.hidden=!active;
+  elements.diseaseControls.hidden=!active;
+  if(!active)return;
+  const relevant=state.criteria.filter(row=>
+    (state.type==="ALL"||row.type===state.type)&&row._organs.includes(active.id));
+  const values=(active.diseases||[]).map(id=>{
+    const entry=state.clinicalGroups.find(g=>g.id===id);
+    if(!entry)return null;
+    return {id,label:entry.label,count:relevant.filter(row=>row._conditions.includes(id)).length};
+  }).filter(x=>x&&x.count>0);
+  if(state.disease!=="ALL"&&!values.some(x=>x.id===state.disease))state.disease="ALL";
+  elements.diseaseSelect.replaceChildren();
+  const all=document.createElement("option");
+  all.value="ALL";all.textContent="Bu sistemdeki tüm kriterler ("+relevant.length+")";
+  elements.diseaseSelect.appendChild(all);
+  for(const value of values){
+    const item=document.createElement("option");
+    item.value=value.id;
+    item.textContent=value.label+" ("+value.count+")";
+    elements.diseaseSelect.appendChild(item);
+  }
+  elements.diseaseSelect.value=state.disease;
+  const disease=values.find(v=>v.id===state.disease);
+  elements.browseSummary.textContent=active.label+
+    (disease?" · "+disease.label:"")+
+    " · "+(disease?disease.count:relevant.length)+" ilgili kriter";
+}
+
 function filteredRows() {
   const tokens = state.resolvedQuery.split(/\s+/).filter(Boolean);
   const rows = state.criteria.filter(function(row) {
     if (state.type !== "ALL" && row.type !== state.type) return false;
     if (state.category !== "ALL" && row.category !== state.category) return false;
+    if (state.organ !== "ALL" && !row._organs.includes(state.organ)) return false;
+    if (state.disease !== "ALL" && !row._conditions.includes(state.disease)) return false;
     return tokens.every(function(t) {
       if (t.startsWith("~")) return row._conditions.includes(t.slice(1));
       if (t.startsWith("^")) {
@@ -220,6 +269,7 @@ function chooseSuggestion(event) {
   elements.query.focus();
 }
 function render() {
+  updateOrganBrowser();
   const all = filteredRows();
   const subset = all.slice(0, state.visible);
   renderHints(all);
@@ -313,7 +363,22 @@ elements.form.addEventListener("submit", function(event) {
 elements.query.addEventListener("input", function() { searchBy(elements.query.value); });
 elements.clear.addEventListener("click", function() { searchBy(""); elements.query.focus(); });
 elements.categories.addEventListener("change", function() {
-  state.category = elements.categories.value; state.visible = 12; render();
+  state.category = elements.categories.value;
+  state.organ = "ALL"; state.disease = "ALL";
+  state.visible = 12; render();
+});
+elements.organGrid.addEventListener("click", function(event) {
+  const selected=event.target.closest("[data-organ]");
+  if(!selected || selected.disabled) return;
+  state.organ=state.organ===selected.dataset.organ?"ALL":selected.dataset.organ;
+  state.disease="ALL"; state.category="ALL";
+  updateCategories();searchBy("");
+});
+elements.clearOrgan.addEventListener("click", function() {
+  state.organ="ALL";state.disease="ALL";render();
+});
+elements.diseaseSelect.addEventListener("change", function() {
+  state.disease=elements.diseaseSelect.value;state.visible=12;render();
 });
 elements.sort.addEventListener("change", function() {
   state.sort = elements.sort.value; state.visible = 12; render();
@@ -346,7 +411,7 @@ document.addEventListener("keydown", function(event) {
 });
 window.addEventListener("hashchange", openHash);
 
-Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/clinical_aliases.json", "./data/titck_time_brands.json", "./data/medicine_classes.json", "./data/class_member_brands.json"].map(function(url) {
+Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/clinical_aliases.json", "./data/titck_time_brands.json", "./data/medicine_classes.json", "./data/class_member_brands.json", "./data/organ_systems.json"].map(function(url) {
   return fetch(url, {cache:"no-cache"}).then(function(response) {
     if (!response.ok) throw new Error("HTTP " + response.status);
     return response.json();
@@ -407,6 +472,7 @@ Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/cli
     }
     state.aliases = TimeSearch.aliasIndex(scopedDrugs);
     state.clinicalGroups = files[2].groups || [];
+    state.organSystems = files[6].systems || [];
     state.clinicalIndex = TimeSearch.conditionIndex(state.clinicalGroups);
     if (!Array.isArray(data.criteria)) throw new Error("Invalid criteria file");
     state.criteria = data.criteria.map(function(row, i) {
@@ -414,7 +480,10 @@ Promise.all(["./data/criteria.json", "./data/medicine_aliases.json", "./data/cli
         _order: i,
         _index: normalize([row.id, row.code, row.category, row.text].concat(row.notes || []).join(" ")),
         _conditions: TimeSearch.conditionGroupsFor(row, state.clinicalGroups),
-        _classes: TimeSearch.classesForCriterion(row, state.classGroups)
+        _classes: TimeSearch.classesForCriterion(row, state.classGroups),
+        _organs: state.organSystems.filter(organ=>
+          (organ.categories||[]).includes(row.category) ||
+          (organ.criterionIds||[]).includes(row.id)).map(organ=>organ.id)
       });
     });
     document.querySelector("#count-all").textContent = state.criteria.length;
