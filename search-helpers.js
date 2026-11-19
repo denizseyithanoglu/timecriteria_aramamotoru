@@ -148,7 +148,8 @@ window.TimeSearch = (function () {
   }
   function conditionGroupsFor(row,groups){
     const source=row.text+" "+(row.notes||[]).join(" ");
-    return groups.filter(g=>(g.terms||[]).some(term=>phraseInText(source,term))).map(g=>g.id);
+    return groups.filter(g=>(g.criterionIds||[]).includes(row.id) ||
+      (g.terms||[]).some(term=>phraseInText(source,term))).map(g=>g.id);
   }
   function termMatches(index,term){
     if(term.length>3) return index.includes(term);
