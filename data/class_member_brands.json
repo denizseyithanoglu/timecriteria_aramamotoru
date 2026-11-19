@@ -1,0 +1,397 @@
+{
+  "version": "2026-11-20",
+  "source": "Kullanıcının yüklediği 6 Kasım 2026 adlı TİTCK Ruhsatlı Beşeri Tıbbi Ürünler Listesi, ürün adı/etkin madde/ATC alanlarından seçilmiş tek etkin maddeli ruhsatı askıda olmayan ürünler",
+  "sourceURL": "https://www.titck.gov.tr/dinamikmodul/85",
+  "scope": "Only active ingredients belonging to explicitly referenced classes in TIME 2024. Not all Turkish medicines. Combination products omitted.",
+  "status": "curated-review-required",
+  "entries": [
+    {
+      "ingredient": "ramipril",
+      "atc": "C09AA05",
+      "brands": [
+        "CORVIX",
+        "DELIX",
+        "DELIX PROTECT",
+        "DICEF",
+        "GENPRIXA",
+        "RACE",
+        "RAPALIX",
+        "REVIL",
+        "REVIL PROTECT",
+        "SANDACE"
+      ]
+    },
+    {
+      "ingredient": "enalapril",
+      "atc": "C09AA02",
+      "brands": [
+        "ENAPRESS",
+        "ENAPRIL",
+        "KETANSIF",
+        "KONVERIL"
+      ]
+    },
+    {
+      "ingredient": "perindopril",
+      "atc": "C09AA04",
+      "brands": [
+        "ACEPER",
+        "COVERSYL",
+        "PADERO",
+        "PERIDAY",
+        "PERPRIL",
+        "RATEN",
+        "SERPERIL"
+      ]
+    },
+    {
+      "ingredient": "kaptopril",
+      "atc": "C09AA01",
+      "brands": [
+        "KAPRİL",
+        "KAPTORIL",
+        "NOBEPRIL"
+      ]
+    },
+    {
+      "ingredient": "lisinopril",
+      "atc": "C09AA03",
+      "brands": [
+        "APRIL-ACE",
+        "RILACE",
+        "SINOPRYL",
+        "TANSTOP"
+      ]
+    },
+    {
+      "ingredient": "fosinopril",
+      "atc": "C09AA09",
+      "brands": [
+        "ACEFOR",
+        "MONOPRIL"
+      ]
+    },
+    {
+      "ingredient": "trandolapril",
+      "atc": "C09AA10",
+      "brands": [
+        "GOPTEN",
+        "GOPTEN FORTE"
+      ]
+    },
+    {
+      "ingredient": "zofenopril",
+      "atc": "C09AA15",
+      "brands": [
+        "ZOPROTEC"
+      ]
+    },
+    {
+      "ingredient": "silazapril",
+      "atc": "C09AA08",
+      "brands": [
+        "ACEPRIX",
+        "INHIBACE"
+      ]
+    },
+    {
+      "ingredient": "imidapril",
+      "atc": "C09AA16",
+      "brands": [
+        "TANATRIL"
+      ]
+    },
+    {
+      "ingredient": "benazepril",
+      "atc": "C09AA07",
+      "brands": [
+        "CİBACEN"
+      ]
+    },
+    {
+      "ingredient": "moexipril",
+      "atc": "C09AA13",
+      "brands": [
+        "UNIVASC"
+      ]
+    },
+    {
+      "ingredient": "losartan",
+      "atc": "C09CA01",
+      "brands": [
+        "COZAAR",
+        "EKLIPS",
+        "HILOS",
+        "HILOS FORT",
+        "LORKAR",
+        "LOSARTIL",
+        "LOSARYUM",
+        "LOXIBIN",
+        "SARILEN"
+      ]
+    },
+    {
+      "ingredient": "kandesartan",
+      "atc": "C09CA06",
+      "brands": [
+        "ATACAND",
+        "AYRA",
+        "CANDECARD",
+        "CANDENACT",
+        "CANDEXIL",
+        "CANTAB",
+        "LARMONİ",
+        "TENSART",
+        "UCAND"
+      ]
+    },
+    {
+      "ingredient": "telmisartan",
+      "atc": "C09CA07",
+      "brands": [
+        "MICARDIS",
+        "MICATOR",
+        "QUALTAN",
+        "TELMITEK",
+        "TELVIS",
+        "TELZAP",
+        "ULOXETIC"
+      ]
+    },
+    {
+      "ingredient": "irbesartan",
+      "atc": "C09CA04",
+      "brands": [
+        "ANTROVEL",
+        "ARBESTA",
+        "HIRBES",
+        "IRBECOR",
+        "IRDA",
+        "IRPRESTAN",
+        "KARVEA",
+        "ONESART",
+        "REBEVEA",
+        "ROTAZAR",
+        "SANBARTAN"
+      ]
+    },
+    {
+      "ingredient": "olmesartan",
+      "atc": "C09CA08",
+      "brands": [
+        "CALENDA",
+        "DEFANSAR",
+        "HİPERSAR",
+        "OLGEN",
+        "OLMEDAY",
+        "OLMETEC",
+        "OLMYSAR",
+        "OLSART",
+        "OMETAN",
+        "OSARTEC"
+      ]
+    },
+    {
+      "ingredient": "eprosartan",
+      "atc": "C09CA02",
+      "brands": [
+        "TEVETEN"
+      ]
+    },
+    {
+      "ingredient": "azilsartan",
+      "atc": "C09CA09",
+      "brands": [
+        "AZEDOK"
+      ]
+    },
+    {
+      "ingredient": "fluvoksamin",
+      "atc": "N06AB08",
+      "brands": [
+        "FAVERIN",
+        "REVOXIN"
+      ]
+    },
+    {
+      "ingredient": "atenolol",
+      "atc": "C07AB03",
+      "brands": [
+        "AS-ATENS",
+        "TENSINOR"
+      ]
+    },
+    {
+      "ingredient": "esmolol",
+      "atc": "C07AB09",
+      "brands": [
+        "BREVIBLOC",
+        "BREVİBLOC PREMIKS",
+        "ESMOBLOC",
+        "ESMORATE",
+        "KARDOES PREMİX",
+        "MULTİFLEX ERMOLOC PREMİKS",
+        "TURKTIPSAN ESMOLOL"
+      ]
+    },
+    {
+      "ingredient": "labetalol",
+      "atc": "C07AG01",
+      "brands": [
+        "LABLOL"
+      ]
+    },
+    {
+      "ingredient": "sotalol",
+      "atc": "C07AA07",
+      "brands": [
+        "DAROB",
+        "TALOZIN"
+      ]
+    },
+    {
+      "ingredient": "atorvastatin",
+      "atc": "C10AA05",
+      "brands": [
+        "ALVASTİN",
+        "AMVASTAN",
+        "AS-ATOKS",
+        "ATEROZ",
+        "ATOR",
+        "AVITOREL",
+        "AZIMBRA",
+        "CARDYN",
+        "CHOLVAST",
+        "COLASTIN-L",
+        "DIVATOR",
+        "LIPIDRA",
+        "LIPITOR",
+        "LIPITAKSIN",
+        "LIPSUM",
+        "SAPHIRE",
+        "TARDEN",
+        "TORVAXAL"
+      ]
+    },
+    {
+      "ingredient": "rosuvastatin",
+      "atc": "C10AA07",
+      "brands": [
+        "COLEFIX",
+        "COLNAR",
+        "CRELIX",
+        "CRESTOR",
+        "GENVOTRIN",
+        "KOLROS",
+        "LIVERCOL",
+        "NOLIP",
+        "REAKT",
+        "RONAP",
+        "ROSACT",
+        "ROSAVA",
+        "ROSUCOR",
+        "ROSUFIX",
+        "ROSUGEN",
+        "ROSUSTAR",
+        "ROSUVAS",
+        "SANROSE",
+        "STAGE",
+        "STATA",
+        "ULTROX"
+      ]
+    },
+    {
+      "ingredient": "simvastatin",
+      "atc": "C10AA01",
+      "brands": [
+        "LİPVAKOL",
+        "SIMTA"
+      ]
+    },
+    {
+      "ingredient": "pravastatin",
+      "atc": "C10AA03",
+      "brands": [
+        "PAVAS",
+        "PRAVACHOL",
+        "UPRAST"
+      ]
+    },
+    {
+      "ingredient": "pitavastatin",
+      "atc": "C10AA08",
+      "brands": [
+        "ALIPZA",
+        "PITAMIN",
+        "PITAS",
+        "PRATİN"
+      ]
+    },
+    {
+      "ingredient": "lovastatin",
+      "atc": "C10AA02",
+      "brands": [
+        "LOVASTIN"
+      ]
+    },
+    {
+      "ingredient": "esomeprazol",
+      "atc": "A02BC05",
+      "brands": [
+        "ESOBLOK",
+        "ESOM",
+        "ESOPRAL",
+        "ESOPRO",
+        "NEXIUM",
+        "NEXSTEP"
+      ]
+    },
+    {
+      "ingredient": "lansoprazol",
+      "atc": "A02BC03",
+      "brands": [
+        "APRAZOL",
+        "DEGASTROL",
+        "LANSAZOL",
+        "LANSOPROL",
+        "LANSOR",
+        "LASOTAB",
+        "OPAGIS",
+        "PEPTİZOL"
+      ]
+    },
+    {
+      "ingredient": "pantoprazol",
+      "atc": "A02BC02",
+      "brands": [
+        "PANDEV",
+        "PANOCER",
+        "PANTO",
+        "PANTOZOL",
+        "PULCET",
+        "PROTONEX",
+        "PROTİNUM"
+      ]
+    },
+    {
+      "ingredient": "rabeprazol",
+      "atc": "A02BC04",
+      "brands": [
+        "PARIET",
+        "PEPTYRA",
+        "PRABEX",
+        "RABELIS",
+        "RABENOL",
+        "RABIZA",
+        "RAZOGEN"
+      ]
+    },
+    {
+      "ingredient": "ilaprazol",
+      "atc": "A02BC06",
+      "brands": [
+        "NOLTEC"
+      ]
+    }
+  ]
+}
