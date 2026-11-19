@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-06",
+  "version": "2026-11-20",
   "scope": "curated-not-exhaustive",
   "notes": "Tanılar/kısaltmalar arasında arama amaçlı eşleme; klinik olarak birebir tanı doğrulaması değildir. 'related' alt tip veya ilişkili kavramdır ve kullanıcıya uyarı verilir.",
   "groups": [
@@ -159,7 +159,12 @@
         "BPH/LUTS"
       ],
       "related": [],
-      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/",
+      "criterionIds": [
+        "STOP-F1",
+        "STOP-F3",
+        "STOP-F5"
+      ]
     },
     {
       "id": "oa",
@@ -171,7 +176,11 @@
         "OA"
       ],
       "related": [],
-      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/",
+      "criterionIds": [
+        "START-E9",
+        "STOP-E1"
+      ]
     },
     {
       "id": "ra",
@@ -182,7 +191,10 @@
         "RA"
       ],
       "related": [],
-      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/",
+      "criterionIds": [
+        "STOP-E4"
+      ]
     },
     {
       "id": "dvt",
@@ -194,7 +206,10 @@
         "DVT"
       ],
       "related": [],
-      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+      "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/",
+      "criterionIds": [
+        "STOP-A25"
+      ]
     },
     {
       "id": "gord",
@@ -207,7 +222,11 @@
         "GERD"
       ],
       "related": [],
-      "source": "https://www.nhs.uk/nhs-app/help/understanding-abbreviations/"
+      "source": "https://www.nhs.uk/nhs-app/help/understanding-abbreviations/",
+      "criterionIds": [
+        "START-C2",
+        "START-C3"
+      ]
     },
     {
       "id": "pah",
@@ -220,6 +239,210 @@
       ],
       "related": [],
       "source": "https://konsultasyon.tkd.org.tr/kisaltmalar/"
+    },
+    {
+      "id": "demans",
+      "label": "Demans ve bilişsel bozukluk",
+      "terms": [
+        "demans",
+        "alzheimer hastalığı",
+        "alzheimer",
+        "bilişsel bozukluk"
+      ],
+      "criterionIds": [
+        "START-B3",
+        "START-B4",
+        "STOP-B7",
+        "STOP-B10",
+        "STOP-B11",
+        "STOP-B12",
+        "STOP-B25"
+      ]
+    },
+    {
+      "id": "depresyon",
+      "label": "Depresyon",
+      "terms": [
+        "depresyon",
+        "depresif bozukluk",
+        "depresif belirtiler"
+      ],
+      "criterionIds": [
+        "START-B1",
+        "STOP-B1"
+      ]
+    },
+    {
+      "id": "parkinson",
+      "label": "Parkinson hastalığı",
+      "terms": [
+        "parkinson",
+        "parkinson hastalığı"
+      ],
+      "criterionIds": [
+        "START-B6",
+        "START-B7",
+        "STOP-B17",
+        "STOP-B27"
+      ]
+    },
+    {
+      "id": "epilepsi",
+      "label": "Epilepsi",
+      "terms": [
+        "epilepsi",
+        "epileptik nöbet"
+      ],
+      "criterionIds": [
+        "STOP-B21",
+        "STOP-B22",
+        "STOP-B23"
+      ]
+    },
+    {
+      "id": "konstipasyon",
+      "label": "Konstipasyon",
+      "terms": [
+        "konstipasyon",
+        "kabızlık",
+        "fekal tıkaç"
+      ],
+      "criterionIds": [
+        "START-C1",
+        "STOP-C6"
+      ]
+    },
+    {
+      "id": "ulser",
+      "label": "Peptik ülser",
+      "terms": [
+        "peptik ülser",
+        "gastrik ülser",
+        "duodenal ülser",
+        "ülser hastalığı"
+      ],
+      "criterionIds": [
+        "START-C3",
+        "STOP-C2",
+        "STOP-C3"
+      ]
+    },
+    {
+      "id": "astim",
+      "label": "Astım",
+      "terms": [
+        "astım",
+        "asthma"
+      ],
+      "criterionIds": [
+        "START-D1",
+        "STOP-D2"
+      ]
+    },
+    {
+      "id": "osteoporoz",
+      "label": "Osteoporoz",
+      "terms": [
+        "osteoporoz",
+        "osteopeni"
+      ],
+      "criterionIds": [
+        "START-E2",
+        "START-E3",
+        "START-E4",
+        "STOP-E16",
+        "STOP-E17"
+      ]
+    },
+    {
+      "id": "gut",
+      "label": "Gut hastalığı",
+      "terms": [
+        "gut hastalığı",
+        "gut atağı",
+        "gut tedavisi"
+      ],
+      "criterionIds": [
+        "START-E8",
+        "STOP-E5",
+        "STOP-E6"
+      ]
+    },
+    {
+      "id": "hipotiroidi",
+      "label": "Tiroid hastalıkları",
+      "terms": [
+        "hipotiroidi",
+        "hipertiroidi",
+        "tiroid hastalığı"
+      ],
+      "criterionIds": []
+    },
+    {
+      "id": "nefropati",
+      "label": "Nefropati / albuminüri",
+      "terms": [
+        "nefropati",
+        "proteinüri",
+        "albuminüri",
+        "mikroalbuminüri"
+      ],
+      "criterionIds": [
+        "START-F1",
+        "START-H4",
+        "START-H5"
+      ]
+    },
+    {
+      "id": "inkontinans",
+      "label": "Üriner inkontinans",
+      "terms": [
+        "üriner inkontinans",
+        "idrar inkontinansı",
+        "urge inkontinans",
+        "sıkışma inkontinansı"
+      ],
+      "criterionIds": [
+        "STOP-F12"
+      ]
+    },
+    {
+      "id": "anemi",
+      "label": "Anemi",
+      "terms": [
+        "anemi",
+        "hematinik"
+      ],
+      "criterionIds": [
+        "START-H3"
+      ]
+    },
+    {
+      "id": "demir_eksikligi",
+      "label": "Demir eksikliği / demir tedavisi",
+      "terms": [
+        "demir eksikliği",
+        "demir tedavisi",
+        "intravenöz demir",
+        "oral demir"
+      ],
+      "criterionIds": [
+        "START-A10",
+        "STOP-C6"
+      ]
+    },
+    {
+      "id": "malnutrisyon",
+      "label": "Malnütrisyon",
+      "terms": [
+        "malnutrisyon",
+        "malnütrisyon",
+        "yetersiz beslenme"
+      ],
+      "criterionIds": [
+        "START-J1",
+        "START-J3"
+      ]
     }
   ]
 }
