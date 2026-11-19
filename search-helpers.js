@@ -44,15 +44,24 @@ window.TimeSearch = (function () {
   function resolve(query,index){
     let text=norm(query).replace(/\b\d+(?:[,.]\d+)?\s*(?:mg|mcg|µg|ml|iu|gr|g)\b/g," ").replace(/\s+/g," ").trim();
     for(const a of index){
-      // Avoid regex injection: aliases are compared against space-delimited tokens.
       const at=(" "+text+" ").indexOf(" "+a.key+" ");
       if(at<0) continue;
       const prefix=text.slice(0,at).trim();
       const suffix=text.slice(at+a.key.length).trim();
       text=[prefix,norm(a.ingredient),suffix].filter(Boolean).join(" ");
-      return {text, matched:a.kind==="ingredient"?null:a};
+      return {text,matched:a.kind==="ingredient"?null:a,ingredient:a.ingredient};
     }
-    return {text,matched:null};
+    // Partial brand is safe only when every matching brand has the same ingredient.
+    if(text.length>=5 && !text.includes(" ")){
+      const matches=index.filter(a=>a.kind==="brand" && a.key.startsWith(text));
+      const ingredients=[...new Set(matches.map(a=>norm(a.ingredient)))];
+      if(matches.length && ingredients.length===1){
+        return {text:ingredients[0],ingredient:matches[0].ingredient,
+          matched:{kind:"partial-brand",label:query.trim(),ingredient:matches[0].ingredient,
+            candidateBrands:[...new Set(matches.map(a=>a.label))].slice(0,6)}};
+      }
+    }
+    return {text,matched:null,ingredient:null};
   }
   function distance(a,b,limit){
     if(Math.abs(a.length-b.length)>limit)return limit+1;
@@ -172,6 +181,51 @@ window.TimeSearch = (function () {
     }
     return out;
   }
-  return { norm, aliasIndex, makeCandidates, resolve, suggest, phraseInText,
-    conditionIndex, resolveConditions, conditionGroupsFor, termMatches, clinicalSuggestions };
+  // Expand only medicine groups explicitly named in the main TIME criterion.
+  function classPatternMatch(text,raw){
+    const p=norm(raw);
+    if(p.endsWith("*")){
+      const stem=p.slice(0,-1);
+      const source=" "+norm(text);
+      let pos=0;
+      while((pos=source.indexOf(stem,pos))!==-1){
+        const before=source[pos-1]||" ";
+        if(!/[\p{L}\p{N}]/u.test(before))return true;
+        pos++;
+      }
+      return false;
+    }
+    return phraseInText(text,p);
+  }
+  function classesForCriterion(row,groups){
+    return groups.filter(g=>(g.terms||[]).some(t=>classPatternMatch(row.text,t))).map(g=>g.id);
+  }
+  function classesForIngredient(ingredient,groups){
+    const key=norm(ingredient);
+    if(!key)return [];
+    const found=groups.filter(g=>(g.members||[]).some(m=>norm(m)===key)).map(g=>g.id);
+    if((found.includes("acei")||found.includes("arb")) && groups.some(g=>g.id==="ras")){
+      found.push("ras");
+    }
+    return found;
+  }
+  function resolveClassQuery(query,groups){
+    const candidates=[];
+    for(const g of groups) for(const term of g.search||[]){
+      candidates.push({key:norm(term),id:g.id,label:g.label,typed:term});
+    }
+    candidates.sort((a,b)=>b.key.length-a.key.length);
+    let remaining=" "+norm(query).replace(/\s+/g," ").trim()+" ",matched=null;
+    for(const entry of candidates){
+      const value=" "+entry.key+" ";
+      const at=remaining.indexOf(value);
+      if(at<0)continue;
+      remaining=remaining.slice(0,at)+" ^"+entry.id+" "+remaining.slice(at+value.length);
+      if(!matched)matched=entry;
+    }
+    return {text:remaining.trim().replace(/\s+/g," "),matched};
+  }
+  return {norm,aliasIndex,makeCandidates,resolve,suggest,phraseInText,
+    conditionIndex,resolveConditions,conditionGroupsFor,termMatches,clinicalSuggestions,
+    classPatternMatch,classesForCriterion,classesForIngredient,resolveClassQuery};
 }());
