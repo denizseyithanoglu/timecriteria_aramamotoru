@@ -422,14 +422,13 @@
       "label": "Demir eksikliği / demir tedavisi",
       "terms": [
         "demir eksikliği",
-        "demir tedavisi",
-        "intravenöz demir",
-        "oral demir"
+        "demir tedavisi"
       ],
       "criterionIds": [
         "START-A10",
         "STOP-C6"
-      ]
+      ],
+      "note": "Oral ve intravenöz demir yolları aynı değildir. Kullanıcı doğrudan oral/IV demir ararsa ilaç yolu korunur; bu başlık yalnızca hastalık gezintisine yarar."
     },
     {
       "id": "malnutrisyon",
