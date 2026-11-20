@@ -205,8 +205,8 @@ body{background:var(--paper)}
 
 /* High-visibility drug dictionary action in top navigation. */
 .header-navigation .dictionary-cta{
-  display:inline-flex;align-items:center;justify-content:center;gap:9px;
-  padding:12px 16px;border-radius:11px;background:#ce1532;color:#fff;
+  display:inline-flex;align-items:center;justify-content:center;
+  padding:12px 17px;border-radius:8px;background:#ce1532;color:#fff;
   border:1px solid #b60f29;box-shadow:0 5px 15px rgba(162,22,47,.18);
   text-decoration:none;font-size:12.5px;font-weight:800;line-height:1.25;
   white-space:nowrap;transition:background .18s,transform .18s,box-shadow .18s;
@@ -216,8 +216,6 @@ body{background:var(--paper)}
   transform:translateY(-1px);box-shadow:0 8px 20px rgba(162,22,47,.23);
 }
 .header-navigation .dictionary-cta:focus-visible{outline:3px solid #f7a5b1;outline-offset:3px}
-.dictionary-cta-icon{width:18px;height:18px;flex:none}
-.dictionary-cta-arrow{font-size:14px;opacity:.83;margin-left:1px}
 @media(max-width:900px){
   .header-navigation{gap:12px}
   .header-navigation .dictionary-cta{padding:11px 12px;font-size:11.5px}
@@ -229,6 +227,5 @@ body{background:var(--paper)}
   .header-navigation>a:not(.dictionary-cta){font-size:12px}
 }
 @media(max-width:390px){
-  .header-navigation .dictionary-cta{font-size:11px;gap:6px}
-  .dictionary-cta-icon{width:16px;height:16px}
+  .header-navigation .dictionary-cta{font-size:11px}
 }
